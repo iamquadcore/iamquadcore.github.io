@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>自己紹介</title>
+    <url>/2024/02/16/1/</url>
+    <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
+　</p>
+<h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年10月頃からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやってます。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
+　</p>
+<h2 id="創作について"><a href="#創作について" class="headerlink" title="創作について"></a>創作について</h2><p>　<br>具体的にどんなもの作ってるの？という話ですが、私はCGメインのショートムービー的な何かだったり、ボカロ系の二次創作MVを作ったりしています。<br>　<br>できることとしては簡単なモデリング、モーショングラフィックス、VFX、動画編集、Edit(FPS動画にあるサブジャンルです)なんかですね。<br>昔はDTMちょっとかじったり、実況動画作ってました。<br>　<br>↓過去作</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ApCLCnKt84k?si=TNqRSU0UxGqQ7ofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+　
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uFpdU-W8DIo?si=RqUWdvkD-eBPqQNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+　
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D7DuXtYqTR8?si=bQTq4c-g3R7h0MZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+　
+
+<h2 id="ブログを立ち上げたきっかけ"><a href="#ブログを立ち上げたきっかけ" class="headerlink" title="ブログを立ち上げたきっかけ"></a>ブログを立ち上げたきっかけ</h2><p>私がCGや映像を始めてからたくさんの時間が流れて、以前から蓄えた知識を整理する時間が必要になってきていました。<br>　　<br>詳しいことはまた今度書きますが、何かに書き出して知識を保管することを今までやってこなかったので、とりあえずでDiscordサーバーに殴り書きをしてみたんです。<br>そしたら思いの外楽しくて、より一層見やすく、編集しやすく、ついでに外部に共有できればいいな、という感じで友人に助けられながらGitHub Pagesにたどり着きました。<br>　<br><a href="https://twitter.com/ft_vrc">Tuna</a>ありがとう！</p>
+<p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
+]]></content>
+      <categories>
+        <category>雑談</category>
+      </categories>
+  </entry>
+  <entry>
     <title>3DCGカテゴリーの目的</title>
     <url>/2024/02/19/lobby-b3d/</url>
     <content><![CDATA[<h2 id="3DCGカテゴリーではどんなこと話すの？"><a href="#3DCGカテゴリーではどんなこと話すの？" class="headerlink" title="3DCGカテゴリーではどんなこと話すの？"></a>3DCGカテゴリーではどんなこと話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。   </p>
@@ -31,27 +53,5 @@
       <tags>
         <tag>Chatting</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>自己紹介</title>
-    <url>/2024/02/16/1/</url>
-    <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
-　</p>
-<h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年10月頃からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやってます。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
-　</p>
-<h2 id="創作について"><a href="#創作について" class="headerlink" title="創作について"></a>創作について</h2><p>　<br>具体的にどんなもの作ってるの？という話ですが、私はCGメインのショートムービー的な何かだったり、ボカロ系の二次創作MVを作ったりしています。<br>　<br>できることとしては簡単なモデリング、モーショングラフィックス、VFX、動画編集、Edit(FPS動画にあるサブジャンルです)なんかですね。<br>昔はDTMちょっとかじったり、実況動画作ってました。<br>　<br>↓過去作</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ApCLCnKt84k?si=TNqRSU0UxGqQ7ofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-　
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uFpdU-W8DIo?si=RqUWdvkD-eBPqQNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-　
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D7DuXtYqTR8?si=bQTq4c-g3R7h0MZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-　
-
-<h2 id="ブログを立ち上げたきっかけ"><a href="#ブログを立ち上げたきっかけ" class="headerlink" title="ブログを立ち上げたきっかけ"></a>ブログを立ち上げたきっかけ</h2><p>私がCGや映像を始めてからたくさんの時間が流れて、以前から蓄えた知識を整理する時間が必要になってきていました。<br>　　<br>詳しいことはまた今度書きますが、何かに書き出して知識を保管することを今までやってこなかったので、とりあえずでDiscordサーバーに殴り書きをしてみたんです。<br>そしたら思いの外楽しくて、より一層見やすく、編集しやすく、ついでに外部に共有できればいいな、という感じで友人に助けられながらGitHub Pagesにたどり着きました。<br>　<br><a href="https://twitter.com/ft_vrc">Tuna</a>ありがとう！</p>
-<p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
-]]></content>
-      <categories>
-        <category>雑談</category>
-      </categories>
   </entry>
 </search>
