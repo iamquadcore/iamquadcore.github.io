@@ -3628,12 +3628,12 @@ pre .coffeescript .title {
   transform: translateY(0) scale(1);
 }
 :root {
-  --primary: #5af0b6;
-  --primary-70: rgba(90, 240, 182, 0.7);
-  --primary-50: rgba(90, 240, 182, 0.5);
-  --primary-30: rgba(90, 240, 182, 0.3);
-  --primary-weak: #69e2c4;
-  --primary-weak-50: rgba(105, 226, 196, 0.5);
+  --primary: #92ce60;
+  --primary-70: rgba(146, 206, 96, 0.7);
+  --primary-50: rgba(146, 206, 96, 0.5);
+  --primary-30: rgba(146, 206, 96, 0.3);
+  --primary-weak: #69e279;
+  --primary-weak-50: rgba(105, 226, 121, 0.5);
 }
 :root.dark {
   --primary: #92ce60;
