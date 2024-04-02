@@ -23,25 +23,6 @@
       </categories>
   </entry>
   <entry>
-    <title>カラーランプを越えて数値指定したい場合の対処法</title>
-    <url>/2024/03/28/cg-b3d-range/</url>
-    <content><![CDATA[<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:状況がかなり限定的なので、書いた中から情報を取捨選択して使ってみてください。</p>
-<h1 id="カラーランプの白黒を越えて値の範囲指定をしたい場合の対処法"><a href="#カラーランプの白黒を越えて値の範囲指定をしたい場合の対処法" class="headerlink" title="カラーランプの白黒を越えて値の範囲指定をしたい場合の対処法"></a>カラーランプの白黒を越えて値の範囲指定をしたい場合の対処法</h1><h2 id="状況"><a href="#状況" class="headerlink" title="状況"></a>状況</h2><p>夜の街の背景を作る時に、建物に適応するEmissionの強度にランダム性を持たせる必要がありました。<br>今回は建物にEmissionノード向けの光るところだけを強調したテクスチャを使いました。が、流石に全部灯っていると絵面が凄いので制限することに。<br>　　<br><img width="700" src="/2024/03/28/cg-b3d-range/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>だからといって背景の建物をいちいち刻んでマテリアルを分けるのも面倒くさいし負荷がかかる。あくまで背景です。<br>　　<br>そこでベースのTexture→Color Ramp→Strengthソケットと繋いできたんですが、<br>Color Rampでは黒→白の０～１までしか表すことができません。<br>ただの範囲指定であればそれで十分なんですが、今回の場合は光を扱うため上限値を１より大きく指定したいわけです。<br>　　<br>まとめると、０～１を０～無限に拡張したい感じです。
-　　</p>
-<h2 id="対処法"><a href="#対処法" class="headerlink" title="対処法"></a>対処法</h2><p>結論としては、Mixノード(Float)を噛ませることで解決しました。<br>　　<br><img width="700" src="/2024/03/28/cg-b3d-range/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<img width="700" src="/2024/03/28/cg-b3d-range/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-
-<h2 id="余談"><a href="#余談" class="headerlink" title="余談"></a>余談</h2><p>　　<br>ここからは私のイメージなので実際はどうなのかわかりませんが、頑張って言語化してみます。<br>　　<br>ノイズ(制限)の範囲+強さの値として使っていたColor Rampを、設定した値の分布を設定するものとして使うことで、Emissionの強さを0~10の間で管理できるようになるということだと思います。<br>単色であれば管理は楽ですが、今回はテクスチャを使った色をベースにするため、このような手段を取りました。<br>　　<br>とはいえ分布の形はノイズテクスチャをベースにしているため、拡大してみると綺麗に分割できているわけではないので背景とかに使うような手札っぽいですね。<br>背景レベルの距離じゃなかったら、普通にナイフツールなりで切って複製してEmission適応するだけなので問題はないと思います。<br>　　<br>・Noise Texture→光る、光らないのマップのベース<br>・Color Ramp→しきい値を調整、MixノードのFactorに繋いで値の振り分けを行う<br>・Mix(Float)→希望するStrengthの値の範囲を設定<br>　　<br>MixノードのColorで振り分けてStrengthを普通に上げる方法もありそうですが、テクスチャ自体の色の明暗によって状況が変わりそうなのでポンコツの僕は諦めました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>3DCGカテゴリーの目的</title>
     <url>/2024/02/19/lobby-b3d/</url>
     <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
