@@ -23,6 +23,92 @@
       </categories>
   </entry>
   <entry>
+    <title>WorldをEXR化しよう～ | Blender(+PS)</title>
+    <url>/2024/04/11/cg-b3d-hdri/</url>
+    <content><![CDATA[<h1 id="Worldを環境テクスチャ-EXRファイル-HDRファイル-にする方法"><a href="#Worldを環境テクスチャ-EXRファイル-HDRファイル-にする方法" class="headerlink" title="Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法"></a>Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法</h1><p>ノードを適応した状態のWorldを画像化して他の場所で使いたい、今作っている背景をそのまま焼き付けて使いたい、といったシチュエーションで有効な手段です。</p>
+<img width="400" src="/2024/04/11/cg-b3d-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>手順としては、カメラの設定からパノラマ状態にして、EXRファイル、またはHDRファイルとしてレンダリングする、といった感じです。<br>Eeveeはパノラマに設定することができないので、Cyclesレンダーのみの方法となっております。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#%E6%89%8B%E9%A0%860-%E7%A2%BA%E8%AA%8D">手順0. 確認</a></li>
+<li><a href="#%E6%89%8B%E9%A0%861-%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%AE%E8%A8%AD%E5%AE%9A">手順1. カメラの設定</a></li>
+<li><a href="#%E6%89%8B%E9%A0%862-%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E3%81%AE%E8%A8%AD%E5%AE%9A">手順2. レンダーの設定</a></li>
+<li><a href="#%E5%AE%8C%E6%88%90">完成</a></li>
+<li><a href="#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">PhotoshopでEXRファイルを扱う時のポイント</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender, Photoshop<br>・バージョン:4.0<br>・レンダラー:Cycles<br>・言語:英語(PSは日本語)<br>・その他:加えてPhotoshopでの扱い方についても置いときます。</p>
+<h2 id="手順0-確認"><a href="#手順0-確認" class="headerlink" title="手順0. 確認"></a>手順0. 確認</h2><p>一応の確認ですが、やることは普通のレンダリングなので、映ってほしくないものはきちんと非表示にしておきましょう。<br>上記の通りカメラの設定の関係でEeveeレンダーは使えません。
+　　</p>
+<h2 id="手順1-カメラの設定"><a href="#手順1-カメラの設定" class="headerlink" title="手順1. カメラの設定"></a>手順1. カメラの設定</h2><p>簡単です。<br><img width="800" src="/2024/04/11/cg-b3d-hdri/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>Type → <strong>Panoramic(パノラマ状)</strong><br>　　<br>Panorama Type→ <strong>Equirectangular(正距円筒図)</strong><br>　　<br>これだけです。Panorama Typeの中の値はデフォルトで大丈夫です。
+　　</p>
+<h2 id="手順2-レンダーの設定"><a href="#手順2-レンダーの設定" class="headerlink" title="手順2. レンダーの設定"></a>手順2. レンダーの設定</h2><p><strong>1.&nbsp;&nbsp;解像度の設定</strong><br>解像度について、自分は少し大きめの8Kで作ってあとから小さくしても問題ないようにしました。</p>
+<img width="800" src="/2024/04/11/cg-b3d-hdri/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>X:8192 px<br>Y:4096 px<br>　　<br>適当にダウンロードしてたHDRIを参考に合わせただけです。<br>他の解像度はチートシートなんかを活用してみましょう。<br><a href="https://www.wearethefirehouse.com/aspect-ratio-cheat-sheet">Aspect Ratio Cheat Sheet v2(外部リンク)</a><br>　　<br><strong>2.&nbsp;&nbsp;ファイル形式の設定</strong><br>続いてファイル形式の設定。画像の通りです。<br>　　<br><img width="800" src="/2024/04/11/cg-b3d-hdri/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/> </p>
+<details><summary>.hdrの場合</summary>
+
+<p>EXRではなくHDRで書き出したい方向けです。こちらはそのままの設定で機能しました。</p>
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+</details>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>いつも通りEnvironment Texture(環境テクスチャ)ノードから読み込むだけですね。<br>　　<br>Blender<br><img width="600" src="/2024/04/11/cg-b3d-hdri/Image7.png" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<details><summary>Unity</summary>
+マテリアルを作って、ShaderをSkybox/Panoramicに。<br>
+HDRのところにimportしたexrファイルを挿し込む。<br>
+LightingタブのEnvironmentからSkybox Materialで作ったマテリアルを指定。<br>
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image8.png" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+</details>
+
+<details><summary>Unreal Engine 5</summary>
+(多分既存のシェーダーが絡んで色濃く見えてると予想)<br>
+UE5に関してはプラグインが絡んだり、色々設定が必要だったのでまた記事にしたいと思います。<br>
+
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+</details>
+
+<details><summary>背景オブジェクト込みバージョン</summary>
+
+<p>過去に映像で使った背景用の街オブジェクトを適当に並べて書き出してみました。<br>手前のオブジェクトは新しく設置したものです。</p>
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image10.png" title="Image10" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+</details>
+
+<h2 id="PhotoshopでEXRファイルを扱う時のポイント"><a href="#PhotoshopでEXRファイルを扱う時のポイント" class="headerlink" title="PhotoshopでEXRファイルを扱う時のポイント"></a>PhotoshopでEXRファイルを扱う時のポイント</h2><p>素のフォトショはEXRファイルに関してかなり微妙で、画像の解像度変更や切り取り等以外の<strong>レイヤーを重ねるような編集</strong>をした場合、書き出しは多分できないと思われます。<br>逆に1レイヤーで無理やり完結させるのであれば、別名で保存から書き出せるみたいです。</p>
+<details><summary>実験の様子</summary>
+Photoshopで適当にレイヤーが重なるような編集を加えてレイヤーを統合、別名で保存、GimpやBlenderで読み込んでみた。<br>
+背景用途のHDRIで後から手を加えられるようにしておくシチュエーションは少ないと思うので、正直これでもいいかなって思ったり。<br>
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image11.png" title="Image11" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg-b3d-hdri/Image12.png" title="Image12" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+</details>
+
+<p>とはいえ、読み込みに関しても正確にEXRファイル内の情報を読み取っているわけではなく、書き出しも不便には変わりないため、<a href="https://www.exr-io.com/">Exr-IO(外部リンク)</a>というプラグインを入れて解決します。</p>
+<p>このプラグインを導入すると、EXRファイルを読み込んだ時にこんな画面が表示されます。</p>
+<img width="800" src="/2024/04/11/cg-b3d-hdri/Image13.png" title="Image13" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>今回の目的ではいじらなくても問題なかったので、そのままOpenをクリック。</p>
+<p><strong>別名で保存</strong>を押すと、EXRで保存できるようになっています。</p>
+<img width="800" src="/2024/04/11/cg-b3d-hdri/Image14.png" title="Image14" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回だいぶ長くなってしまったのですが、その分自分も勉強になりました。<br>exrは作ることよりもその後の扱いのほうが難しいみたいですね。<br>　<br>本編とは関係ない雑談ですが、最近寒暖差に体が追いつきません。<br>あと、花見行こうかなと思った前日に土砂降りかまされました。<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>個人的見やすい3D Viewの設定とか | Blender</title>
     <url>/2024/04/06/cg-b3d-viewport/</url>
     <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
@@ -44,7 +130,7 @@
 <p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
 <img width="800" src="/2024/04/06/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
-<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の当たり方、反射の仕方が反映されます。<br>自分はなんとなくオン。</p>
+<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
 <img width="800" src="/2024/04/06/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
