@@ -100,58 +100,6 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </tags>
   </entry>
   <entry>
-    <title>UE5でHDRIを適応するときの手順メモ | Unreal Engine 5</title>
-    <url>/2024/04/12/cg-ue5-hdri/</url>
-    <content><![CDATA[<h1 id="UE5で自作のHDRIを適応するときの手順"><a href="#UE5で自作のHDRIを適応するときの手順" class="headerlink" title="UE5で自作のHDRIを適応するときの手順"></a>UE5で自作のHDRIを適応するときの手順</h1><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Unreal Engine 5<br>・バージョン:5.3.2<br>・言語:英語<br>・その他:一応前回の<a href="https://www.quadro1375.com/2024/04/11/cg-b3d-hdri/">HDRIを作ろうの続き的な記事</a>の続きになります。</p>
-<h2 id="前書き"><a href="#前書き" class="headerlink" title="前書き"></a>前書き</h2><p>前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。<br>どうせなら、と思って色々なソフトに読み込ませてテストをしていたのですが、<br>Unityはすんなり終わったのに対して、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。</p>
-<p>(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)</p>
-<h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>1.&nbsp;&nbsp;EXRをHDRに変換</strong></p>
-<p>EXRのままでは読み込めないみたいなので、PhotoshopやGimpでHDRに変換します。</p>
-<p><strong>2.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
-<h2 id="HDRの適応"><a href="#HDRの適応" class="headerlink" title="HDRの適応"></a>HDRの適応</h2><p><strong>1.&nbsp;&nbsp;HDRファイルをインポート</strong></p>
-<p><strong>2.&nbsp;&nbsp;HDRI Backdropを追加</strong></p>
-<p><strong>3.&nbsp;&nbsp;HDRファイルを適応</strong></p>
-<h2 id="HDRI-Backdropの設定"><a href="#HDRI-Backdropの設定" class="headerlink" title="HDRI Backdropの設定"></a>HDRI Backdropの設定</h2><p><strong>1.&nbsp;&nbsp;</strong></p>
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2>]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>UE5</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>3DCGカテゴリーの目的</title>
-    <url>/2024/02/19/lobby-b3d/</url>
-    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
-　　</p>
-<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
-　　</p>
-<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
-<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
-<li>Aviutl</li>
-<li>After Effects</li>
-<li>Premiere Pro(浅め)</li>
-<li>Hitfilm Express</li>
-<li>DaVinchi Resolve(浅め)</li>
-<li>Sony Vegas(挫折)</li>
-</ul>
-<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
-<li>Blender</li>
-<li>Unreal Engine 5(浅め)</li>
-<li>Unity (浅め)</li>
-<li>Cinema 4D</li>
-<li>Maya(挫折)</li>
-</ul>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Chatting</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>個人的見やすい3D Viewの設定とか | Blender</title>
     <url>/2024/04/06/cg-b3d-viewport/</url>
     <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
@@ -199,6 +147,37 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </categories>
       <tags>
         <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3DCGカテゴリーの目的</title>
+    <url>/2024/02/19/lobby-b3d/</url>
+    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
+　　</p>
+<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
+　　</p>
+<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
+<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
+<li>Aviutl</li>
+<li>After Effects</li>
+<li>Premiere Pro(浅め)</li>
+<li>Hitfilm Express</li>
+<li>DaVinchi Resolve(浅め)</li>
+<li>Sony Vegas(挫折)</li>
+</ul>
+<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
+<li>Blender</li>
+<li>Unreal Engine 5(浅め)</li>
+<li>Unity (浅め)</li>
+<li>Cinema 4D</li>
+<li>Maya(挫折)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Chatting</tag>
       </tags>
   </entry>
 </search>
