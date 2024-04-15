@@ -10,12 +10,11 @@
 
 <meta name="description" content="Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法ノードを適応した状態のWorldを画像化して他の場所で使いたい、今作っている背景をそのまま焼き付けて使いたい、といったシチュエーションで有効な手段です。   手順としては、カメラの設定からパノラマ状態にして、EXRファイル、またはHDRファイルとしてレンダリングする、といった感じです。Eeveeはパノラマに設定することが">
 <meta property="og:type" content="article">
-<meta property="og:title" content="WorldをEXR化しよう～ | Blender(+PS)">
+<meta property="og:title" content="Worldを環境テクスチャ化しよう～ | Blender(+PS)">
 <meta property="og:url" content="https://iamquadcore.github.io/2024/04/11/cg-b3d-hdri/index.html">
 <meta property="og:site_name" content="かじ&#x2F;Quadroのぼんやりつぶやき">
 <meta property="og:description" content="Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法ノードを適応した状態のWorldを画像化して他の場所で使いたい、今作っている背景をそのまま焼き付けて使いたい、といったシチュエーションで有効な手段です。   手順としては、カメラの設定からパノラマ状態にして、EXRファイル、またはHDRファイルとしてレンダリングする、といった感じです。Eeveeはパノラマに設定することが">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
@@ -40,7 +39,7 @@
     <meta name="keywords" content="かじ/Quadroのぼんやりつぶやき">
 
 
-<title >WorldをEXR化しよう～ | Blender(+PS)</title>
+<title >Worldを環境テクスチャ化しよう～ | Blender(+PS)</title>
 
 <!-- Favicon -->
 
@@ -275,7 +274,7 @@
                             
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
-                            WorldをEXR化しよう～ | Blender(+PS)
+                            Worldを環境テクスチャ化しよう～ | Blender(+PS)
                         </h1>
 
                         
@@ -476,23 +475,14 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 
 </details>
 
-<h2 id="PhotoshopでEXRファイルを扱う時のポイント"><a href="#PhotoshopでEXRファイルを扱う時のポイント" class="headerlink" title="PhotoshopでEXRファイルを扱う時のポイント"></a>PhotoshopでEXRファイルを扱う時のポイント</h2><p>素のフォトショはEXRファイルに関してかなり微妙で、画像の解像度変更や切り取り等以外の<strong>レイヤーを重ねるような編集</strong>をした場合、書き出しは多分できないと思われます。<br>逆に1レイヤーで無理やり完結させるのであれば、別名で保存から書き出せるみたいです。</p>
-<details><summary>実験の様子</summary>
-Photoshopで適当にレイヤーが重なるような編集を加えてレイヤーを統合、別名で保存、GimpやBlenderで読み込んでみた。<br>
-背景用途のHDRIで後から手を加えられるようにしておくシチュエーションは少ないと思うので、正直これでもいいかなって思ったり。<br>
-<img width="600" src="/2024/04/11/cg-b3d-hdri/Image11.png" title="Image11" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<img width="600" src="/2024/04/11/cg-b3d-hdri/Image12.png" title="Image12" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-</details>
-
-<p>とはいえ、読み込みに関しても正確にEXRファイル内の情報を読み取っているわけではなく、書き出しも不便には変わりないため、<a target="_blank" rel="noopener" href="https://www.exr-io.com/">Exr-IO(外部リンク)</a>というプラグインを入れて解決します。</p>
-<p>このプラグインを導入すると、EXRファイルを読み込んだ時にこんな画面が表示されます。</p>
-<img width="800" src="/2024/04/11/cg-b3d-hdri/Image13.png" title="Image13" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>今回の目的ではいじらなくても問題なかったので、そのままOpenをクリック。</p>
-<p><strong>別名で保存</strong>を押すと、EXRで保存できるようになっています。</p>
-<img width="800" src="/2024/04/11/cg-b3d-hdri/Image14.png" title="Image14" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回だいぶ長くなってしまったのですが、その分自分も勉強になりました。<br>exrは作ることよりもその後の扱いのほうが難しいみたいですね。<br>　<br>本編とは関係ない雑談ですが、最近寒暖差に体が追いつきません。<br>あと、花見行こうかなと思った前日に土砂降りかまされました。<br>閲覧頂きありがとうございました。</p>
+<h2 id="PhotoshopでEXRファイルを扱う時のポイント"><a href="#PhotoshopでEXRファイルを扱う時のポイント" class="headerlink" title="PhotoshopでEXRファイルを扱う時のポイント"></a>PhotoshopでEXRファイルを扱う時のポイント</h2><p><strong>4月15日に全体的に編集を加えました。</strong></p>
+<blockquote>
+<p><strong><em>追記</em></strong><br>私のPhotoshopの知識が浅く、保存に関する認識が間違っていました。<br><strong>別名で保存</strong>は再編集可能な状態で保存するもので、<br>その下の<strong>コピーの保存</strong>を使うとプラグインなしでもexrファイルで書き出しできるみたいです。<br>今回の以下のプラグインに関する内容は、再び編集ができる状態として保存したい時に活用できるものです。</p>
+</blockquote>
+<p>素のフォトショはEXRファイルに関してかなり微妙で、<br>画像の解像度変更や切り取り等以外の<strong>レイヤーを重ねるような編集</strong>をした場合、<br>“別名で保存”は多分できないと思われます。<br>　　<br>また、レイヤー情報などを正確にEXRファイル内の情報を読み取っているわけではなく、書き出しも不便なため、<br><a target="_blank" rel="noopener" href="https://www.exr-io.com/">Exr-IO(外部リンク)</a>というプラグインを入れて改善します。<br>  　<br>このプラグインを導入すると、EXRファイルを読み込んだ時にこんな画面が表示されます。<br><img width="800" src="/2024/04/11/cg-b3d-hdri/Image13.png" title="Image13" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>今回の目的ではいじらなくても問題なかったので、そのままOpenをクリック。<br>　　<br><strong>別名で保存</strong>を押すと、EXRで(編集可能のまま)保存できるようになっています。<br><img width="400" src="/2024/04/11/cg-b3d-hdri/Image14.png" title="Image14" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>(追記)<br><strong>コピーを保存</strong>を押すと、再び開いた時に編集状態にはなりませんが、EXRだけでなくHDRで書き出すことも可能です。<br>こちらはプラグインなしで可能です。<br><img width="400" src="/2024/04/11/cg-b3d-hdri/Image15.png" title="Image15" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回だいぶ長くなってしまったのですが、その分自分も勉強になりました。<br>exrは作ることよりもその後の扱いのほうが難しいみたいですね。<br>　　<br>本編とは関係ない雑談ですが、最近寒暖差に体が追いつきません。<br>あと、花見行こうかなと思った前日に土砂降りかまされました。<br>閲覧頂きありがとうございました。<br>　　<br>(追記)<br>桜無事見れました。最高</p>
 
 </article>
     
@@ -507,6 +497,37 @@ Photoshopで適当にレイヤーが重なるような編集を加えてレイ�
             <span data-number="02"></span>
         </h5>
     </div>
+    
+        <div class="col-lg-6">
+    <div class="trm-blog-card trm-scroll-animation">
+        <a href="/2024/04/12/cg-ue5-hdri/" class="trm-cover-frame trm-anima-link">
+            
+            
+                <img alt="cover" class="no-fancybox" src="/img/covers/cg-b3d-hdri.png">
+            
+        </a>
+        
+        <div class="trm-card-descr">
+            <div class="trm-label trm-category trm-mb-20">
+                <a href=" /categories/3DCG/">
+                    3DCG
+                </a>
+            </div>
+            <h5>
+                <a href="/2024/04/12/cg-ue5-hdri/" class="trm-anima-link">
+                    UE5でHDRIを適応するときの手順メモ | Unreal Engine 5
+                </a>
+            </h5>
+            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+            <ul class="trm-card-data trm-label">
+                <li>24/04/12</li>
+                <li>00:00</li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
     
     
         <div class="col-lg-6">
