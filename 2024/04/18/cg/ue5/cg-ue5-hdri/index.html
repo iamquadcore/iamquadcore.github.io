@@ -11,7 +11,7 @@
 <meta name="description" content="UE5でHDRIを適応するときの手順前提・使用ソフト:Unreal Engine 5・バージョン:5.3.2・言語:英語・その他:一応前回のHDRIを作ろうの続き的な記事の続きになります。  目次 前提 前書き 準備 HDRの適応 HDRI Backdropの設定 参考資料 最後に    前書き前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。どうせなら、と思っ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="UE5でHDRIを適応するときの手順メモ | Unreal Engine 5">
-<meta property="og:url" content="https://iamquadcore.github.io/2024/04/12/cg/ue5/cg-ue5-hdri/index.html">
+<meta property="og:url" content="https://iamquadcore.github.io/2024/04/18/cg/ue5/cg-ue5-hdri/index.html">
 <meta property="og:site_name" content="かじ&#x2F;Quadroのぼんやりつぶやき">
 <meta property="og:description" content="UE5でHDRIを適応するときの手順前提・使用ソフト:Unreal Engine 5・バージョン:5.3.2・言語:英語・その他:一応前回のHDRIを作ろうの続き的な記事の続きになります。  目次 前提 前書き 準備 HDRの適応 HDRI Backdropの設定 参考資料 最後に    前書き前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。どうせなら、と思っ">
 <meta property="og:locale" content="en_US">
@@ -28,8 +28,8 @@
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
-<meta property="article:published_time" content="2024-04-11T15:00:00.000Z">
-<meta property="article:modified_time" content="2024-04-11T15:00:00.000Z">
+<meta property="article:published_time" content="2024-04-17T15:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-17T15:00:00.000Z">
 <meta property="article:author" content="かじ">
 <meta property="article:tag" content="UE5">
 <meta name="twitter:card" content="summary">
@@ -82,7 +82,7 @@
 
 <!-- Variable -->
 <script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.1.14","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","appleTouchIcon":"img/mainimages/blogicon.ico","webmanifest":null,"visibilitychange":false,"hidden":null,"showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"default","height_limit":false},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
-<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-04-12 2024-04-12T00:00:00+09:00"};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-04-18 2024-04-18T00:00:00+09:00"};</script>
 
 <!-- Theme mode css -->
 <link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.1.14" id="trm-switch-style">
@@ -399,7 +399,7 @@
     <div class="col-sm-4">
         <div class="trm-card trm-label trm-label-light text-center">
             <i class="iconfont far fa-calendar-alt trm-icon"></i><br>
-            04/12
+            04/18
         </div>
     </div>
     <div class="col-sm-4">
@@ -434,10 +434,10 @@
 <h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>0.&nbsp;&nbsp;HDR形式のものを用意</strong></p>
 <p>今回の場合、EXR形式は読み込めないみたいなので、EXRファイルの場合はHDRに変換します。<br>オンラインサービスでもソフトでも変換できればなんでも大丈夫です。</p>
 <p><a target="_blank" rel="noopener" href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
-<p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>続いて、上のEditからPluginsを選択してプラグインの管理画面を開きます。</p>
 <p>上の検索窓から、”HDRIBackdrop”と検索して有効なことを確認します。</p>
-<img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>準備完了！</p>
 <h2 id="HDRの適応"><a href="#HDRの適応" class="headerlink" title="HDRの適応"></a>HDRの適応</h2><p><strong>1.&nbsp;&nbsp;HDRファイルをインポート</strong></p>
@@ -445,8 +445,8 @@
 <div class="image">
   <div>
     <ul>
-        <dd><img width="200" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image3.png" title="Image3" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-        <dd><img width="435" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image4.png" title="Image4" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="200" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image3.png" title="Image3" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="435" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image4.png" title="Image4" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
     </ul>
     <style>
         .image > div {
@@ -460,23 +460,23 @@
 </div>
 
 <p><strong>2.&nbsp;&nbsp;HDRI Backdropを追加</strong></p>
-<p>画面横の検索窓にHDRIと打つとHDRIBackdropが出てくるので、それをシーンに追加します。<br>加えて座標を0に調整。<br><img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image5.png" title="Image5" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>画面横の検索窓にHDRIと打つとHDRIBackdropが出てくるので、それをシーンに追加します。<br>加えて座標を0に調整。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image5.png" title="Image5" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p><strong>3.&nbsp;&nbsp;HDRファイルを適応</strong></p>
 <p>アウトライナー内のHDRIBackdropを選択すると、次のような詳細が表示されます。<br>HDRIBackdrop(self)を選択して、Cubemapという箇所に先程用意したHDRファイルを挿し込みます。</p>
-<img width="500" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image6.jpg" title="Image6" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="500" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image6.jpg" title="Image6" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>最初はこれで「完成だーーー」と思っていたのですが、<br>よく見ると下は歪んでるし、少し離れると凄い見た目をしていることがわかります。</p>
-<img width="550" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image7.png" title="Image7" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<img width="550" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image8.png" title="Image8" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="550" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image7.png" title="Image7" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="550" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image8.png" title="Image8" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <h2 id="HDRI-Backdropの設定"><a href="#HDRI-Backdropの設定" class="headerlink" title="HDRI Backdropの設定"></a>HDRI Backdropの設定</h2><p><strong>1.&nbsp;&nbsp;HDRIの形状を変更</strong></p>
-<p>SceneComponentのGeometryを選択して、Static Meshという項目からSphereを選択して形状を球体に変更します。<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image9.gif" title="Image9" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>SceneComponentのGeometryを選択して、Static Meshという項目からSphereを選択して形状を球体に変更します。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image9.gif" title="Image9" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>手順通りだとここで一回HDRIが表示されなくなると思います。<br>　　<br><strong>2.&nbsp;&nbsp;マテリアルの設定</strong></p>
 <p>私も知識が浅く完全に理解しているわけではないのですが、<br>（恐らく）この形状に対するマテリアルの設定をしていきます。</p>
-<p>さっきのStatic Meshの下にある、MaterialsのElement 0に設定されているマテリアルをダブルクリックして設定を開きます。<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image10.jpg" title="Image10" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>さらにそこのMaterial Instanceのプロパティを開いて、<br>右のMaterial Property Overridesから、Two Sidedの項目を有効化して、中のチェックをオンにして有効にします。<br>これで恐らく指定した形状の両面にテクスチャが描写されるようになります。<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image11.gif" title="Image11" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>あとはHDRIBackdropの設定から、お好みにサイズを調整したりして完成です。<br><img width="400" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image12.jpg" title="Image12" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>お疲れ様でした！<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image13.png" title="Image13" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>さっきのStatic Meshの下にある、MaterialsのElement 0に設定されているマテリアルをダブルクリックして設定を開きます。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image10.jpg" title="Image10" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>さらにそこのMaterial Instanceのプロパティを開いて、<br>右のMaterial Property Overridesから、Two Sidedの項目を有効化して、中のチェックをオンにして有効にします。<br>これで恐らく指定した形状の両面にテクスチャが描写されるようになります。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image11.gif" title="Image11" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>あとはHDRIBackdropの設定から、お好みにサイズを調整したりして完成です。<br><img width="400" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image12.jpg" title="Image12" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>お疲れ様でした！<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image13.png" title="Image13" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><p>YouTube動画<br>・<a target="_blank" rel="noopener" href="https://youtu.be/cVy2QKIPZ5Q?si=Bt1myXUOVXw8S2x0">Unreal Engine Hdri Backdrop: How To Change The Shape(外部リンク)</a></p>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>UEもだんだん慣れてきてモチベーション湧いてきました。<br>この記事を書いている裏で少しVRMファイル系のプラグインを触っていたのですが、今度はそちらも挑戦してみようかなと。</p>
 

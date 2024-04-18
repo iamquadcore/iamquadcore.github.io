@@ -185,7 +185,7 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
   </entry>
   <entry>
     <title>UE5でHDRIを適応するときの手順メモ | Unreal Engine 5</title>
-    <url>/2024/04/12/cg/ue5/cg-ue5-hdri/</url>
+    <url>/2024/04/18/cg/ue5/cg-ue5-hdri/</url>
     <content><![CDATA[<h1 id="UE5でHDRIを適応するときの手順"><a href="#UE5でHDRIを適応するときの手順" class="headerlink" title="UE5でHDRIを適応するときの手順"></a>UE5でHDRIを適応するときの手順</h1><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Unreal Engine 5<br>・バージョン:5.3.2<br>・言語:英語<br>・その他:一応前回の<a href="https://www.quadro1375.com/2024/04/11/cg-b3d-hdri/">HDRIを作ろうの続き的な記事</a>の続きになります。</p>
 <ul>
 <li>目次<ul>
@@ -203,10 +203,10 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>0.&nbsp;&nbsp;HDR形式のものを用意</strong></p>
 <p>今回の場合、EXR形式は読み込めないみたいなので、EXRファイルの場合はHDRに変換します。<br>オンラインサービスでもソフトでも変換できればなんでも大丈夫です。</p>
 <p><a href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
-<p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>続いて、上のEditからPluginsを選択してプラグインの管理画面を開きます。</p>
 <p>上の検索窓から、”HDRIBackdrop”と検索して有効なことを確認します。</p>
-<img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>準備完了！</p>
 <h2 id="HDRの適応"><a href="#HDRの適応" class="headerlink" title="HDRの適応"></a>HDRの適応</h2><p><strong>1.&nbsp;&nbsp;HDRファイルをインポート</strong></p>
@@ -214,8 +214,8 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <div class="image">
   <div>
     <ul>
-        <dd><img width="200" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image3.png" title="Image3" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-        <dd><img width="435" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image4.png" title="Image4" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="200" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image3.png" title="Image3" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="435" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image4.png" title="Image4" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
     </ul>
     <style>
         .image > div {
@@ -229,23 +229,23 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 </div>
 
 <p><strong>2.&nbsp;&nbsp;HDRI Backdropを追加</strong></p>
-<p>画面横の検索窓にHDRIと打つとHDRIBackdropが出てくるので、それをシーンに追加します。<br>加えて座標を0に調整。<br><img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image5.png" title="Image5" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>画面横の検索窓にHDRIと打つとHDRIBackdropが出てくるので、それをシーンに追加します。<br>加えて座標を0に調整。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image5.png" title="Image5" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p><strong>3.&nbsp;&nbsp;HDRファイルを適応</strong></p>
 <p>アウトライナー内のHDRIBackdropを選択すると、次のような詳細が表示されます。<br>HDRIBackdrop(self)を選択して、Cubemapという箇所に先程用意したHDRファイルを挿し込みます。</p>
-<img width="500" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image6.jpg" title="Image6" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="500" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image6.jpg" title="Image6" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>最初はこれで「完成だーーー」と思っていたのですが、<br>よく見ると下は歪んでるし、少し離れると凄い見た目をしていることがわかります。</p>
-<img width="550" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image7.png" title="Image7" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<img width="550" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image8.png" title="Image8" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="550" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image7.png" title="Image7" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="550" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image8.png" title="Image8" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <h2 id="HDRI-Backdropの設定"><a href="#HDRI-Backdropの設定" class="headerlink" title="HDRI Backdropの設定"></a>HDRI Backdropの設定</h2><p><strong>1.&nbsp;&nbsp;HDRIの形状を変更</strong></p>
-<p>SceneComponentのGeometryを選択して、Static Meshという項目からSphereを選択して形状を球体に変更します。<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image9.gif" title="Image9" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>SceneComponentのGeometryを選択して、Static Meshという項目からSphereを選択して形状を球体に変更します。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image9.gif" title="Image9" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>手順通りだとここで一回HDRIが表示されなくなると思います。<br>　　<br><strong>2.&nbsp;&nbsp;マテリアルの設定</strong></p>
 <p>私も知識が浅く完全に理解しているわけではないのですが、<br>（恐らく）この形状に対するマテリアルの設定をしていきます。</p>
-<p>さっきのStatic Meshの下にある、MaterialsのElement 0に設定されているマテリアルをダブルクリックして設定を開きます。<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image10.jpg" title="Image10" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>さらにそこのMaterial Instanceのプロパティを開いて、<br>右のMaterial Property Overridesから、Two Sidedの項目を有効化して、中のチェックをオンにして有効にします。<br>これで恐らく指定した形状の両面にテクスチャが描写されるようになります。<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image11.gif" title="Image11" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>あとはHDRIBackdropの設定から、お好みにサイズを調整したりして完成です。<br><img width="400" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image12.jpg" title="Image12" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>お疲れ様でした！<br><img width="800" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image13.png" title="Image13" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>さっきのStatic Meshの下にある、MaterialsのElement 0に設定されているマテリアルをダブルクリックして設定を開きます。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image10.jpg" title="Image10" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>さらにそこのMaterial Instanceのプロパティを開いて、<br>右のMaterial Property Overridesから、Two Sidedの項目を有効化して、中のチェックをオンにして有効にします。<br>これで恐らく指定した形状の両面にテクスチャが描写されるようになります。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image11.gif" title="Image11" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>あとはHDRIBackdropの設定から、お好みにサイズを調整したりして完成です。<br><img width="400" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image12.jpg" title="Image12" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>お疲れ様でした！<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image13.png" title="Image13" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><p>YouTube動画<br>・<a href="https://youtu.be/cVy2QKIPZ5Q?si=Bt1myXUOVXw8S2x0">Unreal Engine Hdri Backdrop: How To Change The Shape(外部リンク)</a></p>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>UEもだんだん慣れてきてモチベーション湧いてきました。<br>この記事を書いている裏で少しVRMファイル系のプラグインを触っていたのですが、今度はそちらも挑戦してみようかなと。</p>
 ]]></content>
