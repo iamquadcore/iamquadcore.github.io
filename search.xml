@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>自己紹介</title>
+    <url>/2024/02/16/chatting/1/</url>
+    <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
+　</p>
+<h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>　<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやっています。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
+　</p>
+<h2 id="創作について"><a href="#創作について" class="headerlink" title="創作について"></a>創作について</h2><p>具体的にどんなもの作ってるの？という話ですが、私はCGメインのショートムービー的な何かだったり、ボカロ系の二次創作MVを作ったりしています。<br>　<br>できることとしては簡単なモデリング、モーショングラフィックス、VFX、動画編集、Edit(FPS動画にあるサブジャンルです)なんかですね。<br>昔はDTMちょっとかじったり、実況動画作ってました。<br>　<br>↓過去作</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ApCLCnKt84k?si=TNqRSU0UxGqQ7ofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+　
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uFpdU-W8DIo?si=RqUWdvkD-eBPqQNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+　
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D7DuXtYqTR8?si=bQTq4c-g3R7h0MZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+　
+
+<h2 id="ブログを立ち上げたきっかけ"><a href="#ブログを立ち上げたきっかけ" class="headerlink" title="ブログを立ち上げたきっかけ"></a>ブログを立ち上げたきっかけ</h2><p>私がCGや映像を始めてからたくさんの時間が流れて、以前から蓄えた知識を整理する時間が必要になってきていました。<br>　　<br>詳しいことはまた今度書きますが、何かに書き出して知識を保管することを今までやってこなかったので、とりあえずでDiscordサーバーに殴り書きをしてみたんです。<br>そしたら思いの外楽しくて、より一層見やすく、編集しやすく、ついでに外部に共有できればいいな、という感じで友人に助けられながらGitHub Pagesにたどり着きました。<br>　<br><a href="https://twitter.com/ft_vrc">Tuna</a>ありがとう！</p>
+<p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
+]]></content>
+      <categories>
+        <category>雑談</category>
+      </categories>
+  </entry>
+  <entry>
     <title>3DCGカテゴリーの目的</title>
     <url>/2024/02/19/cg/lobby-b3d/</url>
     <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
@@ -32,26 +54,54 @@
       </tags>
   </entry>
   <entry>
-    <title>自己紹介</title>
-    <url>/2024/02/16/chatting/1/</url>
-    <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
-　</p>
-<h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>　<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやっています。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
-　</p>
-<h2 id="創作について"><a href="#創作について" class="headerlink" title="創作について"></a>創作について</h2><p>具体的にどんなもの作ってるの？という話ですが、私はCGメインのショートムービー的な何かだったり、ボカロ系の二次創作MVを作ったりしています。<br>　<br>できることとしては簡単なモデリング、モーショングラフィックス、VFX、動画編集、Edit(FPS動画にあるサブジャンルです)なんかですね。<br>昔はDTMちょっとかじったり、実況動画作ってました。<br>　<br>↓過去作</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ApCLCnKt84k?si=TNqRSU0UxGqQ7ofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-　
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uFpdU-W8DIo?si=RqUWdvkD-eBPqQNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-　
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D7DuXtYqTR8?si=bQTq4c-g3R7h0MZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-　
+    <title>個人的見やすい3D Viewの設定とか | Blender</title>
+    <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
+    <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#Solid%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Solidモードの設定</a></li>
+<li><a href="#Render%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Renderモードの設定</a></li>
+<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
+<h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
+<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+　　
 
-<h2 id="ブログを立ち上げたきっかけ"><a href="#ブログを立ち上げたきっかけ" class="headerlink" title="ブログを立ち上げたきっかけ"></a>ブログを立ち上げたきっかけ</h2><p>私がCGや映像を始めてからたくさんの時間が流れて、以前から蓄えた知識を整理する時間が必要になってきていました。<br>　　<br>詳しいことはまた今度書きますが、何かに書き出して知識を保管することを今までやってこなかったので、とりあえずでDiscordサーバーに殴り書きをしてみたんです。<br>そしたら思いの外楽しくて、より一層見やすく、編集しやすく、ついでに外部に共有できればいいな、という感じで友人に助けられながらGitHub Pagesにたどり着きました。<br>　<br><a href="https://twitter.com/ft_vrc">Tuna</a>ありがとう！</p>
-<p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
+<p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
+<details><summary>余談</summary>
+
+<p>ここに用意されているHDRIは</p>
+<p><strong>“インストール先\Blender [version]\ [version] \datafiles\studiolights\world”</strong></p>
+<p>に収納されているみたいです。<br>(自分の環境の場合 “インストール先\Blender 4.0\4.0\ ~” となります。)</p>
+</details>
+
+<h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
+<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 ]]></content>
       <categories>
-        <category>雑談</category>
+        <category>3DCG</category>
       </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
   </entry>
   <entry>
     <title>Worldを環境テクスチャ化しよう～ | Blender(+PS)</title>
@@ -134,56 +184,6 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </tags>
   </entry>
   <entry>
-    <title>個人的見やすい3D Viewの設定とか | Blender</title>
-    <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
-    <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
-<li><a href="#Solid%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Solidモードの設定</a></li>
-<li><a href="#Render%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Renderモードの設定</a></li>
-<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
-<h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
-<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-　　
-
-<p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
-<details><summary>余談</summary>
-
-<p>ここに用意されているHDRIは</p>
-<p><strong>“インストール先\Blender [version]\ [version] \datafiles\studiolights\world”</strong></p>
-<p>に収納されているみたいです。<br>(自分の環境の場合 “インストール先\Blender 4.0\4.0\ ~” となります。)</p>
-</details>
-
-<h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
-<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>UE5でHDRIを適応するときの手順メモ | Unreal Engine 5</title>
     <url>/2024/04/12/cg/ue5/cg-ue5-hdri/</url>
     <content><![CDATA[<h1 id="UE5で自作のHDRIを適応するときの手順"><a href="#UE5で自作のHDRIを適応するときの手順" class="headerlink" title="UE5で自作のHDRIを適応するときの手順"></a>UE5で自作のHDRIを適応するときの手順</h1><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Unreal Engine 5<br>・バージョン:5.3.2<br>・言語:英語<br>・その他:一応前回の<a href="https://www.quadro1375.com/2024/04/11/cg-b3d-hdri/">HDRIを作ろうの続き的な記事</a>の続きになります。</p>
@@ -202,7 +202,7 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <h2 id="前書き"><a href="#前書き" class="headerlink" title="前書き"></a>前書き</h2><p>前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。<br>どうせなら、と思って色々なソフトに読み込ませてテストをしていたのですが、<br>Unityはすんなり終わったのに対して、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。<br>　　<br>(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)</p>
 <h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>0.&nbsp;&nbsp;HDR形式のものを用意</strong></p>
 <p>今回の場合、EXR形式は読み込めないみたいなので、EXRファイルの場合はHDRに変換します。<br>オンラインサービスでもソフトでも変換できればなんでも大丈夫です。</p>
-<p><a href="https://www.quadro1375.com/2024/04/11/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
+<p><a href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
 <p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/12/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>続いて、上のEditからPluginsを選択してプラグインの管理画面を開きます。</p>
 <p>上の検索窓から、”HDRIBackdrop”と検索して有効なことを確認します。</p>
