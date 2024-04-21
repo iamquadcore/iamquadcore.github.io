@@ -28,7 +28,7 @@
         <category>3DCG</category>
       </categories>
       <tags>
-        <tag>Chatting</tag>
+        <tag>Chat</tag>
       </tags>
   </entry>
   <entry>
@@ -50,7 +50,7 @@
 <p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
 ]]></content>
       <categories>
-        <category>雑談</category>
+        <category>雑談/Chat</category>
       </categories>
   </entry>
   <entry>
@@ -58,7 +58,7 @@
     <url>/2024/04/21/cg/blender/cg-b3d-compnodeview/</url>
     <content><![CDATA[<h1 id="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"><a href="#コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作" class="headerlink" title="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"></a>コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作</h1><p>個人的に地味に忘れがちなやつだったのでメモとして置いときます(´・ω・｀)<br>Blenderでレンダー結果に手を加える時に必須の操作です。<br>今回は簡単故に短めです。</p>
 <h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.1<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:なし</p>
-<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>コンポジター(Compositor)のプレビューはレンダー結果を元にするので、まずはレンダリングをします。<br>　　<br>適当な窓から切り替えるか、上のタブからコンポジターを表示します。<br><img width="300" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>コンポジター(Compositor)のプレビューはレンダー結果を元にするので、まずはレンダリングをします。<br>　　<br>次に適当な窓から切り替えるか、上のタブからコンポジターを表示します。<br><img width="300" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 <br>
 続いて背景(Backdrop)を有効化、ビューアー(Viewer)ノードを出して、レンダー結果をプレビュー画面に繋ぎます。
@@ -68,7 +68,7 @@
 <img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>また、横のViewタブからも調整できます。</p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>私は基本的なエフェクトは編集専用のソフトに任せますが、<br>コンポジットではレンダリング時に深度を抽出して、それを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと、単純な加工以外にも色々できるので、<br>このプレビュー機能は必須知識です。<br>　　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
