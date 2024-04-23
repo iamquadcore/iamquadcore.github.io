@@ -1,3 +1,4 @@
+https://iamquadcore.github.io/2024/04/23/cg/blender/b3d-cg-stretchmesh/
 https://iamquadcore.github.io/2024/04/21/cg/blender/cg-b3d-compnodeview/
 https://iamquadcore.github.io/2024/04/18/cg/ue5/cg-ue5-hdri/
 https://iamquadcore.github.io/2024/04/11/cg/blender/cg-b3d-hdri/
@@ -10,7 +11,7 @@ https://iamquadcore.github.io/categories/index.html
 https://iamquadcore.github.io/2024/02/19/cg/lobby-b3d/
 https://iamquadcore.github.io/2024/02/16/chatting/1/
 https://iamquadcore.github.io/
-https://iamquadcore.github.io/tags/Chat/
+https://iamquadcore.github.io/tags/%E9%9B%91%E8%AB%87-Chat/
 https://iamquadcore.github.io/tags/Blender/
 https://iamquadcore.github.io/tags/UE5/
 https://iamquadcore.github.io/categories/3DCG/

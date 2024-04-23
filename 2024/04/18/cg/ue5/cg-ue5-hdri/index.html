@@ -8,12 +8,12 @@
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
 
-<meta name="description" content="UE5でHDRIを適応するときの手順前提・使用ソフト:Unreal Engine 5・バージョン:5.3.2・言語:英語・その他:一応前回のHDRIを作ろうの続き的な記事の続きになります。  目次 前提 前書き 準備 HDRの適応 HDRI Backdropの設定 参考資料 最後に    前書き前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。どうせなら、と思っ">
+<meta name="description" content="UE5でHDRIを適応するときの手順前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。この際に色々なソフトで読み込ませてテストをしていたのですが、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。　(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)  目次 前提 準備 HDRの適応 HDRI Backdropの">
 <meta property="og:type" content="article">
 <meta property="og:title" content="UE5でHDRIを適応するときの手順メモ | Unreal Engine 5">
 <meta property="og:url" content="https://iamquadcore.github.io/2024/04/18/cg/ue5/cg-ue5-hdri/index.html">
 <meta property="og:site_name" content="かじ&#x2F;Quadroのぼんやりつぶやき">
-<meta property="og:description" content="UE5でHDRIを適応するときの手順前提・使用ソフト:Unreal Engine 5・バージョン:5.3.2・言語:英語・その他:一応前回のHDRIを作ろうの続き的な記事の続きになります。  目次 前提 前書き 準備 HDRの適応 HDRI Backdropの設定 参考資料 最後に    前書き前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。どうせなら、と思っ">
+<meta property="og:description" content="UE5でHDRIを適応するときの手順前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。この際に色々なソフトで読み込ませてテストをしていたのですが、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。　(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)  目次 前提 準備 HDRの適応 HDRI Backdropの">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
 <meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
@@ -417,11 +417,10 @@
 </div>
 <div class="trm-card ">
     <article id="article-container" class="trm-publication">
-    <h1 id="UE5でHDRIを適応するときの手順"><a href="#UE5でHDRIを適応するときの手順" class="headerlink" title="UE5でHDRIを適応するときの手順"></a>UE5でHDRIを適応するときの手順</h1><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Unreal Engine 5<br>・バージョン:5.3.2<br>・言語:英語<br>・その他:一応前回の<a target="_blank" rel="noopener" href="https://www.quadro1375.com/2024/04/11/cg-b3d-hdri/">HDRIを作ろうの続き的な記事</a>の続きになります。</p>
+    <h1 id="UE5でHDRIを適応するときの手順"><a href="#UE5でHDRIを適応するときの手順" class="headerlink" title="UE5でHDRIを適応するときの手順"></a>UE5でHDRIを適応するときの手順</h1><p>前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。<br>この際に色々なソフトで読み込ませてテストをしていたのですが、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。<br>　<br>(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)</p>
 <ul>
 <li>目次<ul>
 <li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
-<li><a href="#%E5%89%8D%E6%9B%B8%E3%81%8D">前書き</a></li>
 <li><a href="#%E6%BA%96%E5%82%99">準備</a></li>
 <li><a href="#HDR%E3%81%AE%E9%81%A9%E5%BF%9C">HDRの適応</a></li>
 <li><a href="#HDRI-Backdrop%E3%81%AE%E8%A8%AD%E5%AE%9A">HDRI Backdropの設定</a></li>
@@ -430,13 +429,12 @@
 </ul>
 </li>
 </ul>
-<h2 id="前書き"><a href="#前書き" class="headerlink" title="前書き"></a>前書き</h2><p>前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。<br>どうせなら、と思って色々なソフトに読み込ませてテストをしていたのですが、<br>Unityはすんなり終わったのに対して、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。<br>　　<br>(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)</p>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Unreal Engine 5<br>・バージョン:5.3.2<br>・言語:英語<br>・その他:一応前回の<a target="_blank" rel="noopener" href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/">HDRIを作ろうの続き的な記事</a>の続きになります。</p>
 <h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>0.&nbsp;&nbsp;HDR形式のものを用意</strong></p>
 <p>今回の場合、EXR形式は読み込めないみたいなので、EXRファイルの場合はHDRに変換します。<br>オンラインサービスでもソフトでも変換できればなんでも大丈夫です。</p>
 <p><a target="_blank" rel="noopener" href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
 <p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>続いて、上のEditからPluginsを選択してプラグインの管理画面を開きます。</p>
-<p>上の検索窓から、”HDRIBackdrop”と検索して有効なことを確認します。</p>
+<p>続いて、上のEditからPluginsを選択してプラグインの管理画面を開きます。<br>　<br>上の検索窓から、”HDRIBackdrop”と検索して有効なことを確認します。</p>
 <img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>準備完了！</p>
@@ -478,8 +476,7 @@
 <p>あとはHDRIBackdropの設定から、お好みにサイズを調整したりして完成です。<br><img width="400" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image12.jpg" title="Image12" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>お疲れ様でした！<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image13.png" title="Image13" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><p>YouTube動画<br>・<a target="_blank" rel="noopener" href="https://youtu.be/cVy2QKIPZ5Q?si=Bt1myXUOVXw8S2x0">Unreal Engine Hdri Backdrop: How To Change The Shape(外部リンク)</a></p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>UEもだんだん慣れてきてモチベーション湧いてきました。<br>この記事を書いている裏で少しVRMファイル系のプラグインを触っていたのですが、今度はそちらも挑戦してみようかなと。</p>
-<p>閲覧頂きありがとうございました。</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>UEもだんだん慣れてきてモチベーション湧いてきました。<br>この記事を書いている裏で少しVRMファイル系のプラグインを触っていたのですが、今度はそちらも挑戦してみようかなと。<br>　<br>閲覧頂きありがとうございました。</p>
 
 </article>
     
