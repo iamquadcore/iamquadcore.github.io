@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>自己紹介</title>
-    <url>/2024/02/16/chatting/1/</url>
+    <url>/2024/02/16/chat/1/</url>
     <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
 　</p>
 <h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>　<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやっています。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
@@ -50,7 +50,31 @@
         <category>3DCG</category>
       </categories>
       <tags>
-        <tag>雑談/Chat</tag>
+        <tag>CG雑談</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>コンポジターでレンダー結果を表示するあれこれ | Blender</title>
+    <url>/2024/04/21/cg/blender/cg-b3d-compnodeview/</url>
+    <content><![CDATA[<h1 id="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"><a href="#コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作" class="headerlink" title="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"></a>コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作</h1><p>個人的に地味に忘れがちなやつだったのでメモとして置いときます(´・ω・｀)<br>　<br>Blenderでレンダー結果に手を加える時に必須の操作です。</p>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.1<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:なし</p>
+<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>コンポジター(Compositor)のプレビューはレンダー結果を元にするので、まずはレンダリングをします。<br>　　<br>次に適当な窓から切り替えるか、上のタブからコンポジターを表示します。<br><img width="300" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<br>
+続いて背景(Backdrop)を有効化、ビューアー(Viewer)ノードを出して、レンダー結果をプレビュー画面に繋ぎます。
+<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>V : 縮小<br>Alt+V : 拡大<br>Alt+ホイールクリック+ドラッグ : 移動</p>
+<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>また、横のViewタブからも調整できます。</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -91,21 +115,47 @@
       </tags>
   </entry>
   <entry>
-    <title>コンポジターでレンダー結果を表示するあれこれ | Blender</title>
-    <url>/2024/04/21/cg/blender/cg-b3d-compnodeview/</url>
-    <content><![CDATA[<h1 id="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"><a href="#コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作" class="headerlink" title="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"></a>コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作</h1><p>個人的に地味に忘れがちなやつだったのでメモとして置いときます(´・ω・｀)<br>　<br>Blenderでレンダー結果に手を加える時に必須の操作です。</p>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.1<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:なし</p>
-<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>コンポジター(Compositor)のプレビューはレンダー結果を元にするので、まずはレンダリングをします。<br>　　<br>次に適当な窓から切り替えるか、上のタブからコンポジターを表示します。<br><img width="300" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<br>
-続いて背景(Backdrop)を有効化、ビューアー(Viewer)ノードを出して、レンダー結果をプレビュー画面に繋ぎます。
-<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+    <title>個人的見やすい3D Viewの設定とか | Blender</title>
+    <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
+    <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#Solid%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Solidモードの設定</a></li>
+<li><a href="#Render%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Renderモードの設定</a></li>
+<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
+<h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
+<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+　　
 
-<h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>V : 縮小<br>Alt+V : 拡大<br>Alt+ホイールクリック+ドラッグ : 移動</p>
-<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
-<p>また、横のViewタブからも調整できます。</p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
+<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
+<details><summary>余談</summary>
+
+<p>ここに用意されているHDRIは</p>
+<p><strong>“インストール先\Blender [version]\ [version] \datafiles\studiolights\world”</strong></p>
+<p>に収納されているみたいです。<br>(自分の環境の場合 “インストール先\Blender 4.0\4.0\ ~” となります。)</p>
+</details>
+
+<h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
+<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -184,58 +234,10 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <p>素のフォトショはEXRファイルに関してかなり微妙で、<br>画像の解像度変更や切り取り等以外の<strong>レイヤーを重ねるような編集</strong>をした場合、<br>“別名で保存”は多分できないと思われます。<br>　　<br>また、レイヤー情報などを正確にEXRファイル内の情報を読み取っているわけではなく、書き出しも不便なため、<br><a href="https://www.exr-io.com/">Exr-IO(外部リンク)</a>というプラグインを入れて改善します。<br>  　<br>このプラグインを導入すると、EXRファイルを読み込んだ時にこんな画面が表示されます。<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image13.png" title="Image13" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>今回の目的ではいじらなくても問題なかったので、そのままOpenをクリック。<br>　　<br><strong>別名で保存</strong>を押すと、EXRで(編集可能のまま)保存できるようになっています。<br><img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image14.png" title="Image14" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>(追記)<br><strong>コピーを保存</strong>を押すと、再び開いた時に編集状態にはなりませんが、EXRだけでなくHDRで書き出すことも可能です。<br>こちらはプラグインなしで可能です。<br><img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image15.png" title="Image15" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><p>YouTube動画<br><a href="https://youtu.be/o7q7O5RuE6s?si=1i-VJo4atig6wWlA">Make Your Own HDRI in Blender 3.0(外部リンク)</a></p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li>YouTube<br><a href="https://youtu.be/o7q7O5RuE6s?si=1i-VJo4atig6wWlA">Make Your Own HDRI in Blender 3.0(外部リンク)</a></li>
+</ul>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回だいぶ長くなってしまったのですが、その分自分も勉強になりました。<br>exrは作ることよりもその後の扱いのほうが難しいみたいですね。<br>　　<br>本編とは関係ない雑談ですが、最近寒暖差に体が追いつきません。<br>あと、花見行こうかなと思った前日に土砂降りかまされました。<br>閲覧頂きありがとうございました。<br>　　<br>(追記)<br>桜無事見れました。最高</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>個人的見やすい3D Viewの設定とか | Blender</title>
-    <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
-    <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
-<li><a href="#Solid%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Solidモードの設定</a></li>
-<li><a href="#Render%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Renderモードの設定</a></li>
-<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
-<h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
-<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-　　
-
-<p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
-<details><summary>余談</summary>
-
-<p>ここに用意されているHDRIは</p>
-<p><strong>“インストール先\Blender [version]\ [version] \datafiles\studiolights\world”</strong></p>
-<p>に収納されているみたいです。<br>(自分の環境の場合 “インストール先\Blender 4.0\4.0\ ~” となります。)</p>
-</details>
-
-<h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
-<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -254,21 +256,21 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <li><a href="#%E6%BA%96%E5%82%99">準備</a></li>
 <li><a href="#HDR%E3%81%AE%E9%81%A9%E5%BF%9C">HDRの適応</a></li>
 <li><a href="#HDRI-Backdrop%E3%81%AE%E8%A8%AD%E5%AE%9A">HDRI Backdropの設定</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99(%E5%A4%96%E9%83%A8%E3%83%AA%E3%83%B3%E3%82%AF)">参考資料(外部リンク)</a></li>
 <li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
 </ul>
 </li>
 </ul>
 <h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Unreal Engine 5<br>・バージョン:5.3.2<br>・言語:英語<br>・その他:一応前回の<a href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/">HDRIを作ろうの続き的な記事</a>の続きになります。</p>
-<h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>0.&nbsp;&nbsp;HDR形式のものを用意</strong></p>
+<h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p><strong>0.&nbsp;HDR形式のものを用意</strong></p>
 <p>今回の場合、EXR形式は読み込めないみたいなので、EXRファイルの場合はHDRに変換します。<br>オンラインサービスでもソフトでも変換できればなんでも大丈夫です。</p>
-<p><a href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
+<p><a href="https://www.quadro1375.com/2024/04/11/cg/blender/cg-b3d-hdri/#Photoshop%E3%81%A7EXR%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%89%B1%E3%81%86%E6%99%82%E3%81%AE%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88">前回の記事の後半</a>にフォトショでHDRで書き出す方法を追記しました。<br>　　<br>Gimpの場合は”名前をつけてエクスポート”から拡張子をhdrに書き換えて保存すると大丈夫みたいです。（動作確認済み<br>　　<br>自作の場合、変換以前にBlender側でhdrで書き出しちゃってもいいと思います。<br>　　<br><strong>1.&nbsp;新規プロジェクト作成&amp;プラグインの確認</strong></p>
 <p>今回はFILMS &#x2F; VIDEO &amp; LIVE EVENTSからBlankを選んで、新規プロジェクトを作成します。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>続いて、上のEditからPluginsを選択してプラグインの管理画面を開きます。<br>　<br>上の検索窓から、”HDRIBackdrop”と検索して有効なことを確認します。</p>
 <img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>準備完了！</p>
-<h2 id="HDRの適応"><a href="#HDRの適応" class="headerlink" title="HDRの適応"></a>HDRの適応</h2><p><strong>1.&nbsp;&nbsp;HDRファイルをインポート</strong></p>
+<h2 id="HDRの適応"><a href="#HDRの適応" class="headerlink" title="HDRの適応"></a>HDRの適応</h2><p><strong>1.&nbsp;HDRファイルをインポート</strong></p>
 <p>コンテンツブラウザに適当なフォルダを作って、HDRファイルを読み込みます。</p>
 <div class="image">
   <div>
@@ -287,9 +289,9 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
   </div>
 </div>
 
-<p><strong>2.&nbsp;&nbsp;HDRI Backdropを追加</strong></p>
+<p><strong>2.&nbsp;HDRI Backdropを追加</strong></p>
 <p>画面横の検索窓にHDRIと打つとHDRIBackdropが出てくるので、それをシーンに追加します。<br>加えて座標を0に調整。<br><img width="700" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image5.png" title="Image5" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p><strong>3.&nbsp;&nbsp;HDRファイルを適応</strong></p>
+<p><strong>3.&nbsp;HDRファイルを適応</strong></p>
 <p>アウトライナー内のHDRIBackdropを選択すると、次のような詳細が表示されます。<br>HDRIBackdrop(self)を選択して、Cubemapという箇所に先程用意したHDRファイルを挿し込みます。</p>
 <img width="500" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image6.jpg" title="Image6" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
@@ -297,15 +299,17 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <img width="550" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image7.png" title="Image7" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 <img width="550" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image8.png" title="Image8" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
-<h2 id="HDRI-Backdropの設定"><a href="#HDRI-Backdropの設定" class="headerlink" title="HDRI Backdropの設定"></a>HDRI Backdropの設定</h2><p><strong>1.&nbsp;&nbsp;HDRIの形状を変更</strong></p>
+<h2 id="HDRI-Backdropの設定"><a href="#HDRI-Backdropの設定" class="headerlink" title="HDRI Backdropの設定"></a>HDRI Backdropの設定</h2><p><strong>1.&nbsp;HDRIの形状を変更</strong></p>
 <p>SceneComponentのGeometryを選択して、Static Meshという項目からSphereを選択して形状を球体に変更します。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image9.gif" title="Image9" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>手順通りだとここで一回HDRIが表示されなくなると思います。<br>　　<br><strong>2.&nbsp;&nbsp;マテリアルの設定</strong></p>
+<p>手順通りだとここで一回HDRIが表示されなくなると思います。<br>　　<br><strong>2.&nbsp;マテリアルの設定</strong></p>
 <p>私も知識が浅く完全に理解しているわけではないのですが、<br>（恐らく）この形状に対するマテリアルの設定をしていきます。</p>
 <p>さっきのStatic Meshの下にある、MaterialsのElement 0に設定されているマテリアルをダブルクリックして設定を開きます。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image10.jpg" title="Image10" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>さらにそこのMaterial Instanceのプロパティを開いて、<br>右のMaterial Property Overridesから、Two Sidedの項目を有効化して、中のチェックをオンにして有効にします。<br>これで恐らく指定した形状の両面にテクスチャが描写されるようになります。<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image11.gif" title="Image11" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>あとはHDRIBackdropの設定から、お好みにサイズを調整したりして完成です。<br><img width="400" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image12.jpg" title="Image12" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>お疲れ様でした！<br><img width="800" src="/2024/04/18/cg/ue5/cg-ue5-hdri/Image13.png" title="Image13" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><p>YouTube動画<br>・<a href="https://youtu.be/cVy2QKIPZ5Q?si=Bt1myXUOVXw8S2x0">Unreal Engine Hdri Backdrop: How To Change The Shape(外部リンク)</a></p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li>YouTube<br><a href="https://youtu.be/cVy2QKIPZ5Q?si=Bt1myXUOVXw8S2x0">Unreal Engine Hdri Backdrop: How To Change The Shape(外部リンク)</a></li>
+</ul>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>UEもだんだん慣れてきてモチベーション湧いてきました。<br>この記事を書いている裏で少しVRMファイル系のプラグインを触っていたのですが、今度はそちらも挑戦してみようかなと。<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
@@ -313,6 +317,50 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </categories>
       <tags>
         <tag>UE5</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IES Lightのすゝめ | CG雑談</title>
+    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
+    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
+<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
+<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
+<ul>
+<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
+</ul>
+<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
+　</p>
+<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
+<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
+<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
+　</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>CG Chat/CG雑談</tag>
       </tags>
   </entry>
 </search>

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="x5-fullscreen" content="true">
+<meta name="full-screen" content="yes">
+<meta name="theme-color" content="#317EFB" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="かじ/Quadroのぼんやりつぶやき">
+<meta name="twitter:description" content="かじ/Quadroのぼんやりつぶやき">
+<meta name="twitter:creator" content="@kaji1375">
+
+<meta name="description" content="IES Lightのすゝめ「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」 みたいなことありますよね。多分。そんな時に使える便利な物を紹介したいと思います。　それがIES Lightです。　ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。これを使うと現実の照明のような光り方を簡単に再現することができます。　UEは初心">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IES Lightのすゝめ | CG雑談">
+<meta property="og:url" content="https://iamquadcore.github.io/2024/04/28/cg/chat/cg-chat-IES/index.html">
+<meta property="og:site_name" content="かじ&#x2F;Quadroのぼんやりつぶやき">
+<meta property="og:description" content="IES Lightのすゝめ「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」 みたいなことありますよね。多分。そんな時に使える便利な物を紹介したいと思います。　それがIES Lightです。　ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。これを使うと現実の照明のような光り方を簡単に再現することができます。　UEは初心">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
+<meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
+<meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
+<meta property="og:image" content="https://iamquadcore.github.io/img/404.jpg">
+<meta property="article:published_time" content="2024-04-27T15:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-27T15:00:00.000Z">
+<meta property="article:author" content="かじ">
+<meta property="article:tag" content="CG Chat&#x2F;CG雑談">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://iamquadcore.github.io/img/404.jpg">
+
+
+    <meta name="keywords" content="かじ/Quadroのぼんやりつぶやき">
+
+
+<title >IES Lightのすゝめ | CG雑談</title>
+
+<!-- Favicon -->
+
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='16x16' ></link>
+
+
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='32x32' ></link>
+
+
+    <link href='/img/mainimages/blogicon.ico?v=2.1.14' rel='apple-touch-icon' sizes='180x180' ></link>
+
+
+
+<!-- Plugin -->
+
+
+
+
+    
+<link rel="stylesheet" href="/css/plugins/bootstrap.row.css">
+
+    
+<link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui@4.0/dist/fancybox.css">
+
+    
+<link rel="stylesheet" href="https://unpkg.com/swiper@4.5.1/dist/css/swiper.min.css">
+
+    
+
+
+
+
+<!-- Icon -->
+
+    
+<link rel="stylesheet" href="/css/plugins/font-awesome.min.css">
+
+
+
+
+<!-- Variable -->
+<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.1.14","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","appleTouchIcon":"img/mainimages/blogicon.ico","webmanifest":null,"visibilitychange":false,"hidden":null,"showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"default","height_limit":false},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-04-28 2024-04-28T00:00:00+09:00"};</script>
+
+<!-- Theme mode css -->
+<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.1.14" id="trm-switch-style">
+<script>
+    let defaultMode = ASYNC_CONFIG.theme.default !=='auto' ?  ASYNC_CONFIG.theme.default : (window.matchMedia("(prefers-color-scheme: light)").matches ? 'style-light' : 'style-dark')
+    let catchMode = localStorage.getItem('theme-mode') || defaultMode;
+    let type = catchMode === 'style-dark' ? 'add' : 'remove';
+    document.documentElement.classList[type]('dark')
+</script>
+
+<!-- CDN -->
+
+
+    
+    
+
+
+
+<!-- Site Analytics -->
+
+     
+
+    
+        <!-- Google Analytics -->
+        <script async src='https://www.googletagmanager.com/gtag/js?id=G-ZGS8JKCRPJ'></script>
+        <script defer>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZGS8JKCRPJ');
+        </script>
+    
+
+    
+ 
+
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+<body>
+
+  <!-- app wrapper -->
+  <div class="trm-app-frame">
+
+    <!-- page preloader -->
+    <div class="trm-preloader">
+    <div class="trm-holder">
+        <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+    <!-- page preloader end -->
+
+    <!-- change mode preloader -->
+    <div class="trm-mode-swich-animation-frame">
+    <div class="trm-mode-swich-animation">
+        <i class="i-sun"><i class="iconfont far fa-sun"></i></i>
+        <div class="trm-horizon"></div>
+        <i class="i-moon"><i class="iconfont far fa-moon"></i></i>
+    </div>
+</div>
+    <!-- change mode preloader end -->
+
+      <!-- scroll container -->
+      <div id="trm-dynamic-content" class="trm-swup-animation">
+        <div id="trm-scroll-container" class="trm-scroll-container" style="opacity: 0">
+            <!-- top bar -->
+            <header class="trm-top-bar">
+	<div class="container">
+		<div class="trm-left-side">
+			<!-- logo -->
+<a href="/" class="trm-logo-frame trm-anima-link">
+    
+        <img alt="logo" src="/img/mainimages/blogicon_v2.ico">
+    
+    
+        <div class="trm-logo-text">
+            Quadro<span>Graphics</span>
+        </div>
+    
+</a>
+<!-- logo end -->
+		</div>
+		<div class="trm-right-side">
+			<!-- menu -->
+<div class="trm-menu">
+    <nav>
+        <ul>
+            
+            <li class="menu-item-has-children ">
+                <a  href="/" target="">
+                    Home
+                </a>
+                
+                <ul>
+                    
+                    <li>
+                        <a  href="/categories/" target="">
+                            Categories
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a  href="/tags/" target="">
+                            Tags
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a  href="/archives/" target="">
+                            Archives
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </li>
+            
+            <li class="menu-item-has-children ">
+                <a  href="/about/" target="">
+                    About
+                </a>
+                
+            </li>
+            
+            <li class="menu-item-has-children ">
+                <a  href="https://docs.google.com/forms/d/1iN4s0dyYvDO9aPwdZqrq4vX7d7EIKeiHJSvAN-JBWVQ/viewform?edit_requested=true" target="">
+                    Contact(JP)
+                </a>
+                
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+<!-- menu end -->
+			
+    <!-- mode switcher place -->
+    <div class="trm-mode-switcher-place">
+        <div class="trm-mode-switcher">
+            <i class="iconfont far fa-sun"></i>
+            <input class="tgl tgl-light" id="trm-swich" type="checkbox">
+            <label class="trm-swich" for="trm-swich"></label>
+            <i class="iconfont far fa-moon"></i>
+        </div>
+    </div>
+    <!-- mode switcher place end -->
+
+			
+		</div>
+		<div class="trm-menu-btn">
+			<span></span>
+		</div>
+	</div>
+</header>
+            <!-- top bar end -->
+
+            <!-- body -->
+            
+<div class="trm-content-start">
+    <!-- banner -->
+    <div class="trm-banner">
+    
+    <!-- banner cover -->
+    <img style="object-position:top;object-fit:cover;" alt="banner" class="trm-banner-cover" src="/img/banners/cg-chat-IES.jpg">
+    <!-- banner cover end -->
+    
+
+    <!-- banner content -->
+    <div class="trm-banner-content trm-overlay">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-4"></div>
+                
+                <div class="col-lg-8">
+
+                    <!-- banner title -->
+                    <div class="trm-banner-text ">
+                        <div class="trm-label trm-mb-20">
+                            
+                        </div>
+                        <h1 class="trm-mb-30 trm-hsmb-font">
+                            IES Lightのすゝめ | CG雑談
+                        </h1>
+
+                        
+                            <ul class="trm-breadcrumbs trm-label">
+                                <li>
+                                    <a href="/" class="trm-anima-link">Home</a>
+                                </li>
+                                <li>
+                                    <span>
+                                        2024
+                                    </span>
+                                </li>
+                            </ul>
+                        
+                    </div>
+                    <!-- banner title end -->
+
+                    <!-- scroll hint -->
+                    <span id="scroll-triger" class="trm-scroll-hint-frame">
+                        <div class="trm-scroll-hint"></div>
+                        <span class="trm-label">Scroll down</span>
+                    </span>
+                    <!-- scroll hint end -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner content end -->
+</div>
+    <!-- banner end -->
+    <div class="container">
+        <div class="row">
+            
+                <div class="trm-page-sidebar col-lg-4 hidden-sm">
+                    <!-- main card -->
+                    <div class="trm-main-card-frame trm-sidebar">
+    <div class="trm-main-card"> 
+        <!-- card header -->
+<div class="trm-mc-header">
+    <div class="trm-avatar-frame trm-mb-20">
+        <img alt="Avatar" class="trm-avatar" src="/img/mainimages/ogkaji.png">
+    </div>
+    <h5 class="trm-name trm-mb-15">
+        かじ/Quadro
+    </h5>
+    
+        <div class="trm-label">
+            ぬ
+            <span class="trm-typed-text">
+                <!-- Words for theme.user.typedText -->
+            </span>
+        </div>
+    
+</div>
+<!-- card header end -->
+        <!-- sidebar social -->
+
+<div class="trm-divider trm-mb-40 trm-mt-40"></div>
+<div class="trm-social">
+    
+        <a href="/null" title="NONE" rel="nofollow" target="_blank">
+            <i class="iconfont "></i>
+        </a>
+    
+        <a href="https://twitter.com/kaji1375" title="Twitter(Main)" rel="nofollow" target="_blank">
+            <i class="iconfont fab fa-twitter-square"></i>
+        </a>
+    
+        <a href="https://twitter.com/quadrographics" title="Twitter(Quadro)" rel="nofollow" target="_blank">
+            <i class="iconfont fab fa-twitter-square"></i>
+        </a>
+    
+        <a href="https://www.youtube.com/channel/UCFAe-swQumm28GbWaP2PkdA" title="YouTube(Films)" rel="nofollow" target="_blank">
+            <i class="iconfont fab fa-youtube"></i>
+        </a>
+    
+        <a href="https://www.youtube.com/@kaji-fps/featured" title="YouTube(Gaming)" rel="nofollow" target="_blank">
+            <i class="iconfont fab fa-youtube"></i>
+        </a>
+    
+        <a href="/null" title="NONE" rel="nofollow" target="_blank">
+            <i class="iconfont "></i>
+        </a>
+    
+        <a href="https://soundcloud.com/xxxvipdogk" title="SoundCloud" rel="nofollow" target="_blank">
+            <i class="iconfont fab fa-soundcloud"></i>
+        </a>
+    
+        <a href="https://www.instagram.com/quadro.kaji/" title="Instagram" rel="nofollow" target="_blank">
+            <i class="iconfont fab fa-instagram"></i>
+        </a>
+    
+</div>
+
+<!-- sidebar social end -->
+        <!-- info -->
+<div class="trm-divider trm-mb-40 trm-mt-40"></div>
+<ul class="trm-table trm-mb-20">
+    
+        <li>
+            <div class="trm-label">
+                Profile:
+            </div>
+            <div class="trm-label trm-label-light">
+                QuadroGraphics<br>2014-2024
+            </div>
+        </li>
+    
+</ul>
+<!-- info end -->
+
+        
+    </div>
+</div>
+                    <!-- main card end -->
+                </div>
+            
+            <div class="trm-page-content col-lg-8">
+                <div id="trm-content" class="trm-content">
+                    <div class="trm-post-info row hidden-sm">
+    <div class="col-sm-4">
+        <div class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-calendar-alt trm-icon"></i><br>
+            04/28
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-clock trm-icon"></i><br>
+            00:00
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div id="post-author" class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-user trm-icon"></i><br>
+            かじ
+        </div>
+    </div>
+</div>
+<div class="trm-card ">
+    <article id="article-container" class="trm-publication">
+    <h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
+<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
+<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
+</ul>
+<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a target="_blank" rel="noopener" href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
+　</p>
+<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
+<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
+<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
+　</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li><p>ODED MAOZ ERELL’S CG LOG<br><a target="_blank" rel="noopener" href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
+
+</article>
+    
+    
+
+</div>
+<div class="trm-post-next-prev row">
+    <div class="col-lg-12">
+        <!-- title -->
+        <h5 class="trm-title-with-divider">
+            Other Articles
+            <span data-number="02"></span>
+        </h5>
+    </div>
+    
+    
+        <div class="col-lg-6">
+    <div class="trm-blog-card trm-scroll-animation">
+        <a href="/2024/04/23/cg/blender/b3d-cg-stretchmesh/" class="trm-cover-frame trm-anima-link">
+            
+            
+                <img alt="cover" class="no-fancybox" src="/img/covers/cg-b3d-stretchmesh.png">
+            
+        </a>
+        
+        <div class="trm-card-descr">
+            <div class="trm-label trm-category trm-mb-20">
+                <a href=" /categories/3DCG/">
+                    3DCG
+                </a>
+            </div>
+            <h5>
+                <a href="/2024/04/23/cg/blender/b3d-cg-stretchmesh/" class="trm-anima-link">
+                    UVマップを変形させずにオブジェクトを編集する方法 | Blender
+                </a>
+            </h5>
+            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+            <ul class="trm-card-data trm-label">
+                <li>24/04/23</li>
+                <li>00:00</li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+    
+</div>
+
+    
+
+
+
+                    <div class="trm-divider footer-divider"></div>
+
+                    <!-- footer -->
+                    <div>
+    <a class="twitter-timeline" target="_blank" rel="noopener" href="https://twitter.com/QuadroGraphics?ref_src=twsrc%5Etfw" data-height="600">Tweets by QuadroGraphics</a> 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br>
+    <br>
+    <footer class="trm-scroll-animation trm-active-el">
+
+    
+
+    
+        <div class="trm-footer-item">
+            <span>© 2024- 2024</span>
+            <span class="footer-separator" data-separator=" · "></span>
+            <span class="trm-accent-color">Kaji/Quadro</span>
+        </div>
+    
+
+    
+        <div class="trm-footer-item">
+            <span>
+                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.1.1
+            </span>
+            <span class="footer-separator" data-separator=" | "></span>
+            <span> 
+                Theme - 
+                <a rel="noopener" href="https://github.com/MaLuns/hexo-theme-async" target="_blank">Async</a>
+                v2.1.14
+            </span>
+        </div>
+          
+        <div >
+            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+     
+</footer>
+</div>
+                    <!-- footer end -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- body end -->
+
+            
+
+            
+<div class="trm-fixed-container">
+    
+    
+        <div class="trm-fixed-btn" data-title="Read Mode" onclick="asyncFun.switchReadMode()">
+            <i class="iconfont fas fa-book-reader"></i>
+        </div>
+    
+    
+    <div id="trm-back-top" class="trm-fixed-btn" data-title="Back To Top">
+        <i class="iconfont fas fa-arrow-up"></i>
+    </div>
+</div>
+        </div>
+      </div>
+      <!-- scroll container end -->
+  </div>
+  <!-- app wrapper end -->
+
+  
+  <!-- Plugin -->
+
+
+
+
+    
+    
+<script src="https://unpkg.com/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    
+<script src="https://unpkg.com/swiper@4.5.1/dist/js/swiper.min.js"></script>
+
+
+    
+        <script src="/js/plugins/typing.js?v=2.1.14"></script>
+    
+
+    
+
+    <!-- 数学公式 -->
+    
+
+    <!-- 评论插件 -->
+    
+        
+
+        
+    
+
+		
+
+
+
+
+    <!-- Service Worker -->
+    
+    <!-- baidu push -->
+    
+
+
+<script id="async-script" src="/js/main.js?v=2.1.14"></script>
+
+<!-- CDN -->
+
+
+    
+
+    
+
+    
+
+
+
+</body>
+
+</html>
