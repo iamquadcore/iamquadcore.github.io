@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://iamquadcore.github.io/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,28 +129,28 @@
   
   <url>
     <loc>https://iamquadcore.github.io/tags/CG%E9%9B%91%E8%AB%87/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/Blender/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/CG-Chat-CG%E9%9B%91%E8%AB%87/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/UE5/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -158,15 +158,15 @@
 
   
   <url>
-    <loc>https://iamquadcore.github.io/categories/%E9%9B%91%E8%AB%87-Chat/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <loc>https://iamquadcore.github.io/categories/3DCG/</loc>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://iamquadcore.github.io/categories/3DCG/</loc>
-    <lastmod>2024-04-30</lastmod>
+    <loc>https://iamquadcore.github.io/categories/%E9%9B%91%E8%AB%87-Chat/</loc>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
