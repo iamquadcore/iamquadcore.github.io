@@ -13,10 +13,9 @@ https://iamquadcore.github.io/categories/index.html
 https://iamquadcore.github.io/2024/02/19/cg/lobby-b3d/
 https://iamquadcore.github.io/2024/02/16/chat/1/
 https://iamquadcore.github.io/
-https://iamquadcore.github.io/tags/CG%E9%9B%91%E8%AB%87/
+https://iamquadcore.github.io/tags/CG-Chat/
 https://iamquadcore.github.io/tags/Blender/
-https://iamquadcore.github.io/tags/CG-Chat-CG%E9%9B%91%E8%AB%87/
 https://iamquadcore.github.io/tags/UE5/
 https://iamquadcore.github.io/tags/Unity/
-https://iamquadcore.github.io/categories/%E9%9B%91%E8%AB%87-Chat/
 https://iamquadcore.github.io/categories/3DCG/
+https://iamquadcore.github.io/categories/Chat/
