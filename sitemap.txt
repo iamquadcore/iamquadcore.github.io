@@ -1,13 +1,14 @@
+https://iamquadcore.github.io/2024/05/19/cg/blender/cg-b3d-250ffix/
+https://iamquadcore.github.io/links/index.html
+https://iamquadcore.github.io/about/index.html
+https://iamquadcore.github.io/404.html
 https://iamquadcore.github.io/2024/05/02/cg/unity/cg-unity-huberror/
 https://iamquadcore.github.io/2024/04/28/cg/chat/cg-chat-IES/
 https://iamquadcore.github.io/2024/04/23/cg/blender/b3d-cg-stretchmesh/
 https://iamquadcore.github.io/2024/04/21/cg/blender/cg-b3d-compnodeview/
 https://iamquadcore.github.io/2024/04/18/cg/ue5/cg-ue5-hdri/
 https://iamquadcore.github.io/2024/04/11/cg/blender/cg-b3d-hdri/
-https://iamquadcore.github.io/about/index.html
 https://iamquadcore.github.io/2024/04/06/cg/blender/cg-b3d-viewport/
-https://iamquadcore.github.io/404.html
-https://iamquadcore.github.io/links/index.html
 https://iamquadcore.github.io/tags/index.html
 https://iamquadcore.github.io/categories/index.html
 https://iamquadcore.github.io/2024/02/19/cg/lobby-b3d/
@@ -17,5 +18,5 @@ https://iamquadcore.github.io/tags/CG-Chat/
 https://iamquadcore.github.io/tags/Blender/
 https://iamquadcore.github.io/tags/UE5/
 https://iamquadcore.github.io/tags/Unity/
-https://iamquadcore.github.io/categories/3DCG/
 https://iamquadcore.github.io/categories/Chat/
+https://iamquadcore.github.io/categories/3DCG/
