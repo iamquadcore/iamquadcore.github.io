@@ -1,0 +1,37 @@
+.var-primary(@primary: #afb42b; @primary-weak: #c0ca33) {
+    --primary: @primary;
+    --primary-70: fade(@primary, 70%);
+    --primary-50: fade(@primary, 50%);
+    --primary-30: fade(@primary, 30%);
+    --primary-weak: @primary-weak;
+    --primary-weak-50: fade(@primary-weak, 50%);
+}
+
+:root {
+    .var-primary(#92ce60, #69e279);
+
+    &.dark {
+        .var-primary(#92ce60, #dfd87a);
+    }
+}
+
+:root.dark {
+    --body-color: #deffde;
+    --body-color-5: rgba(209, 233, 211, 0.05);
+    --body-bg-color: #222222;
+    --theme-color: #ffffff;
+    --theme-bg-color: #487448ce;
+    --theme-bg-color-80: rgba(98, 173, 108, 0.8);
+    --theme-bg2-color: #1d2c1e;
+    --card-cover-bg-color: #163818;
+    --tabele-thead-bg-color: #5266543d;
+    --tabele-thead-border-color: #ffffff1c;
+    --tab-border-color: #0d3113;
+    --tab-botton-bg-color: rgb(40, 59, 43);
+    --tab-botton-color: #dedee0;
+    --tab-button-hover-bg-color: #004617;
+    --tab-button-active-bg-color: #043808;
+    --fixed-button-bg-color: #065417;
+    --selection-bg-color: #f1f1f1;
+    --selection-color: #1f3d1f;
+}

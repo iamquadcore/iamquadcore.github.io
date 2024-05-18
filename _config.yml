@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: かじ/Quadroのぼんやりつぶやき
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
+description: 'かじ/Quadroのぼんやりつぶやき CG/映像/ゲーム/雑談'
+keywords: かじ/Quadroのぼんやりつぶやき
+author: かじ
 language: en
-timezone: ''
+timezone: 'Japan'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://iamquadcore.github.io
+url: https://iamquadcore.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -65,9 +65,8 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+default_category: 
+category_map: 
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -78,9 +77,9 @@ meta_generator: true
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+time_format: 
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -104,3 +103,7 @@ deploy:
   type: git
   repo: https://github.com/iamquadcore/iamquadcore.github.io
   branch: gh-pages
+
+linkPreview:
+  className: sample
+  descriptionLength: 6
