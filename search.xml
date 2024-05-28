@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>自己紹介</title>
-    <url>/2024/02/16/chat/1/</url>
-    <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
-　</p>
-<h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>　<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやっています。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
-　</p>
-<h2 id="創作について"><a href="#創作について" class="headerlink" title="創作について"></a>創作について</h2><p>具体的にどんなもの作ってるの？という話ですが、私はCGメインのショートムービー的な何かだったり、ボカロ系の二次創作MVを作ったりしています。<br>　<br>できることとしては簡単なモデリング、モーショングラフィックス、VFX、動画編集、Edit(FPS動画にあるサブジャンルです)なんかですね。<br>昔はDTMちょっとかじったり、実況動画作ってました。<br>　<br>↓過去作</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ApCLCnKt84k?si=TNqRSU0UxGqQ7ofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-　
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uFpdU-W8DIo?si=RqUWdvkD-eBPqQNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-　
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D7DuXtYqTR8?si=bQTq4c-g3R7h0MZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-　
-
-<h2 id="ブログを立ち上げたきっかけ"><a href="#ブログを立ち上げたきっかけ" class="headerlink" title="ブログを立ち上げたきっかけ"></a>ブログを立ち上げたきっかけ</h2><p>私がCGや映像を始めてからたくさんの時間が流れて、以前から蓄えた知識を整理する時間が必要になってきていました。<br>　　<br>詳しいことはまた今度書きますが、何かに書き出して知識を保管することを今までやってこなかったので、とりあえずでDiscordサーバーに殴り書きをしてみたんです。<br>そしたら思いの外楽しくて、より一層見やすく、編集しやすく、ついでに外部に共有できればいいな、という感じで友人に助けられながらGitHub Pagesにたどり着きました。<br>　<br><a href="https://twitter.com/ft_vrc">Tuna</a>ありがとう！</p>
-<p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
-]]></content>
-      <categories>
-        <category>Chat</category>
-      </categories>
-  </entry>
-  <entry>
     <title>3DCGカテゴリーの目的</title>
     <url>/2024/02/19/cg/lobby-b3d/</url>
     <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
@@ -52,6 +30,61 @@
       <tags>
         <tag>CG_Chat</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>自己紹介</title>
+    <url>/2024/02/16/chat/1/</url>
+    <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
+　</p>
+<h2 id="何してる人"><a href="#何してる人" class="headerlink" title="何してる人"></a>何してる人</h2><p>2014年からSNSを始めて、細々と動画制作に関する何かしらをやったり、ゲームに関するつぶやきをしている人です。<br>　<br>普段は趣味でCG触ったり、それを使って創作してYoutubeだったりTwitter(新X)に載せています。<br>　<br>ゲームも好きで、 <strong>Minecraft</strong>、<strong>Terraria</strong>、<strong>ARK:Survival Evolved</strong> みたいなサバイバルアクション系のゲームだったり、<strong>Escape From Tarkov</strong>や、<strong>Apex Legends</strong> 等のFPSをよくやっています。<br>PCゲーム以外にはレトロゲームも好きで、昔からゲーム実況見たり実機を買って触ったりしています。<br>このジャンルの好きなゲームだと<strong>初代ゼルダの伝説</strong>、<strong>星のカービィ夢の泉物語</strong>、<strong>スーパーマリオブラザーズワールド</strong>が特に好きです。 
+　</p>
+<h2 id="創作について"><a href="#創作について" class="headerlink" title="創作について"></a>創作について</h2><p>具体的にどんなもの作ってるの？という話ですが、私はCGメインのショートムービー的な何かだったり、ボカロ系の二次創作MVを作ったりしています。<br>　<br>できることとしては簡単なモデリング、モーショングラフィックス、VFX、動画編集、Edit(FPS動画にあるサブジャンルです)なんかですね。<br>昔はDTMちょっとかじったり、実況動画作ってました。<br>　<br>↓過去作</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ApCLCnKt84k?si=TNqRSU0UxGqQ7ofE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+　
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uFpdU-W8DIo?si=RqUWdvkD-eBPqQNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+　
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D7DuXtYqTR8?si=bQTq4c-g3R7h0MZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+　
+
+<h2 id="ブログを立ち上げたきっかけ"><a href="#ブログを立ち上げたきっかけ" class="headerlink" title="ブログを立ち上げたきっかけ"></a>ブログを立ち上げたきっかけ</h2><p>私がCGや映像を始めてからたくさんの時間が流れて、以前から蓄えた知識を整理する時間が必要になってきていました。<br>　　<br>詳しいことはまた今度書きますが、何かに書き出して知識を保管することを今までやってこなかったので、とりあえずでDiscordサーバーに殴り書きをしてみたんです。<br>そしたら思いの外楽しくて、より一層見やすく、編集しやすく、ついでに外部に共有できればいいな、という感じで友人に助けられながらGitHub Pagesにたどり着きました。<br>　<br><a href="https://twitter.com/ft_vrc">Tuna</a>ありがとう！</p>
+<p>彼は古い友人で創作もしてるので覗いてみてください。っ<a href="https://soundcloud.com/ftnd">SoundCloud</a></p>
+]]></content>
+      <categories>
+        <category>Chat</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話【失敗談】</title>
+    <url>/2024/05/28/chat/chat-failure/</url>
+    <content><![CDATA[<h1 id="ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話"><a href="#ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話" class="headerlink" title="ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話"></a>ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話</h1><p>先日久しぶりにブログの管理面でやらかしたので、思い出として書いてみようと思います。<br>特に盛大なオチもなく、ただただポンコツなエピソードって感じです。<br>　<br>私は普段CGや映像を趣味で作ったり、PCゲームをプレイしたりしている者です。<br>いわゆるIT分野には相当疎いので、言葉のチョイスが間違っていたり、分かりづらい言い回しが含まれるかもしれませんが、ご了承ください。<br>また、問題の解決を目的とした記事ではありませんので悪しからず。</p>
+<dev>
+<img width="400" src="/2024/05/28/chat/chat-failure/Image0.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+</dev>
+　
+*雑談カテゴリーは他と比べてまだ浅いので書き方が安定しない場合があります。
+
+<h2 id="事の始まり"><a href="#事の始まり" class="headerlink" title="事の始まり"></a>事の始まり</h2><p>「このブログ、まるごとバックアップ取りてぇなぁ！？」<br>　<br>そう思ったのが事の始まりでした。<br>　<br>まず初めに、当ブログは静的サイトジェネレーター<strong>Hexo</strong>と、サイトホスティングサービス<strong>Github Pages</strong>を用いて運営されています。<br>私はこのブログを始めると同時にGitについて触り始めました。<br>正直この記事を書いている今も扱い方が曖昧で、時折友人のTuna君に使い方を尋ねながら進めています。<br>夏が終わるまでには使い方をマスターして自立しようと計画は立てているものの、現状は素人といった感じです。<br>そしてその計画が完了するまでの間、何か分かりやすい簡単なものでローカル環境のバックアップを取りたいなと思ったんです。<br>　<br>ここでこう思う方もいると思います（前述の通り疎い分野なので本当にそう思われるかは分かりません）。<br>「そもそもGithub Pagesなんだから公開のタイミングでプッシュされて残るんじゃないの？」<br>　<br>私も最初そう思っていました。<br><dev><br><img width="400" src="/2024/05/28/chat/chat-failure/Image0_5.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br></dev><br>　<br>が、しかし、私のブログではサイトジェネレーターを使用しています。<br>つまり、ユーザーが書いたMarkdown形式のテキストと、予めプログラムされたテーマを元に.htmlのページを生成して、その上でコミット＆プッシュするため、Github(Git)上のブログが置かれているブランチの中身と手元のフォルダの中身が違います<del>(解釈合ってるのかな)</del>。<br>　<br>長くなりましたが、こういった流れで手元の環境を保管しておきたいと思ったんです。<br>この短い期間に一回やらかしてWindowsのバックアップ機能に救われた経験もあったので尚更(´・ω・｀)</p>
+<h2 id="悪夢フェーズ"><a href="#悪夢フェーズ" class="headerlink" title="悪夢フェーズ"></a>悪夢フェーズ</h2><p>色々あって結局クラウドと同期して様子見しようということになりました。<br>そこそこ容量があって、ユーザーも多くて、操作慣れしてるものを考えた時、最初にGoogleDriveが浮かびました。<br>私は一ヶ月前に、git reset hardコマンドをMainブランチに実行してファイルをすっ飛ばしたトラウマを抱えており、焦って深く考えず行動に移しました。<br>　<br>Hexoのデータが入っているフォルダをバックアップ対象として設定！<br>「やっと落ち着けるぜ」<br>　<br>そして偽りの安心を抱きかかえながらこの記事を書いてました。<br><img width="300" src="/2024/05/28/chat/chat-failure/Image1.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　<br>よし、Deployだ！<br>　<br>..?<br>　<br>ファイル権限エラー…?</p>
+<img width="400" src="/2024/05/28/chat/chat-failure/Image2.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Error: EPERM: operation not permitted</span><br></pre></td></tr></table></figure>
+<p>みたいなのが書かれていたと思います。<br>焦りすぎてスクリーンショットとか色々残すことに気が回らなかった…。<br>　<br>少し落ち着いて、恐らく同期が原因でファイルを動かせなくなったんだろうなと察しました。<br>どうやら最初の文言では、Hexoで変換&amp;生成したhtmlファイルを置いておくpublicフォルダがロックされているとのこと。<br>　<br>もっと細かく見てみると、どうやらpublicフォルダをリセットするhexo cleanコマンドを実行してファイルを削除した時、ゴミ箱にいったはずの物がクラウドから引っ張られてしまって復活している様子。<br>　<br>つまり、新たにdeployコマンドで生成したものと、引っ張られて復活してしまったものが衝突してエラーを吐いていたみたい。<br>　<br>このままでは、大元のmarkdownや画像を収納しているsourceフォルダ内のアイテムも移動した時、事故ってしまうので一旦同期を停止。<br>クラウドから引っ張ってきてしまったpublic内のフォルダ達も掃除して、とりあえず原因の一つは解決できました。</p>
+<h2 id="悪夢フェーズその２"><a href="#悪夢フェーズその２" class="headerlink" title="悪夢フェーズその２"></a>悪夢フェーズその２</h2><p>よし、再度実行！
+　</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Error: EPERM: operation not permitted</span><br></pre></td></tr></table></figure>
+
+<p>！？<br>　<br>今度はpublicフォルダではなく、Github Pagesに送る中身を置いている.deploy_gitフォルダでした。<br>中身を覗いてみると、またもや引っ張ってきたと思われる空のフォルダが詰まっていました。<br>　<br>さっきと同じ要領で、<br>オーーールデリーーート<br><dev><br><img width="400" src="/2024/05/28/chat/chat-failure/Image3.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br></dev><br>　<br>…<br>　<br>..<br>　<br>今度はサイトが表示されなくなりました。<br>　<br>(´；ω；｀)<br>　<br>当時だいぶ夜遅くに作業していて集中力が低下してたのもあって、なんと.gitフォルダまで消し飛ばしてしまったのです。<br>gitでファイルを扱う上で必要な情報が詰まったフォルダをやっちまったので、そりゃそうなりますね。<br>　<br>一瞬顔面蒼白になりましたが、過去の反省からWindows側で削除する時は手動バックアップを取るようにしていたので一瞬で解決。<br>　<br>文章だとあっという間に感じますが、結構グダグダな作業をそこそこ時間かけてやってました。</p>
+<h2 id="まとめ＆反省点"><a href="#まとめ＆反省点" class="headerlink" title="まとめ＆反省点"></a>まとめ＆反省点</h2><p>gitの管理化にあるファイルをクラウドで同期してしまうと、意図しない挙動を見せることがあると分かったので、今後は慎重に扱おうと思いました。<br>　<br>直接gitが関係しているディレクトリは他に触れさせないこと、勉強になりました。<br>(¯―¯٥)</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>ブログが始まって1ヶ月半ほどで3回ほどサ終しかけるというね。<br>毎回程々に絶望してるので、早く諸々の扱いに慣れたいです。</p>
+<dev>
+<img width="300" src="/2024/05/28/chat/chat-failure/Image4.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+</dev>
+
+<p>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>Chat</category>
+      </categories>
   </entry>
   <entry>
     <title>UVマップを変形させずにオブジェクトを編集する方法 | Blender</title>
@@ -119,30 +152,6 @@
 <li>Blender 4.1 Reference Manual<br><a href="https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html">Scene Properties(外部リンク)</a></li>
 </ul>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>自分がモデリングでClothシミュレーションを使うときはそのままモディファイアとして適応するし、開始位置を変える必要もないので、映像でSoftbodyを使って紙くずを飛ばす演出を作る時にちょっと戸惑いました。<br>　<br>本編と関係ない雑談シリーズですが、栄養失調みたいなもので体調が最悪な状態になってました。<br>ブログに書き残すことがCGのモチベになりつつあるので、今日からまた頑張ろうと思いますー。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>コンポジターでレンダー結果を表示するあれこれ | Blender</title>
-    <url>/2024/04/21/cg/blender/cg-b3d-compnodeview/</url>
-    <content><![CDATA[<h1 id="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"><a href="#コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作" class="headerlink" title="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"></a>コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作</h1><p>個人的に地味に忘れがちなやつだったのでメモとして置いときます(´・ω・｀)<br>　<br>Blenderでレンダー結果に手を加える時に必須の操作です。</p>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.1<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:なし</p>
-<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>コンポジター(Compositor)のプレビューはレンダー結果を元にするので、まずはレンダリングをします。<br>　　<br>次に適当な窓から切り替えるか、上のタブからコンポジターを表示します。<br><img width="300" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<br>
-続いて背景(Backdrop)を有効化、ビューアー(Viewer)ノードを出して、レンダー結果をプレビュー画面に繋ぎます。
-<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>V : 縮小<br>Alt+V : 拡大<br>Alt+ホイールクリック+ドラッグ : 移動</p>
-<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>また、横のViewタブからも調整できます。</p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -231,6 +240,74 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </categories>
       <tags>
         <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>コンポジターでレンダー結果を表示するあれこれ | Blender</title>
+    <url>/2024/04/21/cg/blender/cg-b3d-compnodeview/</url>
+    <content><![CDATA[<h1 id="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"><a href="#コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作" class="headerlink" title="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"></a>コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作</h1><p>個人的に地味に忘れがちなやつだったのでメモとして置いときます(´・ω・｀)<br>　<br>Blenderでレンダー結果に手を加える時に必須の操作です。</p>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.1<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:なし</p>
+<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>コンポジター(Compositor)のプレビューはレンダー結果を元にするので、まずはレンダリングをします。<br>　　<br>次に適当な窓から切り替えるか、上のタブからコンポジターを表示します。<br><img width="300" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<br>
+続いて背景(Backdrop)を有効化、ビューアー(Viewer)ノードを出して、レンダー結果をプレビュー画面に繋ぎます。
+<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>V : 縮小<br>Alt+V : 拡大<br>Alt+ホイールクリック+ドラッグ : 移動</p>
+<img width="700" src="/2024/04/21/cg/blender/cg-b3d-compnodeview/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>また、横のViewタブからも調整できます。</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IES Lightのすゝめ | CG雑談</title>
+    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
+    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
+<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
+<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
+<ul>
+<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
+</ul>
+<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
+　</p>
+<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
+<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
+<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
+　</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>CG_Chat</tag>
       </tags>
   </entry>
   <entry>
@@ -354,50 +431,6 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </categories>
       <tags>
         <tag>UE5</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IES Lightのすゝめ | CG雑談</title>
-    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
-    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
-<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
-<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
-<ul>
-<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
-</ul>
-<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
-　</p>
-<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
-<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
-<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
-　</p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
-<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
-</li>
-<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
-</li>
-<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
-</li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>CG_Chat</tag>
       </tags>
   </entry>
   <entry>

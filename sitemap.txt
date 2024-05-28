@@ -1,3 +1,4 @@
+https://iamquadcore.github.io/2024/05/28/chat/chat-failure/
 https://iamquadcore.github.io/2024/05/19/cg/blender/cg-b3d-250ffix/
 https://iamquadcore.github.io/links/index.html
 https://iamquadcore.github.io/about/index.html
@@ -18,5 +19,5 @@ https://iamquadcore.github.io/tags/CG-Chat/
 https://iamquadcore.github.io/tags/Blender/
 https://iamquadcore.github.io/tags/UE5/
 https://iamquadcore.github.io/tags/Unity/
-https://iamquadcore.github.io/categories/Chat/
 https://iamquadcore.github.io/categories/3DCG/
+https://iamquadcore.github.io/categories/Chat/

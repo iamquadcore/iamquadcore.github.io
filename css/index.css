@@ -3371,6 +3371,7 @@ figure.highlight .code-expand-btn:not(.expand-done) ~ pre,
 figure.highlight .code-expand-btn:not(.expand-done) ~ table {
   margin-bottom: 0;
   overflow: hidden;
+  height: 200px;
 }
 figure.highlight .code-expand-btn svg {
   margin: 0;
@@ -3474,82 +3475,6 @@ figure.highlight .code-expand-btn svg {
 .highlight td {
   border: none !important;
   padding: 0 !important;
-}
-pre {
-  overflow: initial;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
-}
-pre code {
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
-  background: none;
-  text-shadow: none;
-  padding: 0;
-}
-pre .addition {
-  color: var(--highlight-addition) !important;
-}
-pre .deletion {
-  color: var(--highlight-deletion) !important;
-}
-pre .comment {
-  color: var(--highlight-comment);
-}
-pre .attr,
-pre .property,
-pre .tag .attr,
-pre .javascript .function {
-  color: var(--highlight-purple) !important;
-}
-pre .tag,
-pre .title,
-pre .keyword,
-pre .css .hexcolor {
-  color: var(--highlight-aqua) !important;
-}
-pre .variable,
-pre .attribute,
-pre .regexp,
-pre .ruby .constant,
-pre .xml .tag .title,
-pre .xml .pi,
-pre .xml .doctype,
-pre .html .doctype,
-pre .css .id,
-pre .tag .name,
-pre .css .class,
-pre .css .pseudo {
-  color: var(--highlight-red) !important;
-}
-pre .number,
-pre .preprocessor,
-pre .literal,
-pre .params,
-pre .constant {
-  color: var(--highlight-orange) !important;
-}
-pre .built_in {
-  color: var(--highlight-yellow) !important;
-}
-pre .class,
-pre .ruby .class .title,
-pre .css .rules .attribute,
-pre .string,
-pre .value,
-pre .inheritance,
-pre .header,
-pre .ruby .symbol,
-pre .xml .cdata {
-  color: var(--highlight-green) !important;
-}
-pre .function,
-pre .python .decorator,
-pre .python .title,
-pre .ruby .function .title,
-pre .ruby .title .keyword,
-pre .perl .sub,
-pre .javascript .title,
-pre .coffeescript .title {
-  color: var(--highlight-blue) !important;
 }
 .trm-fixed-container {
   position: fixed;
