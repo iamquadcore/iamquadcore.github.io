@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://iamquadcore.github.io/2024/07/06/cg/blender/cg-b3d-editingemission/</loc>
+    
+    <lastmod>2024-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://iamquadcore.github.io/2024/05/28/chat/chat-failure/</loc>
     
     <lastmod>2024-05-27</lastmod>
@@ -148,7 +157,7 @@
 
   <url>
     <loc>https://iamquadcore.github.io/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -156,28 +165,28 @@
   
   <url>
     <loc>https://iamquadcore.github.io/tags/CG-Chat/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/Blender/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/UE5/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/Unity/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -185,15 +194,15 @@
 
   
   <url>
-    <loc>https://iamquadcore.github.io/categories/3DCG/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <loc>https://iamquadcore.github.io/categories/Chat/</loc>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://iamquadcore.github.io/categories/Chat/</loc>
-    <lastmod>2024-05-28</lastmod>
+    <loc>https://iamquadcore.github.io/categories/3DCG/</loc>
+    <lastmod>2024-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
