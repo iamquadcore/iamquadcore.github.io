@@ -20,5 +20,5 @@ https://iamquadcore.github.io/tags/CG-Chat/
 https://iamquadcore.github.io/tags/Blender/
 https://iamquadcore.github.io/tags/UE5/
 https://iamquadcore.github.io/tags/Unity/
-https://iamquadcore.github.io/categories/3DCG/
 https://iamquadcore.github.io/categories/Chat/
+https://iamquadcore.github.io/categories/3DCG/
