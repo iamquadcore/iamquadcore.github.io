@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>3DCGカテゴリーの目的</title>
+    <url>/2024/02/19/cg/lobby-b3d/</url>
+    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
+　　</p>
+<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
+　　</p>
+<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
+<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
+<li>Aviutl</li>
+<li>After Effects</li>
+<li>Premiere Pro(浅め)</li>
+<li>Hitfilm Express</li>
+<li>DaVinchi Resolve(浅め)</li>
+<li>Sony Vegas(挫折)</li>
+</ul>
+<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
+<li>Blender</li>
+<li>Unreal Engine 5(浅め)</li>
+<li>Unity (浅め)</li>
+<li>Cinema 4D</li>
+<li>Maya(挫折)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>CG_Chat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自己紹介</title>
     <url>/2024/02/16/chat/1/</url>
     <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
@@ -56,28 +87,41 @@
       </categories>
   </entry>
   <entry>
-    <title>3DCGカテゴリーの目的</title>
-    <url>/2024/02/19/cg/lobby-b3d/</url>
-    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
-　　</p>
-<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
-　　</p>
-<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
-<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
-<li>Aviutl</li>
-<li>After Effects</li>
-<li>Premiere Pro(浅め)</li>
-<li>Hitfilm Express</li>
-<li>DaVinchi Resolve(浅め)</li>
-<li>Sony Vegas(挫折)</li>
+    <title>IES Lightのすゝめ | CG雑談</title>
+    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
+    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
+<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
+<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
 </ul>
-<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
-<li>Blender</li>
-<li>Unreal Engine 5(浅め)</li>
-<li>Unity (浅め)</li>
-<li>Cinema 4D</li>
-<li>Maya(挫折)</li>
+</li>
 </ul>
+<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
+<ul>
+<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
+</ul>
+<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
+　</p>
+<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
+<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
+<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
+　</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -115,48 +159,6 @@
 <p>すでに展開済みのUVマップを元にしてくれるみたいなので、延長線上にないある辺をいきなり押し出しするとダメみたいです。<br>　<br>最初の画像の押し出した側面とかが例ですね。</p>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Blenderでループテクスチャを使ってモデリングする自分にとっては結構便利な機能だと思いました。<br>　<br>雑に撮ったやつですが、綺麗に展開してくれてますね。<br><img width="500" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>終盤ミスに気づいてちょっと手を加えたりする時に役立ちました。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Emissionノードを少しグレードアップさせるあれこれ | Blender</title>
-    <url>/2024/07/06/cg/blender/cg-b3d-editingemission/</url>
-    <content><![CDATA[<h1 id="Emission-放射-ノードを少しグレードアップさせるあれこれ"><a href="#Emission-放射-ノードを少しグレードアップさせるあれこれ" class="headerlink" title="Emission(放射)ノードを少しグレードアップさせるあれこれ"></a>Emission(放射)ノードを少しグレードアップさせるあれこれ</h1><p>今回は、電球などを目的とした放射ノードにリアルタイムなグラデーションを施し、少しばかりきれいに見せる方法を見つけました。<br>　<br>Cyclesの放射ノードは単調になりがちですが、比較的簡単、尚且つ他にも応用できそうなものなのでメモとして残しておきます。</p>
-<p>こんな感じのものが<br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>こうなります。<br><img width="330" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>※完全なオリジナルではなく、ある方の動画で使われていたノードを自分なりに改良したものです。<br> <a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a> に乗せてます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
-<li><a href="#%E6%89%8B%E9%A0%861-%E5%BF%85%E8%A6%81%E3%81%AA%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E7%94%A8%E6%84%8F">手順1. 必要なノードの用意</a></li>
-<li><a href="#%E6%89%8B%E9%A0%862-%E5%90%84%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">手順2. 各ノードの設定</a></li>
-<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:EeveeではCyclesのような挙動が見られませんでした。</p>
-<h2 id="手順1-必要なノードの用意"><a href="#手順1-必要なノードの用意" class="headerlink" title="手順1. 必要なノードの用意"></a>手順1. 必要なノードの用意</h2><p>必要なノードは画像の通りです。</p>
-<img width="800" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>・Principled BSDF(ベースになります)<br>・Emission(放射ノード)<br>・Mixノード（混ぜ混ぜ）<br>・ColorRamp(しきい値調整要員)<br>・LayerWeight(本日のメイン)</p>
-<h2 id="手順2-各ノードの設定"><a href="#手順2-各ノードの設定" class="headerlink" title="手順2. 各ノードの設定"></a>手順2. 各ノードの設定</h2><p><strong>1.&nbsp;&nbsp;Principled BSDF</strong></p>
-<p>こいつにはガラス感を担ってもらいます。<br>　<br>まずRoughness(粗さ)を0にします。</p>
-<p>続いてマテリアルタブから、Blend ModeをAlpha Blendに、Shadow ModeをAlpha Hashedに変更します。<br><img width="550" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image4.jpg" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>(この画像は後付で4.1で撮影したものになります。)</p>
-<p><strong>2.&nbsp;&nbsp;LayerWeight</strong></p>
-<p>Mixシェーダーを”混ぜる”ノードだとすると、LayerWeightノードは”混ぜ方”を決めるものになります。<br>Blendという項目を調整して、２つのシェーダーを混ぜる加減を調整します。<br>今回は0.2にしました。</p>
-<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>LayerWeightは、カメラ(自分の視点)の角度を元に値を振り分けてくれるノードです。<br>Blender Manualでは”シェーダーをレイヤー化してくれるもの”と説明されていますね。<br>今回は放射させるノードに半透明なノードを混ぜることで多少のグラデーションを付けています。<br>　<br>「LayerWeightで混ぜ方を決めて、混ざる範囲(しきい値)をColorRampで調整、Mixノードで２つのシェーダーを混ぜる」<br>といった流れで処理していますね。<br>　<br>これにVolumeノードなどを組み合わせてBloom感を加えると非常に綺麗なオブジェクトになります。<br>記事の最後にそれらを組み合わせて使っている様子を載せておきますね。</p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
-<li>Blender 4.1 Manual<br><a href="https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html">Layer Weight Node(外部リンク)</a></li>
-<li>Youtube<br><a href="https://youtu.be/_kXXOsUGAQ4?si=kYkfRV-ztVuxznGC">Making a Light Bulb in Blender(外部リンク)</a></li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回のノードに加えて、自作のガラス風マテリアルと組み合わせた照明を置いておきます。<br><del>モデル自体はTutorialを見て作ったものですが</del><br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　<br>結構味があって気に入ってます( ﾟ∀ﾟ)<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -218,6 +220,98 @@
 
 <p>また、横のViewタブからも調整できます。</p>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Emissionノードを少しグレードアップさせるあれこれ | Blender</title>
+    <url>/2024/07/06/cg/blender/cg-b3d-editingemission/</url>
+    <content><![CDATA[<h1 id="Emission-放射-ノードを少しグレードアップさせるあれこれ"><a href="#Emission-放射-ノードを少しグレードアップさせるあれこれ" class="headerlink" title="Emission(放射)ノードを少しグレードアップさせるあれこれ"></a>Emission(放射)ノードを少しグレードアップさせるあれこれ</h1><p>今回は、電球などを目的とした放射ノードにリアルタイムなグラデーションを施し、少しばかりきれいに見せる方法を見つけました。<br>　<br>Cyclesの放射ノードは単調になりがちですが、比較的簡単、尚且つ他にも応用できそうなものなのでメモとして残しておきます。</p>
+<p>こんな感じのものが<br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>こうなります。<br><img width="330" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>※完全なオリジナルではなく、ある方の動画で使われていたノードを自分なりに改良したものです。<br> <a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a> に乗せてます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#%E6%89%8B%E9%A0%861-%E5%BF%85%E8%A6%81%E3%81%AA%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E7%94%A8%E6%84%8F">手順1. 必要なノードの用意</a></li>
+<li><a href="#%E6%89%8B%E9%A0%862-%E5%90%84%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">手順2. 各ノードの設定</a></li>
+<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:EeveeではCyclesのような挙動が見られませんでした。</p>
+<h2 id="手順1-必要なノードの用意"><a href="#手順1-必要なノードの用意" class="headerlink" title="手順1. 必要なノードの用意"></a>手順1. 必要なノードの用意</h2><p>必要なノードは画像の通りです。</p>
+<img width="800" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>・Principled BSDF(ベースになります)<br>・Emission(放射ノード)<br>・Mixノード（混ぜ混ぜ）<br>・ColorRamp(しきい値調整要員)<br>・LayerWeight(本日のメイン)</p>
+<h2 id="手順2-各ノードの設定"><a href="#手順2-各ノードの設定" class="headerlink" title="手順2. 各ノードの設定"></a>手順2. 各ノードの設定</h2><p><strong>1.&nbsp;&nbsp;Principled BSDF</strong></p>
+<p>こいつにはガラス感を担ってもらいます。<br>　<br>まずRoughness(粗さ)を0にします。</p>
+<p>続いてマテリアルタブから、Blend ModeをAlpha Blendに、Shadow ModeをAlpha Hashedに変更します。<br><img width="550" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image4.jpg" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>(この画像は後付で4.1で撮影したものになります。)</p>
+<p><strong>2.&nbsp;&nbsp;LayerWeight</strong></p>
+<p>Mixシェーダーを”混ぜる”ノードだとすると、LayerWeightノードは”混ぜ方”を決めるものになります。<br>Blendという項目を調整して、２つのシェーダーを混ぜる加減を調整します。<br>今回は0.2にしました。</p>
+<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>LayerWeightは、カメラ(自分の視点)の角度を元に値を振り分けてくれるノードです。<br>Blender Manualでは”シェーダーをレイヤー化してくれるもの”と説明されていますね。<br>今回は放射させるノードに半透明なノードを混ぜることで多少のグラデーションを付けています。<br>　<br>「LayerWeightで混ぜ方を決めて、混ざる範囲(しきい値)をColorRampで調整、Mixノードで２つのシェーダーを混ぜる」<br>といった流れで処理していますね。<br>　<br>これにVolumeノードなどを組み合わせてBloom感を加えると非常に綺麗なオブジェクトになります。<br>記事の最後にそれらを組み合わせて使っている様子を載せておきますね。</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li>Blender 4.1 Manual<br><a href="https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html">Layer Weight Node(外部リンク)</a></li>
+<li>Youtube<br><a href="https://youtu.be/_kXXOsUGAQ4?si=kYkfRV-ztVuxznGC">Making a Light Bulb in Blender(外部リンク)</a></li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回のノードに加えて、自作のガラス風マテリアルと組み合わせた照明を置いておきます。<br><del>モデル自体はTutorialを見て作ったものですが</del><br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　<br>結構味があって気に入ってます( ﾟ∀ﾟ)<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>個人的見やすい3D Viewの設定とか | Blender</title>
+    <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
+    <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#Solid%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Solidモードの設定</a></li>
+<li><a href="#Render%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Renderモードの設定</a></li>
+<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
+<h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
+<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+　　
+
+<p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
+<details><summary>余談</summary>
+
+<p>ここに用意されているHDRIは</p>
+<p><strong>“インストール先\Blender [version]\ [version] \datafiles\studiolights\world”</strong></p>
+<p>に収納されているみたいです。<br>(自分の環境の場合 “インストール先\Blender 4.0\4.0\ ~” となります。)</p>
+</details>
+
+<h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
+<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -309,97 +403,24 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </tags>
   </entry>
   <entry>
-    <title>個人的見やすい3D Viewの設定とか | Blender</title>
-    <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
-    <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
+    <title>アップデート後のUnity Hubが起動しない問題の雑対処法 | Unity</title>
+    <url>/2024/05/02/cg/unity/cg-unity-huberror/</url>
+    <content><![CDATA[<h1 id="アップデート後のUnity-Hubが起動しない問題の雑対処法"><a href="#アップデート後のUnity-Hubが起動しない問題の雑対処法" class="headerlink" title="アップデート後のUnity Hubが起動しない問題の雑対処法"></a>アップデート後のUnity Hubが起動しない問題の雑対処法</h1><p>2024年4月24日の3.8.0アップデートをした後のUnity Hubを起動すると、表示されないままタスクにとどまり続ける現象が発生しました。<br>タスクマネージャーから切っても最後の一個だけ残り続けて、再起動しても改善はしませんでした。<br>　<br>結論としては、Unity Hubのインストーラーから上書きをするような形で再インストールして解決しました。<br>Unity自体ではなくHubなので秒で終わりました。<br>　<br>もしかしてHub内からのアップデートだとうまくいかんのですかね。<br>自分は次回もダメだったらインストーラーでやることにします。<br>　<br>その後ログイン状態含め何も影響なく使えましたが、一応<strong>自己責任</strong>でお願いいたします。</p>
 <ul>
-<li>目次<ul>
-<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
-<li><a href="#Solid%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Solidモードの設定</a></li>
-<li><a href="#Render%E3%83%A2%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">Renderモードの設定</a></li>
-<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+<li>環境<ul>
+<li>OS: Windows 11 Home</li>
+<li>Version: 23H2</li>
+<li>RAM: 32.0GB</li>
 </ul>
 </li>
 </ul>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
-<h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
-<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-　　
-
-<p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
-<details><summary>余談</summary>
-
-<p>ここに用意されているHDRIは</p>
-<p><strong>“インストール先\Blender [version]\ [version] \datafiles\studiolights\world”</strong></p>
-<p>に収納されているみたいです。<br>(自分の環境の場合 “インストール先\Blender 4.0\4.0\ ~” となります。)</p>
-</details>
-
-<h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
-<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>とりあえず再発はしなかったっぽいので解決ということにしておこうかなと。<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
       </categories>
       <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IES Lightのすゝめ | CG雑談</title>
-    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
-    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
-<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
-<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
-<ul>
-<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
-</ul>
-<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
-　</p>
-<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
-<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
-<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
-　</p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
-<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
-</li>
-<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
-</li>
-<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
-</li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>CG_Chat</tag>
+        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
@@ -473,27 +494,6 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </categories>
       <tags>
         <tag>UE5</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>アップデート後のUnity Hubが起動しない問題の雑対処法 | Unity</title>
-    <url>/2024/05/02/cg/unity/cg-unity-huberror/</url>
-    <content><![CDATA[<h1 id="アップデート後のUnity-Hubが起動しない問題の雑対処法"><a href="#アップデート後のUnity-Hubが起動しない問題の雑対処法" class="headerlink" title="アップデート後のUnity Hubが起動しない問題の雑対処法"></a>アップデート後のUnity Hubが起動しない問題の雑対処法</h1><p>2024年4月24日の3.8.0アップデートをした後のUnity Hubを起動すると、表示されないままタスクにとどまり続ける現象が発生しました。<br>タスクマネージャーから切っても最後の一個だけ残り続けて、再起動しても改善はしませんでした。<br>　<br>結論としては、Unity Hubのインストーラーから上書きをするような形で再インストールして解決しました。<br>Unity自体ではなくHubなので秒で終わりました。<br>　<br>もしかしてHub内からのアップデートだとうまくいかんのですかね。<br>自分は次回もダメだったらインストーラーでやることにします。<br>　<br>その後ログイン状態含め何も影響なく使えましたが、一応<strong>自己責任</strong>でお願いいたします。</p>
-<ul>
-<li>環境<ul>
-<li>OS: Windows 11 Home</li>
-<li>Version: 23H2</li>
-<li>RAM: 32.0GB</li>
-</ul>
-</li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>とりあえず再発はしなかったっぽいので解決ということにしておこうかなと。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Unity</tag>
       </tags>
   </entry>
 </search>
