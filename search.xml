@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>3DCGカテゴリーの目的</title>
+    <url>/2024/02/19/cg/lobby-b3d/</url>
+    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
+　　</p>
+<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
+　　</p>
+<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
+<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
+<li>Aviutl</li>
+<li>After Effects</li>
+<li>Premiere Pro(浅め)</li>
+<li>Hitfilm Express</li>
+<li>DaVinchi Resolve(浅め)</li>
+<li>Sony Vegas(挫折)</li>
+</ul>
+<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
+<li>Blender</li>
+<li>Unreal Engine 5(浅め)</li>
+<li>Unity (浅め)</li>
+<li>Cinema 4D</li>
+<li>Maya(挫折)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>CG_Chat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自己紹介</title>
     <url>/2024/02/16/chat/1/</url>
     <content><![CDATA[<h1 id="はじめまして"><a href="#はじめまして" class="headerlink" title="はじめまして"></a>はじめまして</h1><p>　<br>初めましての方は初めまして、既に知ってくださっている方はいつもお世話になっております。<br>　<br>名前は<strong>かじ</strong>と言います。<strong>Quadro</strong>は私のクリエイター名義になります。<br>周りからは「かじくん」、「かじさん」、「かじ」とか呼ばれてますね、もうそのまんま。<br>　<br>年齢は探せば出てくるとは思いますが、今はあまり言ってません。<br>成人はしています。
@@ -56,34 +87,40 @@
       </categories>
   </entry>
   <entry>
-    <title>3DCGカテゴリーの目的</title>
-    <url>/2024/02/19/cg/lobby-b3d/</url>
-    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
-　　</p>
-<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
-　　</p>
-<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
-<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
-<li>Aviutl</li>
-<li>After Effects</li>
-<li>Premiere Pro(浅め)</li>
-<li>Hitfilm Express</li>
-<li>DaVinchi Resolve(浅め)</li>
-<li>Sony Vegas(挫折)</li>
-</ul>
-<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
-<li>Blender</li>
-<li>Unreal Engine 5(浅め)</li>
-<li>Unity (浅め)</li>
-<li>Cinema 4D</li>
-<li>Maya(挫折)</li>
-</ul>
+    <title>UVマップを変形させずにオブジェクトを編集する方法 | Blender</title>
+    <url>/2024/04/23/cg/blender/b3d-cg-stretchmesh/</url>
+    <content><![CDATA[<h1 id="UVマップを変形させずにオブジェクトを編集する方法"><a href="#UVマップを変形させずにオブジェクトを編集する方法" class="headerlink" title="UVマップを変形させずにオブジェクトを編集する方法"></a>UVマップを変形させずにオブジェクトを編集する方法</h1><p>通常、押し出し(Extrude)や面を引き伸ばす時に適応したUVも引き伸びます。<br>今回はその伸縮や変形を回避する方法になります。<br>主にループテクスチャを使っているときに有効です。</p>
+<div class="image">
+  <div>
+    <ul>
+        <dd><img width="300" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image2.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="300" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image1.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+    </ul>
+    <style>
+        .image > div {
+          ul {
+            display: flex;
+            justify-content: center;
+            }
+        }
+    </style>
+  </div>
+</div>
+
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:4.1でも問題なくできます。</p>
+<h2 id="設定方法"><a href="#設定方法" class="headerlink" title="設定方法"></a>設定方法</h2><p>編集したいオブジェクトを選択してEditモードに切り替えます。<br>　<br>そのまま3D Viewの右上にあるOptionから<strong>面の属性を修正(Correct Face Attributes)</strong> にチェックを入れます。<br><img width="350" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>これで完了です。<br>　<br>押し出しだけでなく移動による面の引き伸ばしにも適応されます。</p>
+<img width="500" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>すでに展開済みのUVマップを元にしてくれるみたいなので、延長線上にないある辺をいきなり押し出しするとダメみたいです。<br>　<br>最初の画像の押し出した側面とかが例ですね。</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Blenderでループテクスチャを使ってモデリングする自分にとっては結構便利な機能だと思いました。<br>　<br>雑に撮ったやつですが、綺麗に展開してくれてますね。<br><img width="500" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>終盤ミスに気づいてちょっと手を加えたりする時に役立ちました。<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
       </categories>
       <tags>
-        <tag>CG_Chat</tag>
+        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -124,43 +161,6 @@
       </tags>
   </entry>
   <entry>
-    <title>UVマップを変形させずにオブジェクトを編集する方法 | Blender</title>
-    <url>/2024/04/23/cg/blender/b3d-cg-stretchmesh/</url>
-    <content><![CDATA[<h1 id="UVマップを変形させずにオブジェクトを編集する方法"><a href="#UVマップを変形させずにオブジェクトを編集する方法" class="headerlink" title="UVマップを変形させずにオブジェクトを編集する方法"></a>UVマップを変形させずにオブジェクトを編集する方法</h1><p>通常、押し出し(Extrude)や面を引き伸ばす時に適応したUVも引き伸びます。<br>今回はその伸縮や変形を回避する方法になります。<br>主にループテクスチャを使っているときに有効です。</p>
-<div class="image">
-  <div>
-    <ul>
-        <dd><img width="300" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image2.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-        <dd><img width="300" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image1.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-    </ul>
-    <style>
-        .image > div {
-          ul {
-            display: flex;
-            justify-content: center;
-            }
-        }
-    </style>
-  </div>
-</div>
-
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:4.1でも問題なくできます。</p>
-<h2 id="設定方法"><a href="#設定方法" class="headerlink" title="設定方法"></a>設定方法</h2><p>編集したいオブジェクトを選択してEditモードに切り替えます。<br>　<br>そのまま3D Viewの右上にあるOptionから<strong>面の属性を修正(Correct Face Attributes)</strong> にチェックを入れます。<br><img width="350" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>これで完了です。<br>　<br>押し出しだけでなく移動による面の引き伸ばしにも適応されます。</p>
-<img width="500" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>すでに展開済みのUVマップを元にしてくれるみたいなので、延長線上にないある辺をいきなり押し出しするとダメみたいです。<br>　<br>最初の画像の押し出した側面とかが例ですね。</p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Blenderでループテクスチャを使ってモデリングする自分にとっては結構便利な機能だと思いました。<br>　<br>雑に撮ったやつですが、綺麗に展開してくれてますね。<br><img width="500" src="/2024/04/23/cg/blender/b3d-cg-stretchmesh/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>終盤ミスに気づいてちょっと手を加えたりする時に役立ちました。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>コンポジターでレンダー結果を表示するあれこれ | Blender</title>
     <url>/2024/04/21/cg/blender/cg-b3d-compnodeview/</url>
     <content><![CDATA[<h1 id="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"><a href="#コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作" class="headerlink" title="コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作"></a>コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作</h1><p>個人的に地味に忘れがちなやつだったのでメモとして置いときます(´・ω・｀)<br>　<br>Blenderでレンダー結果に手を加える時に必須の操作です。</p>
@@ -176,48 +176,6 @@
 
 <p>また、横のViewタブからも調整できます。</p>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>コンポジットではレンダリング時に深度を抽出してそれを元に後ろをぼかしたり、<br>ノードで後からデノイズしたりと単純な加工以外にも色々できるので、この機能は必須知識です。<br>　<br>が、自分は過去３回程Viewerノードを繋げないと映らないことを忘れたので書きました。<br>　　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Emissionノードを少しグレードアップさせるあれこれ | Blender</title>
-    <url>/2024/07/06/cg/blender/cg-b3d-editingemission/</url>
-    <content><![CDATA[<h1 id="Emission-放射-ノードを少しグレードアップさせるあれこれ"><a href="#Emission-放射-ノードを少しグレードアップさせるあれこれ" class="headerlink" title="Emission(放射)ノードを少しグレードアップさせるあれこれ"></a>Emission(放射)ノードを少しグレードアップさせるあれこれ</h1><p>今回は、電球などを目的とした放射ノードにリアルタイムなグラデーションを施し、少しばかりきれいに見せる方法を見つけました。<br>　<br>Cyclesの放射ノードは単調になりがちですが、比較的簡単、尚且つ他にも応用できそうなものなのでメモとして残しておきます。</p>
-<p>こんな感じのものが<br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>こうなります。<br><img width="330" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>※完全なオリジナルではなく、ある方の動画で使われていたノードを自分なりに改良したものです。<br> <a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a> に乗せてます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
-<li><a href="#%E6%89%8B%E9%A0%861-%E5%BF%85%E8%A6%81%E3%81%AA%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E7%94%A8%E6%84%8F">手順1. 必要なノードの用意</a></li>
-<li><a href="#%E6%89%8B%E9%A0%862-%E5%90%84%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">手順2. 各ノードの設定</a></li>
-<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:EeveeではCyclesのような挙動が見られませんでした。</p>
-<h2 id="手順1-必要なノードの用意"><a href="#手順1-必要なノードの用意" class="headerlink" title="手順1. 必要なノードの用意"></a>手順1. 必要なノードの用意</h2><p>必要なノードは画像の通りです。</p>
-<img width="800" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>・Principled BSDF(ベースになります)<br>・Emission(放射ノード)<br>・Mixノード（混ぜ混ぜ）<br>・ColorRamp(しきい値調整要員)<br>・LayerWeight(本日のメイン)</p>
-<h2 id="手順2-各ノードの設定"><a href="#手順2-各ノードの設定" class="headerlink" title="手順2. 各ノードの設定"></a>手順2. 各ノードの設定</h2><p><strong>1.&nbsp;&nbsp;Principled BSDF</strong></p>
-<p>こいつにはガラス感を担ってもらいます。<br>　<br>まずRoughness(粗さ)を0にします。</p>
-<p>続いてマテリアルタブから、Blend ModeをAlpha Blendに、Shadow ModeをAlpha Hashedに変更します。<br><img width="550" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image4.jpg" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>(この画像は後付で4.1で撮影したものになります。)</p>
-<p><strong>2.&nbsp;&nbsp;LayerWeight</strong></p>
-<p>Mixシェーダーを”混ぜる”ノードだとすると、LayerWeightノードは”混ぜ方”を決めるものになります。<br>Blendという項目を調整して、２つのシェーダーを混ぜる加減を調整します。<br>今回は0.2にしました。</p>
-<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>LayerWeightは、カメラ(自分の視点)の角度を元に値を振り分けてくれるノードです。<br>Blender Manualでは”シェーダーをレイヤー化してくれるもの”と説明されていますね。<br>今回は放射させるノードに半透明なノードを混ぜることで多少のグラデーションを付けています。<br>　<br>「LayerWeightで混ぜ方を決めて、混ざる範囲(しきい値)をColorRampで調整、Mixノードで２つのシェーダーを混ぜる」<br>といった流れで処理していますね。<br>　<br>これにVolumeノードなどを組み合わせてBloom感を加えると非常に綺麗なオブジェクトになります。<br>記事の最後にそれらを組み合わせて使っている様子を載せておきますね。</p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
-<li>Blender 4.1 Manual<br><a href="https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html">Layer Weight Node(外部リンク)</a></li>
-<li>Youtube<br><a href="https://youtu.be/_kXXOsUGAQ4?si=kYkfRV-ztVuxznGC">Making a Light Bulb in Blender(外部リンク)</a></li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回のノードに加えて、自作のガラス風マテリアルと組み合わせた照明を置いておきます。<br><del>モデル自体はTutorialを見て作ったものですが</del><br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　<br>結構味があって気に入ってます( ﾟ∀ﾟ)<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -300,6 +258,48 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <li>YouTube<br><a href="https://youtu.be/o7q7O5RuE6s?si=1i-VJo4atig6wWlA">Make Your Own HDRI in Blender 3.0(外部リンク)</a></li>
 </ul>
 <h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回だいぶ長くなってしまったのですが、その分自分も勉強になりました。<br>exrは作ることよりもその後の扱いのほうが難しいみたいですね。<br>　　<br>本編とは関係ない雑談ですが、最近寒暖差に体が追いつきません。<br>あと、花見行こうかなと思った前日に土砂降りかまされました。<br>閲覧頂きありがとうございました。<br>　　<br>(追記)<br>桜無事見れました。最高</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Emissionノードを少しグレードアップさせるあれこれ | Blender</title>
+    <url>/2024/07/06/cg/blender/cg-b3d-editingemission/</url>
+    <content><![CDATA[<h1 id="Emission-放射-ノードを少しグレードアップさせるあれこれ"><a href="#Emission-放射-ノードを少しグレードアップさせるあれこれ" class="headerlink" title="Emission(放射)ノードを少しグレードアップさせるあれこれ"></a>Emission(放射)ノードを少しグレードアップさせるあれこれ</h1><p>今回は、電球などを目的とした放射ノードにリアルタイムなグラデーションを施し、少しばかりきれいに見せる方法を見つけました。<br>　<br>Cyclesの放射ノードは単調になりがちですが、比較的簡単、尚且つ他にも応用できそうなものなのでメモとして残しておきます。</p>
+<p>こんな感じのものが<br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>こうなります。<br><img width="330" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>※完全なオリジナルではなく、ある方の動画で使われていたノードを自分なりに改良したものです。<br> <a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a> に乗せてます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E5%89%8D%E6%8F%90">前提</a></li>
+<li><a href="#%E6%89%8B%E9%A0%861-%E5%BF%85%E8%A6%81%E3%81%AA%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E7%94%A8%E6%84%8F">手順1. 必要なノードの用意</a></li>
+<li><a href="#%E6%89%8B%E9%A0%862-%E5%90%84%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A">手順2. 各ノードの設定</a></li>
+<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles<br>・言語:英語<br>・その他:EeveeではCyclesのような挙動が見られませんでした。</p>
+<h2 id="手順1-必要なノードの用意"><a href="#手順1-必要なノードの用意" class="headerlink" title="手順1. 必要なノードの用意"></a>手順1. 必要なノードの用意</h2><p>必要なノードは画像の通りです。</p>
+<img width="800" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<p>・Principled BSDF(ベースになります)<br>・Emission(放射ノード)<br>・Mixノード（混ぜ混ぜ）<br>・ColorRamp(しきい値調整要員)<br>・LayerWeight(本日のメイン)</p>
+<h2 id="手順2-各ノードの設定"><a href="#手順2-各ノードの設定" class="headerlink" title="手順2. 各ノードの設定"></a>手順2. 各ノードの設定</h2><p><strong>1.&nbsp;&nbsp;Principled BSDF</strong></p>
+<p>こいつにはガラス感を担ってもらいます。<br>　<br>まずRoughness(粗さ)を0にします。</p>
+<p>続いてマテリアルタブから、Blend ModeをAlpha Blendに、Shadow ModeをAlpha Hashedに変更します。<br><img width="550" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image4.jpg" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>(この画像は後付で4.1で撮影したものになります。)</p>
+<p><strong>2.&nbsp;&nbsp;LayerWeight</strong></p>
+<p>Mixシェーダーを”混ぜる”ノードだとすると、LayerWeightノードは”混ぜ方”を決めるものになります。<br>Blendという項目を調整して、２つのシェーダーを混ぜる加減を調整します。<br>今回は0.2にしました。</p>
+<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>LayerWeightは、カメラ(自分の視点)の角度を元に値を振り分けてくれるノードです。<br>Blender Manualでは”シェーダーをレイヤー化してくれるもの”と説明されていますね。<br>今回は放射させるノードに半透明なノードを混ぜることで多少のグラデーションを付けています。<br>　<br>「LayerWeightで混ぜ方を決めて、混ざる範囲(しきい値)をColorRampで調整、Mixノードで２つのシェーダーを混ぜる」<br>といった流れで処理していますね。<br>　<br>これにVolumeノードなどを組み合わせてBloom感を加えると非常に綺麗なオブジェクトになります。<br>記事の最後にそれらを組み合わせて使っている様子を載せておきますね。</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li>Blender 4.1 Manual<br><a href="https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html">Layer Weight Node(外部リンク)</a></li>
+<li>Youtube<br><a href="https://youtu.be/_kXXOsUGAQ4?si=kYkfRV-ztVuxznGC">Making a Light Bulb in Blender(外部リンク)</a></li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今回のノードに加えて、自作のガラス風マテリアルと組み合わせた照明を置いておきます。<br><del>モデル自体はTutorialを見て作ったものですが</del><br><img width="300" src="/2024/07/06/cg/blender/cg-b3d-editingemission/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　<br>結構味があって気に入ってます( ﾟ∀ﾟ)<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -403,6 +403,90 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </tags>
   </entry>
   <entry>
+    <title>Blender 4.2.xアップデート時に混乱困惑しまくった話| CG雑談</title>
+    <url>/2024/10/15/cg/chat/cg-chat-4-2update/</url>
+    <content><![CDATA[<h1 id="アップデート作業してたら気付かず使っていた仕様が発覚"><a href="#アップデート作業してたら気付かず使っていた仕様が発覚" class="headerlink" title="アップデート作業してたら気付かず使っていた仕様が発覚"></a>アップデート作業してたら気付かず使っていた仕様が発覚</h1><ul>
+<li>目次<ul>
+<li><a href="#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E4%BD%9C%E6%A5%AD%E3%81%97%E3%81%A6%E3%81%9F%E3%82%89%E6%B0%97%E4%BB%98%E3%81%8B%E3%81%9A%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E4%BB%95%E6%A7%98%E3%81%8C%E7%99%BA%E8%A6%9A">アップデート作業してたら気付かず使っていた仕様が発覚</a></li>
+<li><a href="#%E3%81%98%E3%82%83%E3%81%82%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E4%BB%A5%E9%99%8D%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%E3%81%AE%EF%BC%9F">じゃあ今回のバージョン以降はどうするの？</a></li>
+<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<p>とある日、Blender 4.2への移行作業をしていた時にトラブル発生。<br>正直今回の出来事はほとんどの人には当てはらまないと思うので、雑談メインな感じでタグもCG雑談ということにしておきます。<br>　<br>事の流れを書く前に、前提として私はBlenderのアップデートを手動で行っています。<br>何がきっかけでそうやるようになったのか、昔の出来事なのではっきりとは覚えてはいませんが、何らかのトラブルが原因で手動でファイルを上書き、移動することでアップデートを重ねてきました。<br>具体的には、ConfigフォルダとAddonが入ったフォルダを新しいバージョンにコピペして動かしていました。<br>　<br>しかし、今回の4.2のバージョンフォルダーを開くと、ファイル構成が大きく変わっているわけではありませんか。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">インストール先:\Blender Foundation\Blender 4.x\4.x</span><br></pre></td></tr></table></figure>
+
+<div class="image">
+  <div>
+    <ul>
+        <dd><img width="300" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image1.png" title="Image1" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="300" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image2.png" title="Image2" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+    </ul>
+    <style>
+        .image > div {
+          ul {
+            display: flex;
+            justify-content: center;
+            }
+        }
+    </style>
+  </div>
+</div>
+
+<p>今回の4.2でアドオンの導入や管理に変更が加えられたので、extentionsは置いといて、<br><strong>configフォルダが、ない！！</strong><br>　<br>configフォルダの行方を探すべく、我々は…と冗談を吐く余裕もないくらい当時は長引く予感がして若干萎え始めていました。<br>　<br>なんだかんだ情報を集め、友人にも相談した結果、とある事実が発覚。<br>　<br><strong>そもそもconfigフォルダがあるのがおかしい</strong><br>　<br>ずっと継ぎ足し継ぎ足し使ってきたBlenderのファイル構成が、いつのまにか我流なものに置き換わっていたらしい。<br>どうやら、4.1までは本来インストーラー版特有の場所に設置されるものを、バージョンフォルダの中に突っ込んでも読み込まれていたらしい。<br>　<br>つまり、知らないうちにインストーラー版を使いながらも勝手にポータブル化していたという。<br>恥ずかしい話、インストーラ版は本来この構成で、ポータブル版への切り替えという仕様がある事自体も知りませんでした…。</p>
+<div>
+<details><summary>ポータブル版とは</summary>
+Blenderにはインストーラー(Installer)版とポータブル(Portable)版が存在します。<br>
+インストーラー版はPC内部にユーザー設定を作って、その導入されたPC限定で運用する形式です。<br>
+対して、ポータブル版は設定を含めたほとんどのフォルダを一箇所に留めて、他の環境にコピペしても使えるような状態で運用する形式です。<br>
+インストーラー版でも、いくつかの手順を踏むことでポータブル化することができます。<br>
+</div>
+
+<h2 id="じゃあ今回のバージョン以降はどうするの？"><a href="#じゃあ今回のバージョン以降はどうするの？" class="headerlink" title="じゃあ今回のバージョン以降はどうするの？"></a>じゃあ今回のバージョン以降はどうするの？</h2><p>正直、configフォルダなどの本来あるべき場所が分かったので、ポータブル化はもう必要ないと言えば必要ないんです。<br>が、やはり自分が指定したインストール先だけで完結する方がスッキリするので、今回はすでにインストールしてしまった4.2を新しい方法でポータブル化してみることにしました。<br>　<br>方法は簡単で、Blender 4.2がインストールされたフォルダ内で”portable”という新規フォルダーを作成するだけです。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">インストール先:\Blender Foundation\Blender 4.2\portable</span><br></pre></td></tr></table></figure>
+<p>　<br>するとあら不思議、起動するだけで中にConfigや、新しいアドオンの管理フォルダが生成されます。<br>　<br>その中のconfigフォルダに、今まで使っていたバージョンのものを上書きすると設定を引き継げます。<br>見つからないアドオンは結局手動で対応することになるみたいです。<br>extentionsフォルダ内でコピペ等々試行錯誤してみましたが、旧バージョンのアドオンは読み込まれませんでした。<br>どっちにしろ更新作業は必要でしたし、何が足りていないのか表示されるだけでも助かりますね。</p>
+<div>
+<img width="800" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image3.png" title="Image3" class="img-left" loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+</div>
+
+<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>正直今回のアップデートで手間が増えた上に、そもそもアドオンの管理も複雑になったので、次回のアップデートからは素直にポータブル版を落として使おうと思います。</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li>Blender 4.2 Manual(英)<br><a href="https://docs.blender.org/manual/en/4.2/advanced/blender_directory_layout.html#portable-installation">Blender’s Directory Layout(外部リンク)</a></li>
+<li>Blender.jp(日)<br><a href="https://www.blender.jp/install#-6">ユーザーデータの保存場所とポータブル版への変更(外部リンク)</a></li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>色々ありまして数カ月ぶりの更新となりました。<br>何か突発的なトラブルが起こらない限り、このブログが終了する時が決まったら明言しておこうと決めているので、今後ものんびりマイペースに更新していきたいと思います。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>CG_Chat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>アップデート後のUnity Hubが起動しない問題の雑対処法 | Unity</title>
+    <url>/2024/05/02/cg/unity/cg-unity-huberror/</url>
+    <content><![CDATA[<h1 id="アップデート後のUnity-Hubが起動しない問題の雑対処法"><a href="#アップデート後のUnity-Hubが起動しない問題の雑対処法" class="headerlink" title="アップデート後のUnity Hubが起動しない問題の雑対処法"></a>アップデート後のUnity Hubが起動しない問題の雑対処法</h1><p>2024年4月24日の3.8.0アップデートをした後のUnity Hubを起動すると、表示されないままタスクにとどまり続ける現象が発生しました。<br>タスクマネージャーから切っても最後の一個だけ残り続けて、再起動しても改善はしませんでした。<br>　<br>結論としては、Unity Hubのインストーラーから上書きをするような形で再インストールして解決しました。<br>Unity自体ではなくHubなので秒で終わりました。<br>　<br>もしかしてHub内からのアップデートだとうまくいかんのですかね。<br>自分は次回もダメだったらインストーラーでやることにします。<br>　<br>その後ログイン状態含め何も影響なく使えましたが、一応<strong>自己責任</strong>でお願いいたします。</p>
+<ul>
+<li>環境<ul>
+<li>OS: Windows 11 Home</li>
+<li>Version: 23H2</li>
+<li>RAM: 32.0GB</li>
+</ul>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>とりあえず再発はしなかったっぽいので解決ということにしておこうかなと。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UE5でHDRIを適応するときの手順メモ | Unreal Engine 5</title>
     <url>/2024/04/18/cg/ue5/cg-ue5-hdri/</url>
     <content><![CDATA[<h1 id="UE5でHDRIを適応するときの手順"><a href="#UE5でHDRIを適応するときの手順" class="headerlink" title="UE5でHDRIを適応するときの手順"></a>UE5でHDRIを適応するときの手順</h1><p>前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。<br>この際に色々なソフトで読み込ませてテストをしていたのですが、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。<br>　<br>(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)</p>
@@ -473,27 +557,6 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </categories>
       <tags>
         <tag>UE5</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>アップデート後のUnity Hubが起動しない問題の雑対処法 | Unity</title>
-    <url>/2024/05/02/cg/unity/cg-unity-huberror/</url>
-    <content><![CDATA[<h1 id="アップデート後のUnity-Hubが起動しない問題の雑対処法"><a href="#アップデート後のUnity-Hubが起動しない問題の雑対処法" class="headerlink" title="アップデート後のUnity Hubが起動しない問題の雑対処法"></a>アップデート後のUnity Hubが起動しない問題の雑対処法</h1><p>2024年4月24日の3.8.0アップデートをした後のUnity Hubを起動すると、表示されないままタスクにとどまり続ける現象が発生しました。<br>タスクマネージャーから切っても最後の一個だけ残り続けて、再起動しても改善はしませんでした。<br>　<br>結論としては、Unity Hubのインストーラーから上書きをするような形で再インストールして解決しました。<br>Unity自体ではなくHubなので秒で終わりました。<br>　<br>もしかしてHub内からのアップデートだとうまくいかんのですかね。<br>自分は次回もダメだったらインストーラーでやることにします。<br>　<br>その後ログイン状態含め何も影響なく使えましたが、一応<strong>自己責任</strong>でお願いいたします。</p>
-<ul>
-<li>環境<ul>
-<li>OS: Windows 11 Home</li>
-<li>Version: 23H2</li>
-<li>RAM: 32.0GB</li>
-</ul>
-</li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>とりあえず再発はしなかったっぽいので解決ということにしておこうかなと。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Unity</tag>
       </tags>
   </entry>
 </search>
