@@ -118,3 +118,11 @@ about:
   blog: 
   privacy: 
 
+highlight:
+    theme: false
+    title: default
+    copy: true
+    lang: true
+    code_word_wrap: fasle
+    height_limit: 200
+

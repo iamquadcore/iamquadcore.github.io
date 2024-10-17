@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/banners/cg-chat-IES.jpg
     bannerText: 
-og_image: img/covers/cg-chat-IES.jpg
 ---
 # IES Lightのすゝめ
 **「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」**

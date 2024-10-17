@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/banners/cg-b3d-hdri.png
     bannerText: 
-Thumbnail: img/covers/cg-ue5-hdri.png
 ---
 # UE5でHDRIを適応するときの手順
 前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。

@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/banners/cg-b3d-compnodeview.png
     bannerText: 
-Thumbnail: img/covers/cg-b3d-compnodeview.png
 ---
 # コンポジター（コンポジットノード）でレンダー結果を表示する設定と操作
 

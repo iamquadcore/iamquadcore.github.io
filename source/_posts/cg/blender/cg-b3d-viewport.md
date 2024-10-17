@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/banners/cg-b3d-viewport.png
     bannerText: 
-Thumbnail: img/covers/cg-b3d-viewport2.png
 ---
 # ビューポートの設定周りの軽い解説(メモ)
 どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。

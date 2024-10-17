@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/mainimages/good bye to a world small.png
     bannerText: 
-Thumbnail: img/covers/cg-b3d-stretchmesh.png
 ---
 # UVマップを変形させずにオブジェクトを編集する方法
 通常、押し出し(Extrude)や面を引き伸ばす時に適応したUVも引き伸びます。

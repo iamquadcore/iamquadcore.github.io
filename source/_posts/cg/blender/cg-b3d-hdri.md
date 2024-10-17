@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/banners/cg-b3d-hdri.png
     bannerText: 
-Thumbnail: img/covers/cg-b3d-hdri2.png
 ---
 # Worldを環境テクスチャ(EXRファイル&HDRファイル)にする方法
 

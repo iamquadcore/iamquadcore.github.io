@@ -8,7 +8,6 @@ banner:
     type: img
     bgurl: img/banners/cg-b3d-250ffix.png
     bannerText: 
-Thumbnail: img/covers/cg-b3d-250ffix.png
 ---
 # 物理演算が250フレームで止まる時の対処法+演算開始地点の変更方法
 250フレーム以降で演算処理が止まる時の対処法と、演算の開始地点を変更するときの方法です。
