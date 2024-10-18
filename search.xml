@@ -482,6 +482,27 @@ Blenderにはインストーラー(Installer)版とポータブル(Portable)版�
       </tags>
   </entry>
   <entry>
+    <title>アップデート後のUnity Hubが起動しない問題の雑対処法 | Unity</title>
+    <url>/2024/05/02/cg/unity/cg-unity-huberror/</url>
+    <content><![CDATA[<h1 id="アップデート後のUnity-Hubが起動しない問題の雑対処法"><a href="#アップデート後のUnity-Hubが起動しない問題の雑対処法" class="headerlink" title="アップデート後のUnity Hubが起動しない問題の雑対処法"></a>アップデート後のUnity Hubが起動しない問題の雑対処法</h1><p>2024年4月24日の3.8.0アップデートをした後のUnity Hubを起動すると、表示されないままタスクにとどまり続ける現象が発生しました。<br>タスクマネージャーから切っても最後の一個だけ残り続けて、再起動しても改善はしませんでした。<br>　<br>結論としては、Unity Hubのインストーラーから上書きをするような形で再インストールして解決しました。<br>Unity自体ではなくHubなので秒で終わりました。<br>　<br>もしかしてHub内からのアップデートだとうまくいかんのですかね。<br>自分は次回もダメだったらインストーラーでやることにします。<br>　<br>その後ログイン状態含め何も影響なく使えましたが、一応<strong>自己責任</strong>でお願いいたします。</p>
+<ul>
+<li>環境<ul>
+<li>OS: Windows 11 Home</li>
+<li>Version: 23H2</li>
+<li>RAM: 32.0GB</li>
+</ul>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>とりあえず再発はしなかったっぽいので解決ということにしておこうかなと。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UE5でHDRIを適応するときの手順メモ | Unreal Engine 5</title>
     <url>/2024/04/18/cg/ue5/cg-ue5-hdri/</url>
     <content><![CDATA[<h1 id="UE5でHDRIを適応するときの手順"><a href="#UE5でHDRIを適応するときの手順" class="headerlink" title="UE5でHDRIを適応するときの手順"></a>UE5でHDRIを適応するときの手順</h1><p>前回は、Blenderで作成したWorldをEXR形式のイメージテクスチャにしました。<br>この際に色々なソフトで読み込ませてテストをしていたのですが、UE5は少し手順を踏まないと綺麗に表示されなかったため、メモに残しておこうと思いました。<br>　<br>(自分はUE初心者なので拙い内容だとは思いますがご容赦ください)</p>
@@ -552,27 +573,6 @@ Blenderにはインストーラー(Installer)版とポータブル(Portable)版�
       </categories>
       <tags>
         <tag>UE5</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>アップデート後のUnity Hubが起動しない問題の雑対処法 | Unity</title>
-    <url>/2024/05/02/cg/unity/cg-unity-huberror/</url>
-    <content><![CDATA[<h1 id="アップデート後のUnity-Hubが起動しない問題の雑対処法"><a href="#アップデート後のUnity-Hubが起動しない問題の雑対処法" class="headerlink" title="アップデート後のUnity Hubが起動しない問題の雑対処法"></a>アップデート後のUnity Hubが起動しない問題の雑対処法</h1><p>2024年4月24日の3.8.0アップデートをした後のUnity Hubを起動すると、表示されないままタスクにとどまり続ける現象が発生しました。<br>タスクマネージャーから切っても最後の一個だけ残り続けて、再起動しても改善はしませんでした。<br>　<br>結論としては、Unity Hubのインストーラーから上書きをするような形で再インストールして解決しました。<br>Unity自体ではなくHubなので秒で終わりました。<br>　<br>もしかしてHub内からのアップデートだとうまくいかんのですかね。<br>自分は次回もダメだったらインストーラーでやることにします。<br>　<br>その後ログイン状態含め何も影響なく使えましたが、一応<strong>自己責任</strong>でお願いいたします。</p>
-<ul>
-<li>環境<ul>
-<li>OS: Windows 11 Home</li>
-<li>Version: 23H2</li>
-<li>RAM: 32.0GB</li>
-</ul>
-</li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>とりあえず再発はしなかったっぽいので解決ということにしておこうかなと。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Unity</tag>
       </tags>
   </entry>
 </search>
