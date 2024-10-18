@@ -7,17 +7,6 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://www.quadro1375.com/">
-<meta property="og:type" content="website">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="quadro1375.com">
-<meta property="twitter:url" content="https://www.quadro1375.com/">
-<meta name="twitter:image" content="https://www.quadro1375.com/img/404.jpg">
-
 <meta name="description" content="物理演算が250フレームで止まる時の対処法+演算開始地点の変更方法250フレーム以降で演算処理が止まる時の対処法と、演算の開始地点を変更するときの方法です。　プロジェクトの途中に紙吹雪などの長めの演算を組み込む時に最初困惑しました。　すぐ終わるCloth演算ばっかり使ってた自分が少し悩んだことだったので載せておきます。 前提・使用ソフト:Blender・バージョン:4.0・レンダラー:Cycles">
 <meta property="og:type" content="article">
 <meta property="og:title" content="物理演算が250フレームで止まる時の対処法+α | Blender">
@@ -36,7 +25,6 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://iamquadcore.github.io/img/404.jpg">
 
-
     <meta name="keywords" content="かじ/Quadroのぼんやりつぶやき">
 
 
@@ -44,13 +32,13 @@
 
 <!-- Favicon -->
 
-    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='16x16' ></link>
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.2.3' rel='icon' type='image/png' sizes='16x16' ></link>
 
 
-    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='32x32' ></link>
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.2.3' rel='icon' type='image/png' sizes='32x32' ></link>
 
 
-    <link href='/img/mainimages/blogicon.ico?v=2.1.14' rel='apple-touch-icon' sizes='180x180' ></link>
+    <link href='/img/mainimages/blogicon.ico?v=2.2.3' rel='apple-touch-icon' sizes='180x180' ></link>
 
 
 
@@ -82,11 +70,11 @@
 
 
 <!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.1.14","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","appleTouchIcon":"img/mainimages/blogicon.ico","webmanifest":null,"visibilitychange":false,"hidden":null,"showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":false,"copy":true,"lang":true,"title":"default","height_limit":200},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
+<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.2.3","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","apple_touch_icon":null,"webmanifest":null,"visibilitychange":false,"hidden":null,"show_text":"(/≧▽≦/)Hey! Good again!","hide_text":"(●—●)Oh, crash!","appleTouchIcon":"img/mainimages/blogicon.ico","showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":false,"copy":true,"lang":true,"title":"default","height_limit":200},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
 <script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-05-19 2024-05-19T00:00:00+09:00"};</script>
 
 <!-- Theme mode css -->
-<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.1.14" id="trm-switch-style">
+<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.2.3" id="trm-switch-style">
 <script>
     let defaultMode = ASYNC_CONFIG.theme.default !=='auto' ?  ASYNC_CONFIG.theme.default : (window.matchMedia("(prefers-color-scheme: light)").matches ? 'style-light' : 'style-dark')
     let catchMode = localStorage.getItem('theme-mode') || defaultMode;
@@ -103,9 +91,9 @@
 
 
 <!-- Site Analytics -->
- 
 
-<meta name="generator" content="Hexo 7.1.1"></head>
+ 
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
 
@@ -258,7 +246,7 @@
                     <!-- banner title -->
                     <div class="trm-banner-text ">
                         <div class="trm-label trm-mb-20">
-                            
+                            NEWS LETTER
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
                             物理演算が250フレームで止まる時の対処法+α | Blender
@@ -375,15 +363,58 @@
 <!-- info end -->
 
         
-        <br>
         <div>
             <div class="tag-list-point">
                 <ul>
-                    <li><span><u><a href="/tags/Blender" rel="Blender">Blender</a></u></span></li>
-                    <li><span><u><a href="/tags/Unity" rel="Unity">Unity</a></u></span></li>
-                    <li><span><u><a href="/tags/UE5" rel="UE5">UE5</a></u></span></li>
-                    <li><span><u><a href="/tags/CG-Chat" rel="CG-Chat">CG Chat/CG雑談</a></u></span></li>
-                    <li><span><u><a href="/categories/Chat" rel="Chat">Chat/雑談</a></u></span></li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/Blender" rel="Blender">Blender</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/Unity" rel="Unity">Unity</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/UE5" rel="UE5">UE5</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/CG-Chat" rel="CG-Chat">CG Chat/CG雑談</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/categories/Chat" rel="Chat">Chat/雑談</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/After_Effects" rel="After_Effects">After Effects</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/VFX_Chat" rel="VFX_Chat">VFX Chat/VFX雑談</a>
+                            </u>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -419,8 +450,8 @@
     <h1 id="物理演算が250フレームで止まる時の対処法-演算開始地点の変更方法"><a href="#物理演算が250フレームで止まる時の対処法-演算開始地点の変更方法" class="headerlink" title="物理演算が250フレームで止まる時の対処法+演算開始地点の変更方法"></a>物理演算が250フレームで止まる時の対処法+演算開始地点の変更方法</h1><p>250フレーム以降で演算処理が止まる時の対処法と、演算の開始地点を変更するときの方法です。<br>　<br>プロジェクトの途中に紙吹雪などの長めの演算を組み込む時に最初困惑しました。<br>　<br>すぐ終わるCloth演算ばっかり使ってた自分が少し悩んだことだったので載せておきます。</p>
 <h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:一部画像は4.1環境で後撮りしたものですが、問題はないと思われます。
 　</p>
-<h2 id="原因と対処法"><a href="#原因と対処法" class="headerlink" title="原因と対処法"></a>原因と対処法</h2><p>この演算が止まる現象について、原因として挙げられるのはシミュレーションの設定、もしくはシーンの設定です。<br>　<br>演算の範囲というのは上記のどちらかで決められていて、その範囲外では処理が停止します。<br>そのデフォルト値が1~250フレーム目までなので、そのままの設定だと範囲を超えて固まってしまうわけですね。<br>　<br>対処法は簡単。<br>タイムラインの範囲を変えた時と同じ要領で演算の設定の中でシミュレーション範囲を書き換えると解決します。<br><img width="300" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br><img width="300" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image2.png" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>ベイクする時に見る項目ですね。<br>　<br>しかし、この方法には例外もあって、その代表がRigid Bodyです。<br>Rigid Body(剛体)は後者のシーンの設定から変更することができます。<br><img width="300" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image3.jpg" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="原因と対処法"><a href="#原因と対処法" class="headerlink" title="原因と対処法"></a>原因と対処法</h2><p>この演算が止まる現象について、原因として挙げられるのはシミュレーションの設定、もしくはシーンの設定です。<br>　<br>演算の範囲というのは上記のどちらかで決められていて、その範囲外では処理が停止します。<br>そのデフォルト値が1~250フレーム目までなので、そのままの設定だと範囲を超えて固まってしまうわけですね。<br>　<br>対処法は簡単。<br>タイムラインの範囲を変えた時と同じ要領で演算の設定の中でシミュレーション範囲を書き換えると解決します。<br><img width="300" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image1.png" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br><img width="300" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image2.png" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>ベイクする時に見る項目ですね。<br>　<br>しかし、この方法には例外もあって、その代表がRigid Bodyです。<br>Rigid Body(剛体)は後者のシーンの設定から変更することができます。<br><img width="300" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image3.jpg" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>これらを調整することで、開始位置を調整することもできます。<br>　<br>ちなみに、途中まで演算開始前のオブジェクトを非表示にしておきたい場合は、モーションをベイクしてからオブジェクト自体のサイズにキーフレームを打つと上手くいきます。<br>逆の手順を踏むと演算がうまく行かなかったか、打ったキーフレームが機能しなかったみたいなことが起こった気がします。</p>
 <dev>
 <details><summary>余談その1:Rigid Bodyだけ設定場所が違う理由</summary>
@@ -434,7 +465,7 @@
 <dev>
 <details><summary>余談その2:"シミュレーション範囲"について</summary>
 シーン設定にある"Simulation Range(シミュレーション範囲)"についてですが、これはジオメトリーノードのシミュレーションノード等特殊な演算の範囲を指定するためのものみたいです。
-<img width="600" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/05/19/cg/blender/cg-b3d-250ffix/Image4.png" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 </details>
 </dev>
 
@@ -474,7 +505,7 @@
             </div>
             <h5>
                 <a href="/2024/05/28/chat/chat-failure/" class="trm-anima-link">
-                    ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話【失敗談】
+                    ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話 | 雑談
                 </a>
             </h5>
             <div class="trm-divider trm-mb-20 trm-mt-20"></div>
@@ -536,34 +567,30 @@
     <br>
     <footer class="trm-scroll-animation trm-active-el">
 
-    
-
-    
+        <div >
+            <br>
+            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+     
         <div class="trm-footer-item">
             <span>© 2024- 2024</span>
             <span class="footer-separator" data-separator=" · "></span>
             <span class="trm-accent-color">Kaji/Quadro</span>
         </div>
     
-
-    
         <div class="trm-footer-item">
             <span>
-                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.1.1
+                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.3.0
             </span>
             <span class="footer-separator" data-separator=" | "></span>
             <span> 
                 Theme - 
                 <a rel="noopener" href="https://github.com/MaLuns/hexo-theme-async" target="_blank">Async</a>
-                v2.1.14
+                v2.2.3
             </span>
         </div>
-          
-        <div >
-            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-     
+
 </footer>
 </div>
                     <!-- footer end -->
@@ -611,7 +638,7 @@
 
 
     
-        <script src="/js/plugins/typing.js?v=2.1.14"></script>
+        <script src="/js/plugins/typing.js?v=2.2.3"></script>
     
 
     
@@ -637,7 +664,7 @@
     
 
 
-<script id="async-script" src="/js/main.js?v=2.1.14"></script>
+<script id="async-script" src="/js/main.js?v=2.2.3"></script>
 
 <!-- CDN -->
 

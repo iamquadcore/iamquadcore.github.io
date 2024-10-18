@@ -7,17 +7,6 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://www.quadro1375.com/">
-<meta property="og:type" content="website">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="quadro1375.com">
-<meta property="twitter:url" content="https://www.quadro1375.com/">
-<meta name="twitter:image" content="https://www.quadro1375.com/img/404.jpg">
-
 <meta name="description" content="ビューポートの設定周りの軽い解説(メモ)どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。  目次 前提 Solidモードの設定 Renderモードの設定 その他 最後に    前提・使用ソフト:Blender・バージョン:4.0・レンダラー:Cycles&#x2F;Eevee・言語:英語・その他:どのバージョンでもおそらく共通。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="個人的見やすい3D Viewの設定とか | Blender">
@@ -41,7 +30,6 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://iamquadcore.github.io/img/404.jpg">
 
-
     <meta name="keywords" content="かじ/Quadroのぼんやりつぶやき">
 
 
@@ -49,13 +37,13 @@
 
 <!-- Favicon -->
 
-    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='16x16' ></link>
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.2.3' rel='icon' type='image/png' sizes='16x16' ></link>
 
 
-    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='32x32' ></link>
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.2.3' rel='icon' type='image/png' sizes='32x32' ></link>
 
 
-    <link href='/img/mainimages/blogicon.ico?v=2.1.14' rel='apple-touch-icon' sizes='180x180' ></link>
+    <link href='/img/mainimages/blogicon.ico?v=2.2.3' rel='apple-touch-icon' sizes='180x180' ></link>
 
 
 
@@ -87,11 +75,11 @@
 
 
 <!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.1.14","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","appleTouchIcon":"img/mainimages/blogicon.ico","webmanifest":null,"visibilitychange":false,"hidden":null,"showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":false,"copy":true,"lang":true,"title":"default","height_limit":200},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
+<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.2.3","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","apple_touch_icon":null,"webmanifest":null,"visibilitychange":false,"hidden":null,"show_text":"(/≧▽≦/)Hey! Good again!","hide_text":"(●—●)Oh, crash!","appleTouchIcon":"img/mainimages/blogicon.ico","showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":false,"copy":true,"lang":true,"title":"default","height_limit":200},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
 <script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-04-06 2024-04-06T00:00:00+09:00"};</script>
 
 <!-- Theme mode css -->
-<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.1.14" id="trm-switch-style">
+<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.2.3" id="trm-switch-style">
 <script>
     let defaultMode = ASYNC_CONFIG.theme.default !=='auto' ?  ASYNC_CONFIG.theme.default : (window.matchMedia("(prefers-color-scheme: light)").matches ? 'style-light' : 'style-dark')
     let catchMode = localStorage.getItem('theme-mode') || defaultMode;
@@ -108,9 +96,9 @@
 
 
 <!-- Site Analytics -->
- 
 
-<meta name="generator" content="Hexo 7.1.1"></head>
+ 
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
 
@@ -263,7 +251,7 @@
                     <!-- banner title -->
                     <div class="trm-banner-text ">
                         <div class="trm-label trm-mb-20">
-                            
+                            NEWS LETTER
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
                             個人的見やすい3D Viewの設定とか | Blender
@@ -380,15 +368,58 @@
 <!-- info end -->
 
         
-        <br>
         <div>
             <div class="tag-list-point">
                 <ul>
-                    <li><span><u><a href="/tags/Blender" rel="Blender">Blender</a></u></span></li>
-                    <li><span><u><a href="/tags/Unity" rel="Unity">Unity</a></u></span></li>
-                    <li><span><u><a href="/tags/UE5" rel="UE5">UE5</a></u></span></li>
-                    <li><span><u><a href="/tags/CG-Chat" rel="CG-Chat">CG Chat/CG雑談</a></u></span></li>
-                    <li><span><u><a href="/categories/Chat" rel="Chat">Chat/雑談</a></u></span></li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/Blender" rel="Blender">Blender</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/Unity" rel="Unity">Unity</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/UE5" rel="UE5">UE5</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/CG-Chat" rel="CG-Chat">CG Chat/CG雑談</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/categories/Chat" rel="Chat">Chat/雑談</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/After_Effects" rel="After_Effects">After Effects</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/VFX_Chat" rel="VFX_Chat">VFX Chat/VFX雑談</a>
+                            </u>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -434,17 +465,17 @@
 </ul>
 <h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:4.0<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:どのバージョンでもおそらく共通。</p>
 <h2 id="Solidモードの設定"><a href="#Solidモードの設定" class="headerlink" title="Solidモードの設定"></a>Solidモードの設定</h2><p>　　<br>3D View右上の三角を押すとビューポートに関するプロパティが開けます。</p>
-<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="300" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image1.png" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 　　
 
 <p>1.&nbsp;&nbsp;Solidモード(3D Viewのデフォルトモード)で自動でオブジェクトの色分けをしてくれます。<br>自分は基本オン。　　<br>　　<br>2.&nbsp;&nbsp;Cavityは輪郭やその周辺を強調表示してくれます。<br>オフだと結構のっぺりしていて奥行きが掴みづらいのでオン。<br>　　<br>3.&nbsp;&nbsp;Cavityのオプション。<br>デフォルトはScreenで、BothかWorldにするとテンキー視点にしたときに同じNormal(法線)の面でもカメラからの距離によってしっかり境界線が表示されます。　</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image2.gif" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>4.&nbsp;&nbsp;カメラのDepth of Field(被写界深度)の設定をSolidモード状態で適応できます。<br>カメラ側で設定していないと機能しません。基本オフで良いかと。<br>　　<br>5.&nbsp;&nbsp;オブジェクトにアウトラインを付けられます。<br>オブジェクトが密集している状態でCavityも有効だとくどいかも？自分は基本オン。<br>　　<br>6.&nbsp;&nbsp;オブジェクトに対する光の反射が反映されます。<br>自分はなんとなくオン。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image3.gif" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <h2 id="Renderモードの設定"><a href="#Renderモードの設定" class="headerlink" title="Renderモードの設定"></a>Renderモードの設定</h2><p>同じ感覚でRenderモードの設定いきましょう。</p>
-<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image4.png" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>1.&nbsp;&nbsp;この二箇所をオフにすると、シーンに設置した照明や設定した背景の光源効果を無視して描写できます。<br>レンダリング結果にのみ適応されるノードや機能の関係で結構使うと思います。<br>　　<br>2.&nbsp;&nbsp;1で二箇所をオフにした際に代わりに設定される背景をここから設定できます。<br>夜や屋内、屋外様々なシチュエーションを想定したものが用意されています。<br>反射や光量等の関係で追加されるものなので、自分で設定する背景とは別物みたいです。<br>また、Material Previewモードでも同様に設定が可能です。</p>
 <details><summary>余談</summary>
@@ -455,11 +486,11 @@
 </details>
 
 <h2 id="その他"><a href="#その他" class="headerlink" title="その他"></a>その他</h2><p>基本モード関係なく使えるものです。</p>
-<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image5.png" title="Image5" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
-<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>1.&nbsp;&nbsp;移動や回転ツール(アクティブツール)の表示を切り替えられます。<br>中を見てみると移動や変形の基準を変更できたり色々できます。<br><del>書いてて思ったけどあまり使わないかも。</del><br><img width="400" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image6.png" title="Image6" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>2.&nbsp;&nbsp;グリッドや3Dカーソル、アクティブツールの表示を一括で切り替えられます。<br>中を見てみると3D View内のUIに関する細かい設定ができます。<br>ノーマル(法線)を確認する時などいろいろ使い道はあるのですが、今回は軽い紹介ということで。<br>　　<br>3.&nbsp;&nbsp;オブジェクトを半透明状態にして描写できます。<br>Editモードでは選択範囲を貫通して裏面も選択できるのでモデリングでは必須の機能。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image7.gif" title="Image7" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>　　<br>4.&nbsp;&nbsp;値を入力して描写範囲を指定できます。<br><strong>こちらは画面上ではなく、すぐ横の縦に並んでいるタブのViewタブにあります。</strong><br>カメラにも同様の設定がありますが、これはViewport内でのみ機能するものです。<br>遠くにオブジェクトを置くプロジェクトではEndの数値を上げたり、入り組んだ場所を編集する時にStartを一時的に上げたり、みたいな使い方をよくしています。<br><img width="800" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image8.gif" title="Image8" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>経験が浅く、拙い知識、拙い文章力だったとは思いますが、閲覧頂きありがとうございました。<br>今後CGカテゴリーの備忘録記事(+プチ日記)はこんな感じで書いていこうと思います。<br>　　<br>本編とは関係ない愚痴ですが、花粉症で鼻水を垂らしながら深夜テンションで書いてました。<br>毎年、鼻の中で流体シミュレーションをさせられる僕は一体、何と戦わされてるんでしょうか。<br><img width="500" src="/2024/04/06/cg/blender/cg-b3d-viewport/Image9.png" title="Image9" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 
 </article>
     
@@ -554,34 +585,30 @@
     <br>
     <footer class="trm-scroll-animation trm-active-el">
 
-    
-
-    
+        <div >
+            <br>
+            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+     
         <div class="trm-footer-item">
             <span>© 2024- 2024</span>
             <span class="footer-separator" data-separator=" · "></span>
             <span class="trm-accent-color">Kaji/Quadro</span>
         </div>
     
-
-    
         <div class="trm-footer-item">
             <span>
-                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.1.1
+                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.3.0
             </span>
             <span class="footer-separator" data-separator=" | "></span>
             <span> 
                 Theme - 
                 <a rel="noopener" href="https://github.com/MaLuns/hexo-theme-async" target="_blank">Async</a>
-                v2.1.14
+                v2.2.3
             </span>
         </div>
-          
-        <div >
-            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-     
+
 </footer>
 </div>
                     <!-- footer end -->
@@ -629,7 +656,7 @@
 
 
     
-        <script src="/js/plugins/typing.js?v=2.1.14"></script>
+        <script src="/js/plugins/typing.js?v=2.2.3"></script>
     
 
     
@@ -655,7 +682,7 @@
     
 
 
-<script id="async-script" src="/js/main.js?v=2.1.14"></script>
+<script id="async-script" src="/js/main.js?v=2.2.3"></script>
 
 <!-- CDN -->
 

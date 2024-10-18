@@ -7,17 +7,6 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://www.quadro1375.com/">
-<meta property="og:type" content="website">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="quadro1375.com">
-<meta property="twitter:url" content="https://www.quadro1375.com/">
-<meta name="twitter:image" content="https://www.quadro1375.com/img/404.jpg">
-
 <meta name="description" content="Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法ノードを適応した状態のWorldを画像化して他の場所で使いたい、今作っている背景をそのまま焼き付けて使いたい、といったシチュエーションで有効な手段です。   手順としては、カメラの設定からパノラマ状態にして、EXRファイル、またはHDRファイルとしてレンダリングする、といった感じです。Eeveeはパノラマに設定することが">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Worldを環境テクスチャ化しよう～ | Blender(+PS)">
@@ -45,7 +34,6 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://iamquadcore.github.io/img/404.jpg">
 
-
     <meta name="keywords" content="かじ/Quadroのぼんやりつぶやき">
 
 
@@ -53,13 +41,13 @@
 
 <!-- Favicon -->
 
-    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='16x16' ></link>
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.2.3' rel='icon' type='image/png' sizes='16x16' ></link>
 
 
-    <link href='/img/mainimages/blogicon_v2.ico?v=2.1.14' rel='icon' type='image/png' sizes='32x32' ></link>
+    <link href='/img/mainimages/blogicon_v2.ico?v=2.2.3' rel='icon' type='image/png' sizes='32x32' ></link>
 
 
-    <link href='/img/mainimages/blogicon.ico?v=2.1.14' rel='apple-touch-icon' sizes='180x180' ></link>
+    <link href='/img/mainimages/blogicon.ico?v=2.2.3' rel='apple-touch-icon' sizes='180x180' ></link>
 
 
 
@@ -91,11 +79,11 @@
 
 
 <!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.1.14","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","appleTouchIcon":"img/mainimages/blogicon.ico","webmanifest":null,"visibilitychange":false,"hidden":null,"showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","user_tag":"fas fa-user-alt","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":false,"copy":true,"lang":true,"title":"default","height_limit":200},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
+<script>window.ASYNC_CONFIG = {"hostname":"iamquadcore.github.io","author":"かじ","root":"/","typed_text":["ーーーーーーーーーーーーーん"],"theme_version":"2.2.3","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"img/mainimages/blogicon_v2.ico","icon16":"img/mainimages/blogicon_v2.ico","icon32":"img/mainimages/blogicon_v2.ico","apple_touch_icon":null,"webmanifest":null,"visibilitychange":false,"hidden":null,"show_text":"(/≧▽≦/)Hey! Good again!","hide_text":"(●—●)Oh, crash!","appleTouchIcon":"img/mainimages/blogicon.ico","showText":null,"hideText":null},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":false,"copy":true,"lang":true,"title":"default","height_limit":200},"toc":{"post_title":true},"live_time":{"start_time":"","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"}};</script>
 <script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-04-11 2024-04-11T00:00:00+09:00"};</script>
 
 <!-- Theme mode css -->
-<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.1.14" id="trm-switch-style">
+<link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.2.3" id="trm-switch-style">
 <script>
     let defaultMode = ASYNC_CONFIG.theme.default !=='auto' ?  ASYNC_CONFIG.theme.default : (window.matchMedia("(prefers-color-scheme: light)").matches ? 'style-light' : 'style-dark')
     let catchMode = localStorage.getItem('theme-mode') || defaultMode;
@@ -112,9 +100,9 @@
 
 
 <!-- Site Analytics -->
- 
 
-<meta name="generator" content="Hexo 7.1.1"></head>
+ 
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
 
@@ -267,7 +255,7 @@
                     <!-- banner title -->
                     <div class="trm-banner-text ">
                         <div class="trm-label trm-mb-20">
-                            
+                            NEWS LETTER
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
                             Worldを環境テクスチャ化しよう～ | Blender(+PS)
@@ -384,15 +372,58 @@
 <!-- info end -->
 
         
-        <br>
         <div>
             <div class="tag-list-point">
                 <ul>
-                    <li><span><u><a href="/tags/Blender" rel="Blender">Blender</a></u></span></li>
-                    <li><span><u><a href="/tags/Unity" rel="Unity">Unity</a></u></span></li>
-                    <li><span><u><a href="/tags/UE5" rel="UE5">UE5</a></u></span></li>
-                    <li><span><u><a href="/tags/CG-Chat" rel="CG-Chat">CG Chat/CG雑談</a></u></span></li>
-                    <li><span><u><a href="/categories/Chat" rel="Chat">Chat/雑談</a></u></span></li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/Blender" rel="Blender">Blender</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/Unity" rel="Unity">Unity</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/UE5" rel="UE5">UE5</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/CG-Chat" rel="CG-Chat">CG Chat/CG雑談</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/categories/Chat" rel="Chat">Chat/雑談</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/After_Effects" rel="After_Effects">After Effects</a>
+                            </u>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <u>
+                                <a href="/tags/VFX_Chat" rel="VFX_Chat">VFX Chat/VFX雑談</a>
+                            </u>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -426,7 +457,7 @@
 <div class="trm-card ">
     <article id="article-container" class="trm-publication">
     <h1 id="Worldを環境テクスチャ-EXRファイル-HDRファイル-にする方法"><a href="#Worldを環境テクスチャ-EXRファイル-HDRファイル-にする方法" class="headerlink" title="Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法"></a>Worldを環境テクスチャ(EXRファイル&amp;HDRファイル)にする方法</h1><p>ノードを適応した状態のWorldを画像化して他の場所で使いたい、今作っている背景をそのまま焼き付けて使いたい、といったシチュエーションで有効な手段です。</p>
-<img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image1.png" title="Image1" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image1.png" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 <p>手順としては、カメラの設定からパノラマ状態にして、EXRファイル、またはHDRファイルとしてレンダリングする、といった感じです。<br>Eeveeはパノラマに設定することができないので、Cyclesレンダーのみの方法となっております。</p>
 <ul>
@@ -445,28 +476,28 @@
 <h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender, Photoshop<br>・バージョン:4.0<br>・レンダラー:Cycles<br>・言語:英語(PSは日本語)<br>・その他:加えてPhotoshopでの扱い方についても置いときます。</p>
 <h2 id="手順0-確認"><a href="#手順0-確認" class="headerlink" title="手順0. 確認"></a>手順0. 確認</h2><p>一応の確認ですが、やることは普通のレンダリングなので、映ってほしくないものはきちんと非表示にしておきましょう。<br>上記の通りカメラの設定の関係でEeveeレンダーは使えません。
 　　</p>
-<h2 id="手順1-カメラの設定"><a href="#手順1-カメラの設定" class="headerlink" title="手順1. カメラの設定"></a>手順1. カメラの設定</h2><p>簡単です。<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image2.gif" title="Image2" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="手順1-カメラの設定"><a href="#手順1-カメラの設定" class="headerlink" title="手順1. カメラの設定"></a>手順1. カメラの設定</h2><p>簡単です。<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image2.gif" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <p>Type → <strong>Panoramic(パノラマ状)</strong><br>　　<br>Panorama Type→ <strong>Equirectangular(正距円筒図)</strong><br>　　<br>これだけです。Panorama Typeの中の値はデフォルトで大丈夫です。
 　　</p>
 <h2 id="手順2-レンダーの設定"><a href="#手順2-レンダーの設定" class="headerlink" title="手順2. レンダーの設定"></a>手順2. レンダーの設定</h2><p><strong>1.&nbsp;&nbsp;解像度の設定</strong><br>解像度について、自分は少し大きめの8Kで作ってあとから小さくしても問題ないようにしました。</p>
-<img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image3.png" title="Image3" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image3.png" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
-<p>X:8192 px<br>Y:4096 px<br>　　<br>適当にダウンロードしてたHDRIを参考に合わせただけです。<br>他の解像度はチートシートなんかを活用してみましょう。<br><a target="_blank" rel="noopener" href="https://www.wearethefirehouse.com/aspect-ratio-cheat-sheet">Aspect Ratio Cheat Sheet v2(外部リンク)</a><br>　　<br><strong>2.&nbsp;&nbsp;ファイル形式の設定</strong><br>続いてファイル形式の設定。画像の通りです。<br>　　<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image4.png" title="Image4" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/> </p>
+<p>X:8192 px<br>Y:4096 px<br>　　<br>適当にダウンロードしてたHDRIを参考に合わせただけです。<br>他の解像度はチートシートなんかを活用してみましょう。<br><a target="_blank" rel="noopener" href="https://www.wearethefirehouse.com/aspect-ratio-cheat-sheet">Aspect Ratio Cheat Sheet v2(外部リンク)</a><br>　　<br><strong>2.&nbsp;&nbsp;ファイル形式の設定</strong><br>続いてファイル形式の設定。画像の通りです。<br>　　<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image4.png" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/> </p>
 <details><summary>.hdrの場合</summary>
 
 <p>EXRではなくHDRで書き出したい方向けです。こちらはそのままの設定で機能しました。</p>
-<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image5.png" title="Image5" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image6.png" title="Image6" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image5.png" title="Image5" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image6.png" title="Image6" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 </details>
 
 <p>あとは通常通りレンダリングします。</p>
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>いつも通りEnvironment Texture(環境テクスチャ)ノードから読み込むだけですね。<br>　　<br>Blender<br><img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image7.png" title="Image7" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>いつも通りEnvironment Texture(環境テクスチャ)ノードから読み込むだけですね。<br>　　<br>Blender<br><img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image7.png" title="Image7" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <details><summary>Unity</summary>
 マテリアルを作って、ShaderをSkybox/Panoramicに。<br>
 HDRのところにimportしたexrファイルを挿し込む。<br>
 LightingタブのEnvironmentからSkybox Materialで作ったマテリアルを指定。<br>
-<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image8.png" title="Image8" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image8.png" title="Image8" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 </details>
 
@@ -474,14 +505,14 @@ LightingタブのEnvironmentからSkybox Materialで作ったマテリアルを�
 (多分既存のシェーダーが絡んで色濃く見えてると予想)<br>
 UE5に関してはプラグインが絡んだり、色々設定が必要だったのでまた記事にしたいと思います。<br>
 
-<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image9.png" title="Image9" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image9.png" title="Image9" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 </details>
 
 <details><summary>背景オブジェクト込みバージョン</summary>
 
 <p>過去に映像で使った背景用の街オブジェクトを適当に並べて書き出してみました。<br>手前のオブジェクトは新しく設置したものです。</p>
-<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image10.png" title="Image10" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="600" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image10.png" title="Image10" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
 </details>
 
@@ -489,9 +520,9 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 <blockquote>
 <p><strong><em>追記</em></strong><br>私のPhotoshopの知識が浅く、保存に関する認識が間違っていました。<br><strong>別名で保存</strong>は再編集可能な状態で保存するもので、<br>その下の<strong>コピーの保存</strong>を使うとプラグインなしでもexrファイルで書き出しできるみたいです。<br>今回の以下のプラグインに関する内容は、再び編集ができる状態として保存したい時に活用できるものです。</p>
 </blockquote>
-<p>素のフォトショはEXRファイルに関してかなり微妙で、<br>画像の解像度変更や切り取り等以外の<strong>レイヤーを重ねるような編集</strong>をした場合、<br>“別名で保存”は多分できないと思われます。<br>　　<br>また、レイヤー情報などを正確にEXRファイル内の情報を読み取っているわけではなく、書き出しも不便なため、<br><a target="_blank" rel="noopener" href="https://www.exr-io.com/">Exr-IO(外部リンク)</a>というプラグインを入れて改善します。<br>  　<br>このプラグインを導入すると、EXRファイルを読み込んだ時にこんな画面が表示されます。<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image13.png" title="Image13" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>今回の目的ではいじらなくても問題なかったので、そのままOpenをクリック。<br>　　<br><strong>別名で保存</strong>を押すと、EXRで(編集可能のまま)保存できるようになっています。<br><img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image14.png" title="Image14" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>(追記)<br><strong>コピーを保存</strong>を押すと、再び開いた時に編集状態にはなりませんが、EXRだけでなくHDRで書き出すことも可能です。<br>こちらはプラグインなしで可能です。<br><img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image15.png" title="Image15" class="img-left"  loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>素のフォトショはEXRファイルに関してかなり微妙で、<br>画像の解像度変更や切り取り等以外の<strong>レイヤーを重ねるような編集</strong>をした場合、<br>“別名で保存”は多分できないと思われます。<br>　　<br>また、レイヤー情報などを正確にEXRファイル内の情報を読み取っているわけではなく、書き出しも不便なため、<br><a target="_blank" rel="noopener" href="https://www.exr-io.com/">Exr-IO(外部リンク)</a>というプラグインを入れて改善します。<br>  　<br>このプラグインを導入すると、EXRファイルを読み込んだ時にこんな画面が表示されます。<br><img width="800" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image13.png" title="Image13" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>今回の目的ではいじらなくても問題なかったので、そのままOpenをクリック。<br>　　<br><strong>別名で保存</strong>を押すと、EXRで(編集可能のまま)保存できるようになっています。<br><img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image14.png" title="Image14" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>(追記)<br><strong>コピーを保存</strong>を押すと、再び開いた時に編集状態にはなりませんが、EXRだけでなくHDRで書き出すことも可能です。<br>こちらはプラグインなしで可能です。<br><img width="400" src="/2024/04/11/cg/blender/cg-b3d-hdri/Image15.png" title="Image15" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
 <h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
 <li>YouTube<br><a target="_blank" rel="noopener" href="https://youtu.be/o7q7O5RuE6s?si=1i-VJo4atig6wWlA">Make Your Own HDRI in Blender 3.0(外部リンク)</a></li>
 </ul>
@@ -590,34 +621,30 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
     <br>
     <footer class="trm-scroll-animation trm-active-el">
 
-    
-
-    
+        <div >
+            <br>
+            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+     
         <div class="trm-footer-item">
             <span>© 2024- 2024</span>
             <span class="footer-separator" data-separator=" · "></span>
             <span class="trm-accent-color">Kaji/Quadro</span>
         </div>
     
-
-    
         <div class="trm-footer-item">
             <span>
-                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.1.1
+                <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.3.0
             </span>
             <span class="footer-separator" data-separator=" | "></span>
             <span> 
                 Theme - 
                 <a rel="noopener" href="https://github.com/MaLuns/hexo-theme-async" target="_blank">Async</a>
-                v2.1.14
+                v2.2.3
             </span>
         </div>
-          
-        <div >
-            <a target="_blank" rel="noopener" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-     
+
 </footer>
 </div>
                     <!-- footer end -->
@@ -665,7 +692,7 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
 
 
     
-        <script src="/js/plugins/typing.js?v=2.1.14"></script>
+        <script src="/js/plugins/typing.js?v=2.2.3"></script>
     
 
     
@@ -691,7 +718,7 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
     
 
 
-<script id="async-script" src="/js/main.js?v=2.1.14"></script>
+<script id="async-script" src="/js/main.js?v=2.2.3"></script>
 
 <!-- CDN -->
 

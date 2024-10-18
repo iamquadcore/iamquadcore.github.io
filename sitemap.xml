@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://iamquadcore.github.io/2024/10/18/chat/chat-2024octupd/</loc>
+    
+    <lastmod>2024-10-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://iamquadcore.github.io/2024/10/15/cg/chat/cg-chat-4-2update/</loc>
     
     <lastmod>2024-10-14</lastmod>
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://iamquadcore.github.io/2024/04/23/cg/blender/b3d-cg-stretchmesh/</loc>
+    <loc>https://iamquadcore.github.io/2024/04/23/cg/blender/cg-b3d-stretchmesh/</loc>
     
     <lastmod>2024-04-22</lastmod>
     
@@ -166,7 +175,7 @@
 
   <url>
     <loc>https://iamquadcore.github.io/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,28 +183,28 @@
   
   <url>
     <loc>https://iamquadcore.github.io/tags/CG-Chat/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/Blender/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamquadcore.github.io/tags/Unity/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://iamquadcore.github.io/tags/UE5/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamquadcore.github.io/tags/Unity/</loc>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -203,15 +212,15 @@
 
   
   <url>
-    <loc>https://iamquadcore.github.io/categories/3DCG/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <loc>https://iamquadcore.github.io/categories/Chat/</loc>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://iamquadcore.github.io/categories/Chat/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <loc>https://iamquadcore.github.io/categories/3DCG/</loc>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
