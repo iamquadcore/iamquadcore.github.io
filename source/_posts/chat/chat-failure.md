@@ -1,5 +1,5 @@
 ---
-title: ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話【失敗談】
+title: ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話 | 雑談
 date: 2024-05-28
 categories: Chat
 cover: img/covers/chat-failure.png
