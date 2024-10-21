@@ -1,3 +1,4 @@
+https://iamquadcore.github.io/2024/10/21/vfx/ae/vfx-ae-fixingcrash/
 https://iamquadcore.github.io/2024/10/18/chat/chat-2024octupd/
 https://iamquadcore.github.io/2024/10/15/cg/chat/cg-chat-4-2update/
 https://iamquadcore.github.io/2024/07/06/cg/blender/cg-b3d-editingemission/
@@ -22,5 +23,7 @@ https://iamquadcore.github.io/tags/CG-Chat/
 https://iamquadcore.github.io/tags/Blender/
 https://iamquadcore.github.io/tags/Unity/
 https://iamquadcore.github.io/tags/UE5/
+https://iamquadcore.github.io/tags/After-Effects/
 https://iamquadcore.github.io/categories/Chat/
 https://iamquadcore.github.io/categories/3DCG/
+https://iamquadcore.github.io/categories/VFX/

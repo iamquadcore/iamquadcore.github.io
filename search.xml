@@ -23,20 +23,35 @@
       </categories>
   </entry>
   <entry>
-    <title>サイトの更新&amp;新しいカテゴリーのお知らせ | 雑談</title>
-    <url>/2024/10/18/chat/chat-2024octupd/</url>
-    <content><![CDATA[<h1 id="サイトアップデートしました"><a href="#サイトアップデートしました" class="headerlink" title="サイトアップデートしました"></a>サイトアップデートしました</h1><p>記事ではなくどっかに履歴だけつけといたほうがいいとは思いつつ、このサイトは私の日記的な側面もあるので記しておきます。<br>　<br>今回は、<br>・Hexoの更新 (v7.1.1 → v7.3.0)<br>・HexoのテーマであるAsyncの更新 (v2.1.14 → v2.2.3)<br>・それらにくっついてるnpmパッケージの諸々を更新<br>・一部記事のファイル名を修正<br>・新たなカテゴリー”VFX” の追加<br>・新たなタグ”After Effects” の追加<br>・新たなタグ”VFX Chat&#x2F;VFX雑談” の追加<br>　<br>を実行いたしました。<br>　<br>サイトの表面部分とはあまり関係ありませんが、前言ってた通りGitの使い方をある程度勉強してサイトのバックアップもちゃんと取りました。<br>これでローカル環境が変わっても簡単に記事制作を継続できますね～～<br>　<br>苦手分野だったので頭爆発しそうでした。
-　</p>
-<h2 id="新カテゴリーついて"><a href="#新カテゴリーついて" class="headerlink" title="新カテゴリーついて"></a>新カテゴリーついて</h2><p>私の映像制作におけるメインはVFXとは若干違うのですが、”CG”に並べられる大文字の何かを考えた結果、VFXが一番マシかなぁという判断でこうなりました。<br>　<br>当初AEについて一つネタがあったので記事を書いていたのですが、最初は”Visuals”という名前にしようとしていました。<br>しかし、こ～れが思ってた以上に視覚的にごちゃついていて断念しました。<br>　<br>今後はAE、Premiere、加えて昔使っていたAviutlに関してもなにか書ければいいなとぼんやり思っています。<br>よろしくお願いします。</p>
-<h2 id="タグの表記について"><a href="#タグの表記について" class="headerlink" title="タグの表記について"></a>タグの表記について</h2><p>今回のテーマの更新でタグの表記が変わりました。<br>スッキリしていいとは思うのですが、記事の本数表記が若干わかりにくくなっちゃいました。<br>テーマを開発している方のDemoサイトを見てもこうなっているので、正常に動作はしていると思われます。</p>
-<img width="400" src="/2024/10/18/chat/chat-2024octupd/Image1.png" title="Image1" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-<img width="400" src="/2024/10/18/chat/chat-2024octupd/Image2.png" title="Image2" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今後はドメインの移管だったり、収益化に向けたホスティングサービスの移行だったり、裏側の部分をアップデートしていこうと考えています。<br>　<br>閲覧頂きありがとうございました。</p>
+    <title>3DCGカテゴリーの目的</title>
+    <url>/2024/02/19/cg/lobby-b3d/</url>
+    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
+　　</p>
+<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
+　　</p>
+<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
+<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
+<li>Aviutl</li>
+<li>After Effects</li>
+<li>Premiere Pro(浅め)</li>
+<li>Hitfilm Express</li>
+<li>DaVinchi Resolve(浅め)</li>
+<li>Sony Vegas(挫折)</li>
+</ul>
+<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
+<li>Blender</li>
+<li>Unreal Engine 5(浅め)</li>
+<li>Unity (浅め)</li>
+<li>Cinema 4D</li>
+<li>Maya(挫折)</li>
+</ul>
 ]]></content>
       <categories>
-        <category>Chat</category>
+        <category>3DCG</category>
       </categories>
+      <tags>
+        <tag>CG_Chat</tag>
+      </tags>
   </entry>
   <entry>
     <title>ブログのフォルダをクラウドで同期取ってぐちゃぐちゃになった話 | 雑談</title>
@@ -72,28 +87,120 @@
       </categories>
   </entry>
   <entry>
-    <title>3DCGカテゴリーの目的</title>
-    <url>/2024/02/19/cg/lobby-b3d/</url>
-    <content><![CDATA[<h2 id="3DCGカテゴリーではどんなことを話すの？"><a href="#3DCGカテゴリーではどんなことを話すの？" class="headerlink" title="3DCGカテゴリーではどんなことを話すの？"></a>3DCGカテゴリーではどんなことを話すの？</h2><p>このカテゴリーは<strong>備忘録</strong>、<strong>3DCGの範囲内での雑談</strong>がメインになると思います。<br>　　<br>備忘録についてもう少し噛み砕くと、<br><strong>「こういう時ってどうすれば良いんだっけ？」</strong>、<br><strong>「この機能の使い方忘れてしまった…。」</strong><br>などなど、私がソフトを触っている中で生まれた疑問を元にした解説風記事になります。<br>　　<br>ここで注意書きなのですが、私は趣味の範囲で触っている者です。情報に誤りや粗があるとを承知の上でお願い致します。<br>あくまで備忘録、雑記です。<br>　　<br>また、3DCGカテゴリーの中で、ソフト名でタグ付けをしていく予定なので、画面上のHOMEからTagsをご参照ください。
-　　</p>
-<h2 id="なんのソフト使ってるの？"><a href="#なんのソフト使ってるの？" class="headerlink" title="なんのソフト使ってるの？"></a>なんのソフト使ってるの？</h2><p>私は主にBlenderを使っています。記事もBlender中心の話になると思います。<br>一応UnityやUnreal Engine 5についても軽く触っているので、ど素人の日記感覚で何か書ければいいなと。  
-　　</p>
-<h3 id="ぐだぐだなソフト遍歴-2024年2月時点"><a href="#ぐだぐだなソフト遍歴-2024年2月時点" class="headerlink" title="ぐだぐだなソフト遍歴(2024年2月時点)"></a>ぐだぐだなソフト遍歴(2024年2月時点)</h3><p>※(浅め)は操作やできることは分かっているけど人に教えられるほどのものでもない状態です。 </p>
-<h3 id="・映像制作系ソフト"><a href="#・映像制作系ソフト" class="headerlink" title="・映像制作系ソフト"></a>・映像制作系ソフト</h3><ul>
-<li>Aviutl</li>
-<li>After Effects</li>
-<li>Premiere Pro(浅め)</li>
-<li>Hitfilm Express</li>
-<li>DaVinchi Resolve(浅め)</li>
-<li>Sony Vegas(挫折)</li>
+    <title>サイトの更新&amp;新しいカテゴリーのお知らせ | 雑談</title>
+    <url>/2024/10/18/chat/chat-2024octupd/</url>
+    <content><![CDATA[<h1 id="サイトアップデートしました"><a href="#サイトアップデートしました" class="headerlink" title="サイトアップデートしました"></a>サイトアップデートしました</h1><p>記事ではなくどっかに履歴だけつけといたほうがいいとは思いつつ、このサイトは私の日記的な側面もあるので記しておきます。<br>　<br>今回は、<br>・Hexoの更新 (v7.1.1 → v7.3.0)<br>・HexoのテーマであるAsyncの更新 (v2.1.14 → v2.2.3)<br>・それらにくっついてるnpmパッケージの諸々を更新<br>・一部記事のファイル名を修正<br>・新たなカテゴリー”VFX” の追加<br>・新たなタグ”After Effects” の追加<br>・新たなタグ”VFX Chat&#x2F;VFX雑談” の追加<br>　<br>を実行いたしました。<br>　<br>サイトの表面部分とはあまり関係ありませんが、前言ってた通りGitの使い方をある程度勉強してサイトのバックアップもちゃんと取りました。<br>これでローカル環境が変わっても簡単に記事制作を継続できますね～～<br>　<br>苦手分野だったので頭爆発しそうでした。
+　</p>
+<h2 id="新カテゴリーついて"><a href="#新カテゴリーついて" class="headerlink" title="新カテゴリーついて"></a>新カテゴリーついて</h2><p>私の映像制作におけるメインはVFXとは若干違うのですが、”CG”に並べられる大文字の何かを考えた結果、VFXが一番マシかなぁという判断でこうなりました。<br>　<br>当初AEについて一つネタがあったので記事を書いていたのですが、最初は”Visuals”という名前にしようとしていました。<br>しかし、こ～れが思ってた以上に視覚的にごちゃついていて断念しました。<br>　<br>今後はAE、Premiere、加えて昔使っていたAviutlに関してもなにか書ければいいなとぼんやり思っています。<br>よろしくお願いします。</p>
+<h2 id="タグの表記について"><a href="#タグの表記について" class="headerlink" title="タグの表記について"></a>タグの表記について</h2><p>今回のテーマの更新でタグの表記が変わりました。<br>スッキリしていいとは思うのですが、記事の本数表記が若干わかりにくくなっちゃいました。<br>テーマを開発している方のDemoサイトを見てもこうなっているので、正常に動作はしていると思われます。</p>
+<img width="400" src="/2024/10/18/chat/chat-2024octupd/Image1.png" title="Image1" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+<img width="400" src="/2024/10/18/chat/chat-2024octupd/Image2.png" title="Image2" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>今後はドメインの移管だったり、収益化に向けたホスティングサービスの移行だったり、裏側の部分をアップデートしていこうと考えています。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>Chat</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Blender 4.2.xアップデート時に混乱困惑しまくった話| CG雑談</title>
+    <url>/2024/10/15/cg/chat/cg-chat-4-2update/</url>
+    <content><![CDATA[<h1 id="アップデート作業してたら気付かず使っていた仕様が発覚"><a href="#アップデート作業してたら気付かず使っていた仕様が発覚" class="headerlink" title="アップデート作業してたら気付かず使っていた仕様が発覚"></a>アップデート作業してたら気付かず使っていた仕様が発覚</h1><ul>
+<li>目次<ul>
+<li><a href="#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E4%BD%9C%E6%A5%AD%E3%81%97%E3%81%A6%E3%81%9F%E3%82%89%E6%B0%97%E4%BB%98%E3%81%8B%E3%81%9A%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E4%BB%95%E6%A7%98%E3%81%8C%E7%99%BA%E8%A6%9A">アップデート作業してたら気付かず使っていた仕様が発覚</a></li>
+<li><a href="#%E3%81%98%E3%82%83%E3%81%82%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E4%BB%A5%E9%99%8D%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%E3%81%AE%EF%BC%9F">じゃあ今回のバージョン以降はどうするの？</a></li>
+<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
 </ul>
-<h3 id="・3DCG系ソフト"><a href="#・3DCG系ソフト" class="headerlink" title="・3DCG系ソフト"></a>・3DCG系ソフト</h3><ul>
-<li>Blender</li>
-<li>Unreal Engine 5(浅め)</li>
-<li>Unity (浅め)</li>
-<li>Cinema 4D</li>
-<li>Maya(挫折)</li>
+</li>
 </ul>
+<p>とある日、Blender 4.2への移行作業をしていた時にトラブル発生。<br>正直今回の出来事はほとんどの人には当てはらまないと思うので、雑談メインな感じでタグもCG雑談ということにしておきます。<br>　<br>事の流れを書く前に、前提として私はBlenderのアップデートを手動で行っています。<br>何がきっかけでそうやるようになったのか、昔の出来事なのではっきりとは覚えてはいませんが、何らかのトラブルが原因で手動でファイルを上書き、移動することでアップデートを重ねてきました。<br>具体的には、ConfigフォルダとAddonが入ったフォルダを新しいバージョンにコピペして動かしていました。<br>　<br>しかし、今回の4.2のバージョンフォルダーを開くと、ファイル構成が大きく変わっているわけではありませんか。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">インストール先:\Blender Foundation\Blender 4.x\4.x</span><br></pre></td></tr></table></figure>
+
+<div class="image">
+  <div>
+    <ul>
+        <dd><img width="300" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image1.png" title="Image1" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="300" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image2.png" title="Image2" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+    </ul>
+    <style>
+        .image > div {
+          ul {
+            display: flex;
+            justify-content: center;
+            }
+        }
+    </style>
+  </div>
+</div>
+
+<p>今回の4.2でアドオンの導入や管理に変更が加えられたので、extentionsは置いといて、<br><strong>configフォルダが、ない！！</strong><br>　<br>configフォルダの行方を探すべく、我々は…と冗談を吐く余裕もないくらい当時は長引く予感がして若干萎え始めていました。<br>　<br>なんだかんだ情報を集め、友人にも相談した結果、とある事実が発覚。<br>　<br><strong>そもそもconfigフォルダがあるのがおかしい</strong><br>　<br>ずっと継ぎ足し継ぎ足し使ってきたBlenderのファイル構成が、いつのまにか我流なものに置き換わっていたらしい。<br>どうやら、4.1までは本来インストーラー版特有の場所に設置されるものを、バージョンフォルダの中に突っ込んでも読み込まれていたらしい。<br>　<br>つまり、知らないうちにインストーラー版を使いながらも勝手にポータブル化していたという。<br>恥ずかしい話、インストーラ版は本来この構成で、ポータブル版への切り替えという仕様がある事自体も知りませんでした…。</p>
+<div>
+<details><summary>ポータブル版とは</summary>
+Blenderにはインストーラー(Installer)版とポータブル(Portable)版が存在します。<br>
+インストーラー版はPC内部にユーザー設定を作って、その導入されたPC限定で運用する形式です。<br>
+対して、ポータブル版は設定を含めたほとんどのフォルダを一箇所に留めて、他の環境にコピペしても使えるような状態で運用する形式です。<br>
+インストーラー版でも、いくつかの手順を踏むことでポータブル化することができます。<br>
+</div>
+
+<h2 id="じゃあ今回のバージョン以降はどうするの？"><a href="#じゃあ今回のバージョン以降はどうするの？" class="headerlink" title="じゃあ今回のバージョン以降はどうするの？"></a>じゃあ今回のバージョン以降はどうするの？</h2><p>正直、configフォルダなどの本来あるべき場所が分かったので、ポータブル化はもう必要ないと言えば必要ないんです。<br>が、やはり自分が指定したインストール先だけで完結する方がスッキリするので、今回はすでにインストールしてしまった4.2を新しい方法でポータブル化してみることにしました。<br>　<br>方法は簡単で、Blender 4.2がインストールされたフォルダ内で”portable”という新規フォルダーを作成するだけです。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">インストール先:\Blender Foundation\Blender 4.2\portable</span><br></pre></td></tr></table></figure>
+<p>　<br>するとあら不思議、起動するだけで中にConfigや、新しいアドオンの管理フォルダが生成されます。<br>　<br>その中のconfigフォルダに、今まで使っていたバージョンのものを上書きすると設定を引き継げます。<br>見つからないアドオンは結局手動で対応することになるみたいです。<br>extentionsフォルダ内でコピペ等々試行錯誤してみましたが、旧バージョンのアドオンは読み込まれませんでした。<br>どっちにしろ更新作業は必要でしたし、何が足りていないのか表示されるだけでも助かりますね。</p>
+<div>
+<img width="800" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image3.png" title="Image3" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
+</div>
+
+<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>正直今回のアップデートで手間が増えた上に、そもそもアドオンの管理も複雑になったので、次回のアップデートからは素直にポータブル版を落として使おうと思います。</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li>Blender 4.2 Manual(英)<br><a href="https://docs.blender.org/manual/en/4.2/advanced/blender_directory_layout.html#portable-installation">Blender’s Directory Layout(外部リンク)</a></li>
+<li>Blender.jp(日)<br><a href="https://www.blender.jp/install#-6">ユーザーデータの保存場所とポータブル版への変更(外部リンク)</a></li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>色々ありまして数カ月ぶりの更新となりました。<br>何か突発的なトラブルが起こらない限り、このブログが終了する時が決まったら明言しておこうと決めているので、今後ものんびりマイペースに更新していきたいと思います。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>3DCG</category>
+      </categories>
+      <tags>
+        <tag>CG_Chat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IES Lightのすゝめ | CG雑談</title>
+    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
+    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
+<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
+<ul>
+<li>目次<ul>
+<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
+<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
+<ul>
+<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
+</ul>
+<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
+　</p>
+<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
+<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
+<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
+　</p>
+<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
+<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
+</li>
+<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
+</li>
+</ul>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
@@ -288,43 +395,6 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </tags>
   </entry>
   <entry>
-    <title>UVマップを変形させずにオブジェクトを編集する方法 | Blender</title>
-    <url>/2024/04/23/cg/blender/cg-b3d-stretchmesh/</url>
-    <content><![CDATA[<h1 id="UVマップを変形させずにオブジェクトを編集する方法"><a href="#UVマップを変形させずにオブジェクトを編集する方法" class="headerlink" title="UVマップを変形させずにオブジェクトを編集する方法"></a>UVマップを変形させずにオブジェクトを編集する方法</h1><p>通常、押し出し(Extrude)や面を引き伸ばす時に適応したUVも引き伸びます。<br>今回はその伸縮や変形を回避する方法になります。<br>主にループテクスチャを使っているときに有効です。</p>
-<div class="image">
-  <div>
-    <ul>
-        <dd><img width="300" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image2.png" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-        <dd><img width="300" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image1.png" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-    </ul>
-    <style>
-        .image > div {
-          ul {
-            display: flex;
-            justify-content: center;
-            }
-        }
-    </style>
-  </div>
-</div>
-
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:4.1でも問題なくできます。</p>
-<h2 id="設定方法"><a href="#設定方法" class="headerlink" title="設定方法"></a>設定方法</h2><p>編集したいオブジェクトを選択してEditモードに切り替えます。<br>　<br>そのまま3D Viewの右上にあるOptionから<strong>面の属性を修正(Correct Face Attributes)</strong> にチェックを入れます。<br><img width="350" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image3.png" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>これで完了です。<br>　<br>押し出しだけでなく移動による面の引き伸ばしにも適応されます。</p>
-<img width="500" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image4.png" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-
-<p>すでに展開済みのUVマップを元にしてくれるみたいなので、延長線上にないある辺をいきなり押し出しするとダメみたいです。<br>　<br>最初の画像の押し出した側面とかが例ですね。</p>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Blenderでループテクスチャを使ってモデリングする自分にとっては結構便利な機能だと思いました。<br>　<br>雑に撮ったやつですが、綺麗に展開してくれてますね。<br><img width="500" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image5.png" title="Image5" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>終盤ミスに気づいてちょっと手を加えたりする時に役立ちました。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>個人的見やすい3D Viewの設定とか | Blender</title>
     <url>/2024/04/06/cg/blender/cg-b3d-viewport/</url>
     <content><![CDATA[<h1 id="ビューポートの設定周りの軽い解説-メモ"><a href="#ビューポートの設定周りの軽い解説-メモ" class="headerlink" title="ビューポートの設定周りの軽い解説(メモ)"></a>ビューポートの設定周りの軽い解説(メモ)</h1><p>どこまで掘り下げるか難しいのですが、とりあえず軽く触るにしてもこれは気をつけたほうが良いな～程度のものを置いときます。</p>
@@ -375,26 +445,14 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
       </tags>
   </entry>
   <entry>
-    <title>Blender 4.2.xアップデート時に混乱困惑しまくった話| CG雑談</title>
-    <url>/2024/10/15/cg/chat/cg-chat-4-2update/</url>
-    <content><![CDATA[<h1 id="アップデート作業してたら気付かず使っていた仕様が発覚"><a href="#アップデート作業してたら気付かず使っていた仕様が発覚" class="headerlink" title="アップデート作業してたら気付かず使っていた仕様が発覚"></a>アップデート作業してたら気付かず使っていた仕様が発覚</h1><ul>
-<li>目次<ul>
-<li><a href="#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E4%BD%9C%E6%A5%AD%E3%81%97%E3%81%A6%E3%81%9F%E3%82%89%E6%B0%97%E4%BB%98%E3%81%8B%E3%81%9A%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E4%BB%95%E6%A7%98%E3%81%8C%E7%99%BA%E8%A6%9A">アップデート作業してたら気付かず使っていた仕様が発覚</a></li>
-<li><a href="#%E3%81%98%E3%82%83%E3%81%82%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E4%BB%A5%E9%99%8D%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%E3%81%AE%EF%BC%9F">じゃあ今回のバージョン以降はどうするの？</a></li>
-<li><a href="#%E8%A3%9C%E8%B6%B3">補足</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<p>とある日、Blender 4.2への移行作業をしていた時にトラブル発生。<br>正直今回の出来事はほとんどの人には当てはらまないと思うので、雑談メインな感じでタグもCG雑談ということにしておきます。<br>　<br>事の流れを書く前に、前提として私はBlenderのアップデートを手動で行っています。<br>何がきっかけでそうやるようになったのか、昔の出来事なのではっきりとは覚えてはいませんが、何らかのトラブルが原因で手動でファイルを上書き、移動することでアップデートを重ねてきました。<br>具体的には、ConfigフォルダとAddonが入ったフォルダを新しいバージョンにコピペして動かしていました。<br>　<br>しかし、今回の4.2のバージョンフォルダーを開くと、ファイル構成が大きく変わっているわけではありませんか。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">インストール先:\Blender Foundation\Blender 4.x\4.x</span><br></pre></td></tr></table></figure>
-
+    <title>UVマップを変形させずにオブジェクトを編集する方法 | Blender</title>
+    <url>/2024/04/23/cg/blender/cg-b3d-stretchmesh/</url>
+    <content><![CDATA[<h1 id="UVマップを変形させずにオブジェクトを編集する方法"><a href="#UVマップを変形させずにオブジェクトを編集する方法" class="headerlink" title="UVマップを変形させずにオブジェクトを編集する方法"></a>UVマップを変形させずにオブジェクトを編集する方法</h1><p>通常、押し出し(Extrude)や面を引き伸ばす時に適応したUVも引き伸びます。<br>今回はその伸縮や変形を回避する方法になります。<br>主にループテクスチャを使っているときに有効です。</p>
 <div class="image">
   <div>
     <ul>
-        <dd><img width="300" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image1.png" title="Image1" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
-        <dd><img width="300" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image2.png" title="Image2" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="300" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image2.png" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
+        <dd><img width="300" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image1.png" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></dd>
     </ul>
     <style>
         .image > div {
@@ -407,78 +465,20 @@ UE5に関してはプラグインが絡んだり、色々設定が必要だっ�
   </div>
 </div>
 
-<p>今回の4.2でアドオンの導入や管理に変更が加えられたので、extentionsは置いといて、<br><strong>configフォルダが、ない！！</strong><br>　<br>configフォルダの行方を探すべく、我々は…と冗談を吐く余裕もないくらい当時は長引く予感がして若干萎え始めていました。<br>　<br>なんだかんだ情報を集め、友人にも相談した結果、とある事実が発覚。<br>　<br><strong>そもそもconfigフォルダがあるのがおかしい</strong><br>　<br>ずっと継ぎ足し継ぎ足し使ってきたBlenderのファイル構成が、いつのまにか我流なものに置き換わっていたらしい。<br>どうやら、4.1までは本来インストーラー版特有の場所に設置されるものを、バージョンフォルダの中に突っ込んでも読み込まれていたらしい。<br>　<br>つまり、知らないうちにインストーラー版を使いながらも勝手にポータブル化していたという。<br>恥ずかしい話、インストーラ版は本来この構成で、ポータブル版への切り替えという仕様がある事自体も知りませんでした…。</p>
-<div>
-<details><summary>ポータブル版とは</summary>
-Blenderにはインストーラー(Installer)版とポータブル(Portable)版が存在します。<br>
-インストーラー版はPC内部にユーザー設定を作って、その導入されたPC限定で運用する形式です。<br>
-対して、ポータブル版は設定を含めたほとんどのフォルダを一箇所に留めて、他の環境にコピペしても使えるような状態で運用する形式です。<br>
-インストーラー版でも、いくつかの手順を踏むことでポータブル化することができます。<br>
-</div>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:Blender<br>・バージョン:3.4<br>・レンダラー:Cycles&#x2F;Eevee<br>・言語:英語<br>・その他:4.1でも問題なくできます。</p>
+<h2 id="設定方法"><a href="#設定方法" class="headerlink" title="設定方法"></a>設定方法</h2><p>編集したいオブジェクトを選択してEditモードに切り替えます。<br>　<br>そのまま3D Viewの右上にあるOptionから<strong>面の属性を修正(Correct Face Attributes)</strong> にチェックを入れます。<br><img width="350" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image3.png" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>これで完了です。<br>　<br>押し出しだけでなく移動による面の引き伸ばしにも適応されます。</p>
+<img width="500" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image4.png" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
 
-<h2 id="じゃあ今回のバージョン以降はどうするの？"><a href="#じゃあ今回のバージョン以降はどうするの？" class="headerlink" title="じゃあ今回のバージョン以降はどうするの？"></a>じゃあ今回のバージョン以降はどうするの？</h2><p>正直、configフォルダなどの本来あるべき場所が分かったので、ポータブル化はもう必要ないと言えば必要ないんです。<br>が、やはり自分が指定したインストール先だけで完結する方がスッキリするので、今回はすでにインストールしてしまった4.2を新しい方法でポータブル化してみることにしました。<br>　<br>方法は簡単で、Blender 4.2がインストールされたフォルダ内で”portable”という新規フォルダーを作成するだけです。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">インストール先:\Blender Foundation\Blender 4.2\portable</span><br></pre></td></tr></table></figure>
-<p>　<br>するとあら不思議、起動するだけで中にConfigや、新しいアドオンの管理フォルダが生成されます。<br>　<br>その中のconfigフォルダに、今まで使っていたバージョンのものを上書きすると設定を引き継げます。<br>見つからないアドオンは結局手動で対応することになるみたいです。<br>extentionsフォルダ内でコピペ等々試行錯誤してみましたが、旧バージョンのアドオンは読み込まれませんでした。<br>どっちにしろ更新作業は必要でしたし、何が足りていないのか表示されるだけでも助かりますね。</p>
-<div>
-<img width="800" src="/2024/10/15/cg/chat/cg-chat-4-2update/Image3.png" title="Image3" class="img-left"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/>
-</div>
-
-<h2 id="補足"><a href="#補足" class="headerlink" title="補足"></a>補足</h2><p>正直今回のアップデートで手間が増えた上に、そもそもアドオンの管理も複雑になったので、次回のアップデートからは素直にポータブル版を落として使おうと思います。</p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
-<li>Blender 4.2 Manual(英)<br><a href="https://docs.blender.org/manual/en/4.2/advanced/blender_directory_layout.html#portable-installation">Blender’s Directory Layout(外部リンク)</a></li>
-<li>Blender.jp(日)<br><a href="https://www.blender.jp/install#-6">ユーザーデータの保存場所とポータブル版への変更(外部リンク)</a></li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>色々ありまして数カ月ぶりの更新となりました。<br>何か突発的なトラブルが起こらない限り、このブログが終了する時が決まったら明言しておこうと決めているので、今後ものんびりマイペースに更新していきたいと思います。<br>　<br>閲覧頂きありがとうございました。</p>
+<p>すでに展開済みのUVマップを元にしてくれるみたいなので、延長線上にないある辺をいきなり押し出しするとダメみたいです。<br>　<br>最初の画像の押し出した側面とかが例ですね。</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Blenderでループテクスチャを使ってモデリングする自分にとっては結構便利な機能だと思いました。<br>　<br>雑に撮ったやつですが、綺麗に展開してくれてますね。<br><img width="500" src="/2024/04/23/cg/blender/cg-b3d-stretchmesh/Image5.png" title="Image5" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
+<p>終盤ミスに気づいてちょっと手を加えたりする時に役立ちました。<br>　<br>閲覧頂きありがとうございました。</p>
 ]]></content>
       <categories>
         <category>3DCG</category>
       </categories>
       <tags>
-        <tag>CG_Chat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IES Lightのすゝめ | CG雑談</title>
-    <url>/2024/04/28/cg/chat/cg-chat-IES/</url>
-    <content><![CDATA[<h1 id="IES-Lightのすゝめ"><a href="#IES-Lightのすゝめ" class="headerlink" title="IES Lightのすゝめ"></a>IES Lightのすゝめ</h1><p><strong>「CGソフトに備わってるライトを一々それっぽく調整するのが手間！」</strong></p>
-<p>みたいなことありますよね。多分。<br>そんな時に使える便利な物を紹介したいと思います。<br>　<br>それが<strong>IES Light</strong>です。<br>　<br>ざっくりいうと、IESとは、配光データというもので、それをベースに作られたライトをIES Lightといいます。<br>これを使うと現実の照明のような光り方を簡単に再現することができます。<br>　<br>UEは初心者なので解説が荒いかもですが、Blenderとともに使い方も書いておきます。</p>
-<ul>
-<li>目次<ul>
-<li><a href="#%E3%82%82%E3%81%86%E5%B0%91%E3%81%97%E6%8E%98%E3%82%8A%E4%B8%8B%E3%81%92%E3%82%8B%E3%81%A8">もう少し掘り下げると</a></li>
-<li><a href="#Blender-UE5%E3%81%A7%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">Blender, UE5での使い方</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
-<li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB">最後に</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="もう少し掘り下げると"><a href="#もう少し掘り下げると" class="headerlink" title="もう少し掘り下げると"></a>もう少し掘り下げると</h2><p>先程も述べた通り、IES Lightは、現実の照明の設計や数値等をベースに、「光の形状(光度の分布)」、「光の強度」などをデータ化して3DCG上で再現できるようにしたものです。<br>　<br>といっても<strong>Real IES</strong>等のツールでIES Lightを作ることもできるので、「仮想光源」とか「リアル指向ライト」みたいな感じで捉えて大丈夫だと思います。<br>　<br>建築、設計系のCGでは厳密な定義があると思いますが、私は映像や画像を創作することのみを目的としているのでご容赦くださいませ。<br>　<br>使い方としては、「光源オブジェクトに.iesという拡張子のファイルを読み込ませる」といったシンプルなものです。<br>　<br>Blender 4.1 Cycles Renderのデフォルトの照明とIES Lightの比較はこんな感じ。<br>*光の強さは同じ値でも差があるので均一になるように調整しています。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image1.jpg" title="Image1" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p><del>ちょっとセッティングに手抜き感ありますが</del><br>読み込んだだけでこのクオリティは素晴らしいですね。<br>　<br>また、iesファイルを配布しているサイトもあります。<br>今回は一つ、恐らく最大手のサイトを紹介させていただきます。</p>
-<ul>
-<li><a href="https://ieslibrary.com/">IES-Library(外部リンク)</a></li>
-</ul>
-<p>　<br>話が本筋から逸れますが、大元のIES(Illuminating Engineering Society)とは、照明に関する技術や教育等を扱う実際に存在する協会、学会です。<br>想像以上に規模がでかいものが出てきてびっくりしましたが、調べたら結構面白かったです。<br>詳しくは<a href="https://www.ies.org/about/">IESの公式サイト(外部リンク)</a>を御覧ください。
-　</p>
-<h2 id="Blender-UE5での使い方"><a href="#Blender-UE5での使い方" class="headerlink" title="Blender, UE5での使い方"></a>Blender, UE5での使い方</h2><p>iesファイルを適応する基本的な手順を置いときますね。<br>どちらのソフトもノードや設定からより細かく調整できます。<br>　<br><strong>1.&nbsp;Blender 4.1</strong></p>
-<p>BlenderはCyclesレンダーのみ利用可能です。<br>(ライトにノードを適応できるのがCycles限定みたい)<br>　<br>ポイントライトを置いて、ノードを使用(Use Nodes)を押すとシェーダーエディターから調整できるようになります。<br><img width="400" src="/2024/04/28/cg/chat/cg-chat-IES/Image2.jpg" title="Image2" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>IES Textureノードを出して、iesファイルを指定すると使えます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image3.png" title="Image3" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/><br>光の強さはIES Textureノードからもライト本体の設定からもできます。<br>　<br><strong>2.&nbsp;Unreal Engine 5.3.2</strong></p>
-<p>UEもBlenderと同じ感覚でiesファイルを利用できます。<br>むしろ基本の設定項目にIESの設定箇所があるのでBlenderより少しだけ楽かも。<br>　<br>ポイントライトを置いて、設定のRenderingタブにある<strong>Light Profile</strong>に移り、<br>適応したいiesを画像の様にドラッグアンドドロップ、IESが持つ強度(Intensity)の値を使うようにチェックを入れます。<br><img width="700" src="/2024/04/28/cg/chat/cg-chat-IES/Image4.gif" title="Image4" class="img-left"   data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'/></p>
-<p>ies適応後ライトが下を向いていないことがあるので修正して、さっきチェックを入れた箇所の下のIntensity Scaleの値を調整して終わりです。
-　</p>
-<h2 id="参考資料"><a href="#参考資料" class="headerlink" title="参考資料"></a>参考資料</h2><ul>
-<li><p>ODED MAOZ ERELL’S CG LOG<br><a href="https://odederell3d.blog/2018/09/09/ies-lighting-in-cg/">IES Lighting in CG(外部リンク)</a></p>
-</li>
-<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=8VSDWyDIBl8">Stop Using The Default Lamp in Blender - IES Lights(外部リンク)</a></p>
-</li>
-<li><p>YouTube<br><a href="https://www.youtube.com/watch?v=KkKfkwo_ul8">How to use IES Light description in Unreal Engine.(外部リンク)</a><br> ※UE4</p>
-</li>
-</ul>
-<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>Unityについてですが、情報が少なく軽く見た感じ複雑そうなので、分かり次第また記事にしようと思います。<br>　<br>企業さんによっては実際に売られている照明にIESが記載されていることもあるみたいなので、部屋モデリングなんかで実際の見え方に寄せて作ることができると思うと面白いですね～。<br>fbxを作った(所有してる)Autodeskみたいな建築設計CG系の会社が定めたような規格かと思ったら、想像と違う角度の情報が出てきてびっくりしましたｗ<br>世界って広いな…。<br>　<br>閲覧頂きありがとうございました。</p>
-]]></content>
-      <categories>
-        <category>3DCG</category>
-      </categories>
-      <tags>
-        <tag>CG_Chat</tag>
+        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -573,6 +573,34 @@ Blenderにはインストーラー(Installer)版とポータブル(Portable)版�
       </categories>
       <tags>
         <tag>UE5</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AEがフリーズして画面がブラックアウトする現象の解決(回避)までの道 | After Effects</title>
+    <url>/2024/10/21/vfx/ae/vfx-ae-fixingcrash/</url>
+    <content><![CDATA[<h1 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h1><p>Adobe After Effects 2024(v24.x)の使用中、<br>　<br>・複数のエフェクトをかけてキャッシュを作る時、クリップが切り替わり読み込みが発生する瞬間など負荷がかかるタイミングでPC全体がフリーズ<br>・フリーズ後20秒ほど経つと画面がサブモニター含めてブラックアウト<br>・フリーズ後1分ほど経つと復活、もしくはPC再起動<br>・フリーズが解けるとプレビュー画面が真っ白になっていて、再生するとオーディオは問題ないが映像は白いまま<br>・モニタリングするとフリーズ解除時に異常なCPU使用率の上昇を確認<br>　<br>等の症状が発生しました。<br>以前より使用頻度が減っていたため我慢をしながら長期間使っていたのですが、いい加減解決するべきだと思い色々試してみました。<br>　<br>前例としては<a href="https://community.adobe.com/t5/after-effects%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A9%E3%83%A0-discussions/aftereffects%E3%82%92%E4%BD%BF%E7%94%A8%E4%B8%AD%E3%81%AB%E3%82%BD%E3%83%95%E3%83%88%E3%81%8C%E3%83%95%E3%83%AA%E3%83%BC%E3%82%BA-%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8C%E3%81%A9%E3%81%86%E3%81%97%E3%81%9F%E3%82%89%E8%89%AF%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%81%8B/td-p/13123809?profile.language=ja">こちら(外部リンク)</a>のAdobeコミュニティへの投稿があります。<br>私とほとんど同じ症状でした。</p>
+<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>・使用ソフト:After Effects<br>・バージョン: v24.x(2024), v23.0(2023)<br>・言語:英語<br>・スペック↓</p>
+<ul>
+<li>CPU:Intel Core i5 12400f</li>
+<li>Memory:DDR4 64GB(32GB x2)</li>
+<li>GPU:NVIDIA GeForce RTX 2060 6GB</li>
+<li>Mainboard:ASRock H610M-HDV&#x2F;M.2</li>
+<li>OS:Windows 11 Home 23H2</li>
+</ul>
+<p>　</p>
+<h2 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a>解決方法</h2><p>結論としては、私は2022年リリースのv23.0にバージョンダウンすることで解決しました。<br>これはダウングレードできるバージョンの中で、2024年以前にこのパソコンで正常に動作していたものに一番近いから、というのが理由です。<br>(回避)と書いているのは、v24.xで解決したわけではないからですね。<br>　<br>現在は検証する余裕がないのでv23.0に留まっておきます。<br>　<br>根本的な解決方法を提示できず申し訳ありません。</p>
+<h2 id="解決に至るまで試したこと一覧-順不同"><a href="#解決に至るまで試したこと一覧-順不同" class="headerlink" title="解決に至るまで試したこと一覧(順不同)"></a>解決に至るまで試したこと一覧(順不同)</h2><p>解決直前のv24.6.2よりも前で実行したものも含みます(v24.xではあります)。</p>
+<p>・ディスクキャッシュの削除<br>・ディスクキャッシュの作成先変更<br>・Aeの設定からメモリの割当変更<br>・環境設定初期化<br>・Aeの管理者実行<br>・Aeの再インストール<br>・AdobeCCの再インストール<br>・OSの更新確認(不具合の報告がないかの確認等々)<br>・GeForce Experienceを使用したGame Readyドライバの更新(Studioドライバはゲームを頻繁にすることもあり試し損ねました。)<br>・NVIDIAドライバの手動再インストール<br>・DDUを使ったNVIDIAドライバのクリーンインストールと手動再インストール<br>・メモリ交換(もともとメモリの不調があったので交換しましたが、改善は見られず)<br>・GPUの不具合を疑いFFベンチマーク<br>・Adobeフォントの削除、再インストール<br>・Aeのハードウェア処理からソフトウェア処理への変更<br>・Aeのプラグイン再インストール<br>・電源オプションの高パフォーマンス、バランスの切り替え<br>　<br>Aeは自動アップデートをしているので常に最新でした。
+　</p>
+<h2 id="考えてはいたけどやらなかったこと"><a href="#考えてはいたけどやらなかったこと" class="headerlink" title="考えてはいたけどやらなかったこと"></a>考えてはいたけどやらなかったこと</h2><p>・OSの再インストール<br>AEのバージョンダウンをしても解決が見られない場合にやろうと思っていました。<br>今のところ改善が見られたため中止。<br>　<br>・GPUの交換<br>一番お金がかかるところなので最終奥義に考えていました。
+　</p>
+<h2 id="最後に"><a href="#最後に" class="headerlink" title="最後に"></a>最後に</h2><p>解決と言っても最新版が使えないという状態は変わらないので、私もモヤモヤが残ります。<br>もう少し元気が余ってる時に模索しよう…かなぁ…。<br><del>なんかやらない気がします</del><br>　<br>それと、最初に貼ったコミュニティの投稿は2022年6月リリースのv22.5で起こっているんですよね。<br>自分はその数カ月後にリリースのv23.0で回避できて、v24.xで症状が起きる、もうよく分からんです。<br>2年前のバージョンなので機能面やバグ等々何かしら不満は出てくるとは思いますが、通常の制作に支障をきたすレベルの不具合が起こらないだけマシですね。<br>　<br>最後に、何かしら解決方法がある場合や、共有したい情報をお持ちの方がいましたら、是非当サイトよりも影響力のあるツイート(ポスト)やAdobeコミュニティへの投稿をお願いします。<br>私はこれ以上の解決策を探し、試行、拡散等するほど余力がありません。<br>　<br>閲覧頂きありがとうございました。</p>
+]]></content>
+      <categories>
+        <category>VFX</category>
+      </categories>
+      <tags>
+        <tag>After_Effects</tag>
       </tags>
   </entry>
 </search>
